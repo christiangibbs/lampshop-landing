@@ -1,0 +1,525 @@
+@charset "UTF-8"
+
+/**
+  * CSS Responsive Framework
+  * Christian J. Gibbs
+  * Version 1.0
+  * Licensed under MIT Open Source
+  * Index
+  * I. General
+  * II. Navigation
+  * III. Accordion
+  * IV. Grid
+  * V. Progress Bar
+  * VI. Alerts
+  * VII. Panels
+  * VIII. Breadcrumbs
+  */
+
+/* ----- I. General ----- */
+// Pretty standard stuff, nothing special here
+$font-main: sans-serif
+
+html
+  font-family: $font-main
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  -webkit-font-smoothing: subpixel-antialiased
+  font-size: 75%
+  overflow-x: hidden
+
+  @media screen and (max-width: 376px)
+    html
+      font-size: 50%
+
+body
+  margin: 0
+  min-width: 490px
+
+section#head
+  overflow: hidden
+
+xmp
+  background-color: #e8fdff
+  border: 1px solid #c7d9db
+  color: #222
+
+hr
+  max-width: 80%
+  margin: 0 auto
+
+.clearfix
+  overflow: auto
+  zoom: 1
+
+.customRow
+  background-color: red
+
+.row
+  max-width: 90%
+  margin-left: auto
+  margin-right: auto
+  margin: 5px auto
+
+  // overflow: hidden
+  .col
+    &:first-child
+      margin-left: 0%
+
+.row::after, .row::before
+  content: ' '
+  display: table
+  clear: both
+
+/* ----- II. Navigaiton ----- */
+// All navigation menus
+
+.top-bar
+  height: 50px
+  width: 100%
+  background-color: #333333
+
+  .col
+    padding: 0
+    margin: 0
+
+.rotate
+  -ms-transform: rotate(0deg)
+  -webkit-transform: rotate(0deg)
+  transform: rotate(0deg)
+
+// Both dropdown and expanding can have the same css mostly
+.nav-dropdown, .nav-expand
+  // Trigger for the expanding nav
+  a.nav-trigger
+    display: none
+    float: right
+    margin-right: 20px
+    line-height: 50px
+    font-size: 20px
+    color: #ffffff
+    text-decoration: none
+    // Rotate the ||| so it looks good
+    -ms-transform: rotate(90deg)
+    -webkit-transform: rotate(90deg)
+    transform: rotate(90deg)
+    &:hover
+      color: #0086ff
+      cursor: pointer
+  // Standard ul
+  ul
+    width: 100%
+    margin: 0
+    background-color: #333333
+    list-style-type: none
+    display: block
+    // Standard li
+    li
+      float: left
+      position: relative
+      &:hover
+        background-color: #222222
+      // Show the drop down on li hover if it has one
+      &:hover > ul
+        display: block
+      // standard link
+
+      a
+        height: 50px
+        line-height: 50px
+        padding: 0px 15px
+        color: #ffffff
+        display: block
+        text-decoration: none
+      // show drop down on top of other elements
+      ul
+        z-index: 1
+        li
+          background-color: #111111
+          // another drop down in the drop down - dropception
+          // position this one absolute and move it a bit so it's not floating everywhere
+          ul
+            top: 0
+            left: 100%
+            position: absolute
+            display: none
+          a
+            padding-left: 5px
+            height: 40px
+            line-height: 40px
+    // position all ul that follow the parent ul
+    ul
+      position: absolute
+      display: none
+      width: 175px
+      padding: 0
+      background-color: #333333
+      li
+        float: none
+
+  // expanding nav stuff
+  .nav-ul.show
+    overflow: none
+    display: block
+  .nav-ul
+    .parent
+      .child
+        li
+          &:hover
+            background-color: #222222
+      .child.show-child
+        display: block
+
+nav.nav-expand
+  ul
+    li.menu-social
+      a
+        display: none
+        font-size: 16px
+        padding: 10px
+    li
+      a.menu-contact
+        display: none
+
+@media screen and (max-width: 768px)
+  nav.nav-expand
+    ul
+      li.menu-social
+        a
+          display: inline
+      li
+        a.menu-contact
+          display: block
+
+
+@media screen and (min-width: 768px)
+  .nav-expand .nav-ul .parent .child.show-child
+    display: none
+
+@media screen and (max-width: 768px)
+  .nav-expand ul li a, .nav-expand ul li ul li a
+    padding: 0
+  // show the trigger
+  .nav-expand a.nav-trigger
+    display: block
+
+  // Hide the nav
+  .nav-expand .nav-ul
+    width: 100%
+    padding: 0
+    display: none
+  // reposition the elements so it looks expand-y
+  .nav-expand .nav-ul li, .nav-expand .nav-ul li .child li
+    width: 100%
+    float: left
+    text-align: center
+    background-color: #666
+  // remove the hover drop child elements
+
+  .nav-expand .nav-ul .parent .child li
+    background-color: #333
+  .nav-expand .nav-ul
+    li
+      &:hover
+        ul
+          display: none
+  // reposition the child menus
+  .nav-expand ul ul
+    width: 100%
+    margin: 0
+    padding: 0
+    list-style-type: none
+    height: auto
+    background-color: #666666
+    position: relative
+
+/* ----- III. Accordion ----- */
+// Mostly styling
+
+.accordion
+  dt
+    background-color: #e3e3e3
+    padding: 10px 0px
+    &::before
+      padding: 15px
+      content: '>'
+    &:hover
+      background-color: #d1d1d1
+      cursor: pointer
+  dd
+    margin: 0px
+    background-color: #f7f7f7
+    padding: 10px
+    overflow: hidden
+
+
+/* ----- IV. Grids ----- */
+// all basic stuff
+
+// variables
+$colWidth: 100%
+$marginLeft: 1.5%
+$singleCol: $colWidth/12
+
+.col
+  padding: 1% 0
+  float: left
+
+.offset
+  float: right
+
+/* Demo */
+.colRowDemo
+  background-color: #f3f3f3
+  margin-top: 10px
+
+.colDemo
+  background-color: #e3e3e3
+  text-align: center
+
+/* Grid 12 */
+// Use the calc to determine width
+
+.col-1
+  @extend .col
+  width: 100%
+
+.col-2
+  @extend .col
+  width: $colWidth/2 - ($marginLeft/2)
+  &:nth-child(2n+1)
+    margin-left: 0px
+
+$class-slug: col !default
+
+/* for loop for each 12 grids and create a unique class styling */
+@for $i from 3 through 12
+  .#{$class-slug}-#{$i}
+    width: $colWidth/$i - (($i)-1)*($marginLeft/$i)
+    &:nth-child(#{$i}n+1)
+      margin-left: 0px
+
+@for $i from 2 through 12
+  .#{$class-slug}-#{p}-#{$i}
+    width: $i*($colWidth/12)
+
+// 768 width (responsive)
+/* expand each to 100% */
+@media screen and (max-width: 768px)
+  @for $i from 2 through 12
+    .#{$class-slug}-#{$i}, .#{$class-slug}-#{p}-#{$i}
+      width: 100%
+      margin: 5px 0px
+
+/* ----- V. Progress Bar ----- */
+
+.load
+  float: left
+  text-align: center
+  padding: 10px 0
+  margin: 0px
+
+/* Demo */
+.loadRowDemo
+  background-color: #f3f3f3
+
+.loadDemo
+  background-color: #e3e3e3
+
+.load-100
+  @extend .load
+  width: 100%
+  background-color: #44ed4f
+
+.load-90
+  @extend .load
+  width: 90%
+  background-color: #7dee3e
+
+.load-80
+  @extend .load
+  width: 80%
+  background-color: #abee42
+
+.load-70
+  @extend .load
+  width: 70%
+  background-color: #e1ef4f
+
+.load-60
+  @extend .load
+  width: 60%
+  background-color: #f4d655
+
+.load-50
+  @extend .load
+  width: 50%
+  background-color: #f5bb4e
+
+.load-40
+  @extend .load
+  width: 40%
+  background-color: #f59a4f
+
+.load-30
+  @extend .load
+  width: 30%
+  background-color: #f5744a
+
+.load-20
+  @extend .load
+  width: 20%
+  background-color: #f5614d
+
+.load-10
+  @extend .load
+  width: 10%
+  background-color: #f55456
+
+/* ----- VI. Alerts ----- */
+
+.alert
+  border-radius: 5px
+  overflow: hidden
+  margin-top: 10px
+  margin-bottom: 10px
+  padding: 10px
+
+.alert-close
+  float: right
+  text-decoration: none
+  &:after
+    content: 'X'
+
+.alert-danger
+  border: 1px solid #dd525f
+  background-color: #f95a67
+  color: #70191d
+  .alert-close
+    color: #70191d
+
+.alert-warning
+  border: 1px solid #dd9343
+  background-color: #f6a44b
+  color: #83622d
+  .alert-close
+    color: #83622d
+
+.alert-caution
+  border: 1px solid #dccc62
+  background-color: #f4e36d
+  color: #837e26
+  .alert-close
+    color: #837e26
+
+.alert-sucess
+  border: 1px solid #71be5c
+  background-color: #7ed366
+  color: #477f22
+  .alert-close
+    color: #477f22
+
+/* ----- VII. Panels ----- */
+
+.panel
+  border-radius: 7px
+  overflow: hidden
+  margin: 10px 0px
+
+  .panel-title, .panel-body
+    padding: 10px
+    h1, h2, h3, h4, h5, h6, p
+      margin: 0px
+
+.panel-red-l
+  border: 1px solid #f39690
+  .panel-title
+    background-color: #f39690
+    color: #913027
+
+.panel-red-d
+  border: 1px solid #f05657
+  .panel-title
+    background-color: #f05657
+    color: #ffffff
+
+.panel-green-l
+  border: 1px solid #b7edae
+  .panel-title
+    background-color: #b7edae
+    color: #4e8e34
+
+.panel-green-d
+  border: 1px solid #4ae971
+  .panel-title
+    background-color: #4ae971
+    color: #ffffff
+
+.panel-blue-l
+  border: 1px solid #a4e5ef
+  .panel-title
+    background-color: #a4e5ef
+    color: #2b9f9f
+
+.panel-blue-d
+  border: 1px solid #61a2ed
+  .panel-title
+    background-color: #61a2ed
+    color: #ffffff
+
+/* ----- VIII. Breadcrumbs ----- */
+
+.breadcrumbs
+  overflow: hidden
+  background-color: #f4f4f4
+  padding: 15px
+  border-radius: 10px
+  ul
+    vertical-align: middle
+    padding: 0
+    margin: 0
+    li
+      float: left
+      &::before
+        content: '\00a0/\00a0'
+        color: #adadad
+      &:last-child a
+        color: #7e7e7e
+      a
+        text-decoration: none
+        color: #0086ff
+
+.tab-compare
+  width: 100%
+  td, th
+    padding: 10px
+    text-align: center
+    font-weight: bold
+    font-size: 18px
+    margin-left: 2px
+    background-color: #333333
+    color: #ffffff
+  td:nth-child(1), th:nth-child(1)
+    background-color: #cccccc
+    color: #000000
+  td:nth-child(3), th:nth-child(3)
+    background-color: #00cf3f
+    color: #000000
+  tr:hover
+    td
+      background-color: #666666
+    td:nth-child(1)
+      background-color: #000000
+      color: #ffffff
+    td:nth-child(3)
+      background-color: #fd6f35
+
+.row-section
+  background-color: #ffffff
+  border: 1px solid #e3e3e3
+  .row
+    background-color: #F2F2F2
+    max-width: 100%
+    margin: 10px
+    padding: 10px
+  
