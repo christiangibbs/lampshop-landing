@@ -1,5 +1,7 @@
 <?php
   include('../../components/head.php');
+  $panel = "We recommend GE because they offer almost double the lamp life of budget 2Ds, are the only 2D approved by the manufacturers for use in emergency application and will reduce energy bills in comparison to budget 2Ds.
+";
  ?>
 
  <style media="screen">
@@ -24,11 +26,8 @@
 
 <div id="landing">
 <div class="row" style="background-color: #1E9A41; height: 40px; overflow: hidden;">
-  <div class="col col-2" style="margin: 0px; padding: 0px; line-height: 40px;">
+  <div class="col col-1" style="margin: 0px; padding: 0px; line-height: 40px;">
     <h2 style="color: #fff; margin-left: 10px;">Choose 2D Energy Saving Lamps</h2>
-  </div>
-  <div class="col col-2" style="margin: 0px; padding: 0px; line-height: 40px; color: white;">
-      <i class="fa fa-truck" aria-hidden="true"></i> Guaranteed next day delivery if ordered before 4pm!
   </div>
 </div>
 
@@ -63,11 +62,11 @@
         </div>
 
         <div class="panel-head product-list-item">
-          <p><i class="fa fa-ban" aria-hidden="true"></i> NOT RECOMMENDED FOR EMERGENCY LIGHTING</p>
+          <p><i class="fa fa-ban" aria-hidden="true"></i> EMERGENCY AND NONE EMERGENCY AVAILABLE</p>
         </div><br />
 
         <div class="panel-head product-list-item">
-          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 8,000 HOURS AVERAGE LAMP LIFE</p>
+          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 8,000 TO 15,000 HOURS AVERAGE LAMP LIFE</p>
         </div><br />
 
         <div class="panel-head product-list-item">

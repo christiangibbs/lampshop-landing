@@ -1,11 +1,16 @@
 <?php
   $page = 'Fluorescent Tubes';
   include('../../components/head.php');
- ?>
+  $panel =
+?>
+
+ <style media="screen">
+   .blurbs .col {margin: 0% 0 0% 1.5%;}
+ </style>
 
  <link rel="stylesheet" href="css/style.css">
 
-<div class="row" style="background-color: white; border: 1px solid #e3e3e3;">
+<div class="row blurbs" style="background-color: white; border: 1px solid #e3e3e3;">
   <div class="col col-3">
     <div class="panel panel-padding">
       <div class="panel-head details-head">
@@ -46,7 +51,7 @@
       </div>
       <div class="panel-body" style="overflow: hidden;">
         <div class="col col-2">
-          <b>Simply enter your tube reference number below</b><br />
+          <h2 style="font-weight: bold; color: black;">Simply enter your tube reference number below</h2><br />
             <div class="search-box">
               <form action="http://www.lampshoponline.com/catalogsearch/result/" method="get">
                   <div>
@@ -116,7 +121,7 @@
             <li>- Quality Brands</li>
             <li>- A Rated Energy</li>
             <li>- Triphosphor Coating</li>
-            <li>- 15,000 Hour Lamp Life.</li>
+            <li>- 20,000 Hour Lamp Life.</li>
           </ul>
         </div>
         <div class="col col-p-6">
@@ -156,7 +161,7 @@
         </div>
         <div class="col col-p-3">
           <ul>
-            <li>- 16mm or ½ Inch Diameter</li>
+            <li>- 26mm or 1 inch Diameter</li>
             <li>- Quality Brands</li>
             <li>- A Rated Energy</li>
             <li>- Triphosphor Coating</li>
@@ -200,7 +205,7 @@
         </div>
         <div class="col col-p-3">
           <ul>
-            <li>- 16mm or ½ Inch Diameter</li>
+            <li>- 38mm Or 1 ½ Inch Diameter</li>
             <li>- Quality Brands</li>
             <li>- A Rated Energy</li>
             <li>- Triphosphor Coating</li>

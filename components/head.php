@@ -21,6 +21,8 @@
       h2, h3, h4 {margin: 0px; padding: 0px; color: #fff;}
 
       p {padding: 10px; color: white;}
+
+      nav a {font-size: 16px;}
       .logo { height: 55px;}
       .logo:hover {cursor: pointer; opacity: 0.7;}
 
