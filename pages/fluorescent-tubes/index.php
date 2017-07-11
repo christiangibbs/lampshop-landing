@@ -336,7 +336,7 @@ $(document).ready(function(){
           <tr>
               <td><a href="https://www.lampshoponline.com/f21w-21w-t5-high-efficiency-triphosphor-fluorescent-tube-849mm.html">21w T5 Tube</a></td>
               <td>&pound;3.99</td>
-              <td id="6773"></td>
+              <td id="tube6773"></td>
               <td>&pound;4.65</td>
               <td>&pound;2.88</td>
               <td>&pound;3.19</td>
