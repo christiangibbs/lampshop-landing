@@ -529,12 +529,27 @@ nav.nav-expand ul li a.menu-contact {
     font-size: 18px;
     margin-left: 2px;
     background-color: #333333;
-    color: #ffffff; }
+    color: #ffffff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
   .tab-compare td:nth-child(1), .tab-compare th:nth-child(1) {
     background-color: #cccccc;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     color: #000000; }
   .tab-compare td:nth-child(3), .tab-compare th:nth-child(3) {
     background-color: #00cf3f;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     color: #000000; }
   .tab-compare tr:hover td {
     background-color: #666666; }

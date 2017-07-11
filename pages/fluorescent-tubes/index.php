@@ -52,7 +52,12 @@
       <div class="panel-body" style="overflow: hidden;">
         <div class="col col-2">
           <h2 style="font-weight: bold; color: black;">Simply enter your tube reference number below</h2><br />
-            <div class="search-box">
+            <div class="search--o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;box">
               <form action="http://www.lampshoponline.com/catalogsearch/result/" method="get">
                   <div>
                       <!--<label for="search"></label>-->
@@ -108,6 +113,7 @@
   <div class="row">
     <h2 style="color: #00CE3E;">Our Best Selling Tubes</h2>
       <!-- T5 -->
+      <a class="product-link" href="https://www.lampshoponline.com/fluorescent-tubes/t5-tubes.html">
       <div class="col col-1 bs-product">
         <div class="col col-p-3">
           <div class="circle">
@@ -150,8 +156,9 @@
           </div>
         </div>
       </div>
-
+    </a>
       <!-- T8 -->
+      <a class="product-link" href="https://www.lampshoponline.com/fluorescent-tubes/t8-tubes.html">
       <div class="col col-1 bs-product">
         <div class="col col-p-3">
           <div class="circle">
@@ -194,8 +201,9 @@
           </div>
         </div>
       </div>
-
+    </a>
       <!-- T12 -->
+      <a class="product-link" href="https://www.lampshoponline.com/fluorescent-tubes/t12-tubes.html">
       <div class="col col-1 bs-product">
         <div class="col col-p-3">
           <div class="circle">
@@ -238,6 +246,7 @@
           </div>
         </div>
       </div>
+    </a>
 <script type="text/javascript">
 $(document).ready(function(){
   console.log('working');
@@ -252,8 +261,7 @@ $(document).ready(function(){
 <div class="row row-section">
   <div class="row">
     <div class="col col-p-2">
-      <img src="images/anthony.jpg" alt="" style="width: 100%;">
-      <img src="../../images/rating.png" alt="" style="width: 100%;">
+            <iframe src="https://widget.reviews.co.uk/badge/widget?elementId=badge-170&amp;version=1&amp;&amp;store=lampshoponline&amp;primaryClr=%2312d06c&amp;neutralClr=%23f4f4f4&amp;starsClr=%23fff&amp;textClr=%23fff" frameborder="0" width="100%" style="min-width: 140px;" height="203"></iframe>
     </div>
     <div class="col col-p-10">
       <p style="color: #333; font-size: 20px; font-style: italic;">"I have recently converted my full house to Led lighting from LampShopOnline.
@@ -376,13 +384,12 @@ $(document).ready(function(){
 <div class="row row-section">
   <div class="row">
     <div class="col col-p-2">
-      <img src="images/theresa.jpg" alt="" style="width: 100%;">
-      <img src="../../images/rating.png" alt="" style="width: 100%;">
+      <iframe src="https://widget.reviews.co.uk/badge/widget?elementId=badge-170&amp;version=1&amp;&amp;store=lampshoponline&amp;primaryClr=%2312d06c&amp;neutralClr=%23f4f4f4&amp;starsClr=%23fff&amp;textClr=%23fff" frameborder="0" width="100%" style="min-width: 140px;" height="203"></iframe>
     </div>
     <div class="col col-p-10">
       <p style="color: #333; font-size: 20px; font-style: italic;">"" As an SME in West Dorset we found that our annual lighting bill was too high: 90 double 5ft daylight fitments on for 59 hours per week accounts for approximately 50% of our monthly electricity bill. Our MD stipulates that we should only use daylight bulbs as she was aware of possible adverse health effects of tungsten lighting.
 Gradually converting to LED was the only feasible option for us; we rely on high quality lighting to show our products to best effect. The cost of replacement LED tubes was offset by the fact that we no longer needed a ballast. The outcome has been a great success, we are gradually making replacements and look forward to not having to replace the LED tubes for up to 16 years.
-Neil and the team at Lampshoponline have helped make the transition to LED convenient, accessible and affordable. Neil also advises on green government grants.
+Rob and the team at Lampshoponline have helped make the transition to LED convenient, accessible and affordable. Rob also advises on green government grants.
 We would not hesitate to recommend Lampshoponline as a supplier."
 </p>
 
@@ -393,7 +400,6 @@ We would not hesitate to recommend Lampshoponline as a supplier."
 </div>
 
 <div class="hr"></div>
-
 
 <?php
   include('../../components/footer.php');

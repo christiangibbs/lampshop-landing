@@ -489,6 +489,13 @@ $class-slug: col !default
         text-decoration: none
         color: #0086ff
 
+@mixin transition($duration)
+  -webkit-transition: $duration
+  -moz-transition: $duration
+  -ms-transition: $duration
+  -o-transition: $duration
+  transition: $duration
+
 .tab-compare
   width: 100%
   td, th
@@ -499,11 +506,14 @@ $class-slug: col !default
     margin-left: 2px
     background-color: #333333
     color: #ffffff
+    @include transition(0.5s)
   td:nth-child(1), th:nth-child(1)
     background-color: #cccccc
+    @include transition(0.5s)
     color: #000000
   td:nth-child(3), th:nth-child(3)
     background-color: #00cf3f
+    @include transition(0.5s)
     color: #000000
   tr:hover
     td

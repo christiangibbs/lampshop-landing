@@ -10,7 +10,6 @@
         </div>
         <div class="panel-body" style="min-height: 60px;">
           <?php echo $panel; ?>
-          * Savings calculated by GE Lighting Ltd
         </div>
       </div>
     </div>

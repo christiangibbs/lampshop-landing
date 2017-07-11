@@ -1,7 +1,7 @@
 <?php
   include('../../components/head.php');
   $panel = "We recommend GE because they offer almost double the lamp life of budget 2Ds, are the only 2D approved by the manufacturers for use in emergency application and will reduce energy bills in comparison to budget 2Ds.
-";
+ * Savings calculated by GE Lighting Ltd"
  ?>
 
  <style media="screen">
