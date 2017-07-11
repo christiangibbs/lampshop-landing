@@ -318,7 +318,7 @@ $(document).ready(function(){
           <tr>
               <td>14w T5 Tube</td>
               <td>&pound;3.99</td>
-              <td>&pounhttp://localhost:8888/lso-landing/d;2.24</td>
+              <td>&pound;http://localhost:8888/lso-landing/d;2.24</td>
               <td>&pound;4.65</td>
               <td>&pound;2.88</td>
               <td>&pound;3.19</td>

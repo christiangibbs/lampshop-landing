@@ -83,7 +83,9 @@
     </div>
 
     <div class="button-container">
-      <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW PRODUCTS</button>
+      <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=75w+led+panel">
+        <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW PRODUCTS</button>
+      </a>
     </div>
 
   </div>
@@ -134,7 +136,9 @@
     </div>
 
     <div class="button-container">
-      <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW PRODUCTS</button>
+      <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=40w+led+panel">
+        <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW PRODUCTS</button>
+      </a>
     </div>
   </div>
 </div>
@@ -161,7 +165,7 @@
           <tr>
               <td>1200mm x 600mm</td>
               <td>&pound;298.50</td>
-              <td>&pound;124.97</td>
+              <td id="panel1200"></td>
               <td>N/A</td>
               <td>N/A</td>
               <td>N/A</td>
@@ -170,7 +174,7 @@
           <tr>
               <td>600mm x 600mm</td>
               <td>&pound;120.00</td>
-              <td>&pound;49.99</td>
+              <td id="panel600"></td>
               <td>&pound;99.95</td>
               <td>N/A</td>
               <td>N/A</td>
@@ -193,7 +197,7 @@
 
 <script type="text/javascript">
       $(document).ready(function(){
-          $( "#f18w" ).load( "https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html #price-excluding-tax-6764" );
-          $( "#f100w" ).load( "https://www.lampshoponline.com/f100w-t12-fluorescent-tube-8ft-100w.html #price-excluding-tax-477" );
+          $( "#panel600" ).load( "https://www.lampshoponline.com/led/led-panels/600x600-led-panels/45w-led-panel-4000k-600mm-x-600mm-c-w-driver.html #price-excluding-tax-6583" );
+          $( "#panel1200" ).load( "https://www.lampshoponline.com/led/led-panels/1200x600-led-panel/75w-led-panel-1200mm-x-600mm.html #price-excluding-tax-6875" );
       });
 </script>
