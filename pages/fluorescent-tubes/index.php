@@ -52,12 +52,7 @@
       <div class="panel-body" style="overflow: hidden;">
         <div class="col col-2">
           <h2 style="font-weight: bold; color: black;">Simply enter your tube reference number below</h2><br />
-            <div class="search--o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;box">
+            <div class="search-box">
               <form action="http://www.lampshoponline.com/catalogsearch/result/" method="get">
                   <div>
                       <!--<label for="search"></label>-->
