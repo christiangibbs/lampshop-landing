@@ -1,3 +1,9 @@
+/*!
+ * Christian J. Gibbs
+ * http://www.cjgsolutions.com
+ * stop trying to copy my code btw ;)
+ */
+
 $(document).ready(function(){
     // Alerts
     $(".alert-close").click(function(){
@@ -45,5 +51,8 @@ $(document).ready(function(){
     }
     // Keep an eye on the window width and pass to function checkWidth()
     $(window).resize(checkWidth);
+
+
+
 
 });

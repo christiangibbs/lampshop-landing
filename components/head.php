@@ -6,12 +6,11 @@
 
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="../../assets/js/actions.js" charset="utf-8"></script>
     <!-- FontAwesome -->
     <link rel="stylesheet" href="../../assets/font-awesome-4.7.0/css/font-awesome.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <style media="screen">
       body {margin: 0px; padding: 0px; background-color: #f5f5f5; font-family: lato;}
@@ -36,7 +35,6 @@
         background-color: #00cf3f;
         margin: 0 auto;
       }
-
     </style>
   </head>
   <body>
@@ -49,7 +47,7 @@
 
     <div class="row" style="background-color: #FD6F35">
       <div class="col col-1" style="margin: 0px; padding: 0px;">
-        <nav class="nav-expand" style="margin-left: -46px;">
+        <nav class="nav-expand">
           <a class="nav-trigger">
             |||
           </a>
@@ -58,16 +56,32 @@
               <a href="#"><h2 style="margin: 0px; padding: 0px;">NEED HELP?</h2></a>
             </li>
             <li>
-              <a href="http://www.cjghosting.com"><i class="fa fa-comments" aria-hidden="true"></i> LIVE HELP - CLICK HERE FOR CHAT</a>
+              <a href="#" onclick="openWin()" title="Live Help">
+                <i class="fa fa-comments" aria-hidden="true"></i> LIVE HELP - CLICK HERE FOR CHAT
+              </a>
+            </li>
+
+            <script>
+                function openWin()
+                {
+                    var myWindow = window.open("https://v2.zopim.com/widget/livechat.html?key=AYWOmv9EtwTUoCOl48zcR4Nlc6rio6x6&lang=en&hostname=www.lampshoponline.com","","width=500,height=500");
+                }
+            </script>
+
+            <li>
+              <a href="tel:01138876270" title="Phone">
+                <i class="fa fa-phone" aria-hidden="true"></i> PHONE - CALL 0113 8876270
+              </a>
             </li>
             <li>
-              <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> PHONE - CALL 0113 8876270</a>
+              <a href="mailto:sales@lampshoponline.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i> EMAIL
+              </a>
             </li>
             <li>
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> EMAIL</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+              <a href="http://www.lampshoponline.com/lighting-glossary">
+                <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+              </a>
             </li>
           </ul>
         </nav>
