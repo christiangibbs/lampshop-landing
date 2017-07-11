@@ -1,4 +1,5 @@
 <?php
+  $page = 'Fluorescent Tubes';
   include('../../components/head.php');
  ?>
 
@@ -280,36 +281,36 @@ $(document).ready(function(){
               <th>B&amp;Q</th>
           </tr>
           <tr>
-              <td>2ft 18w T8 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html">2ft 18w T8 Tube</a></td>
               <td>&pound;2.99</td>
-              <td>&pound;1.90</td>
+              <td id="tube6764"></td>
               <td>&pound;3.30</td>
               <td>&pound;2.52</td>
               <td>&pound;3.59</td>
               <td>&pound;7.98</td>
           </tr>
           <tr>
-              <td>4ft 36w T8 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w.html">4ft 36w T8 Tube</a></td>
               <td>&pound;4.49</td>
-              <td>&pound;2.05</td>
+              <td id="tube6766"></td>
               <td>&pound;3.76</td>
               <td>&pound;2.76</td>
               <td>&pound;3.69</td>
               <td>&pound;9.98</td>
           </tr>
           <tr>
-              <td>5ft 58w T8 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w.html">5ft 58w T8 Tube</a></td>
               <td>&pound;3.99</td>
-              <td>&pound;2.25</td>
+              <td id="tube6763"></td>
               <td>&pound;4.06</td>
               <td>&pound;3.06</td>
               <td>&pound;3.99</td>
               <td>&pound;7.39</td>
           </tr>
           <tr>
-              <td>6ft 70w T8 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w.html">6ft 70w T8 Tube</a></td>
               <td>&pound;5.99</td>
-              <td>&pound;2.85</td>
+              <td id="tube6761"></td>
               <td>&pound;7.34</td>
               <td>&pound;5.34</td>
               <td>&pound;4.29</td>
@@ -318,7 +319,7 @@ $(document).ready(function(){
           <tr>
               <td>14w T5 Tube</td>
               <td>&pound;3.99</td>
-              <td>&pound;http://localhost:8888/lso-landing/d;2.24</td>
+              <td>&pound;2.24</td>
               <td>&pound;4.65</td>
               <td>&pound;2.88</td>
               <td>&pound;3.19</td>
@@ -343,7 +344,7 @@ $(document).ready(function(){
               <td>N/A</td>
           </tr>
           <tr>
-              <td>8ft 10http://localhost:8888/lso-landing/0w T12</td>
+              <td>8ft 10 T12</td>
               <td>&pound;14.99</td>
               <td>&pound;13.99</td>
               <td>N/A</td>
@@ -354,6 +355,15 @@ $(document).ready(function(){
       </table>
   </div>
 </div>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+          $( "#tube6764" ).load( "https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html #price-excluding-tax-6764" );
+          $( "#tube6766" ).load( "https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w.html #price-excluding-tax-6766" );
+          $( "#tube6763" ).load( "https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w.html #price-excluding-tax-6763" );
+          $( "#tube6761" ).load( "https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w.html #price-excluding-tax-6761" );
+      });
+</script>
 
 <div class="hr"></div>
 
@@ -378,6 +388,8 @@ We would not hesitate to recommend Lampshoponline as a supplier."
 </div>
 
 <div class="hr"></div>
+
+
 <?php
   include('../../components/footer.php');
  ?>

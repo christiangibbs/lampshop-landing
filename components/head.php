@@ -2,7 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>LampShopOnline - <?php echo($page);?></title>
+
+    <link rel="icon" href="https://www.lampshoponline.com/media/favicon/default/lso_logo_transparent.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://www.lampshoponline.com/media/favicon/default/lso_logo_transparent.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
