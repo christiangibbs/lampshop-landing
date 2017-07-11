@@ -51,12 +51,12 @@
       </div>
       <div class="panel-body" style="overflow: hidden;">
         <div class="col col-2">
-          <h2 style="font-weight: bold; color: black;">Simply enter your tube reference number below</h2><br />
+          <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your tube reference number below</h2><br />
             <div class="search-box">
               <form action="http://www.lampshoponline.com/catalogsearch/result/" method="get">
                   <div>
                       <!--<label for="search"></label>-->
-                      <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="    enter tube reference number">
+                      <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter tube reference number" style="font-size: 16px;">
                       <button type="submit" title="Search" class="button">
                           <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
                      </button>
@@ -69,7 +69,7 @@
                   </div>
               </form>
           </div>
-          <div class="row logo-group">
+          <div class="row logo-group" style="margin-top: 20px;">
             <div class="col col-4">
               <img src="../../images/logos/sylvania-logo-c.png" alt="">
             </div>
@@ -325,36 +325,36 @@ $(document).ready(function(){
               <td>&pound;11.98</td>
           </tr>
           <tr>
-              <td>14w T5 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f14w-14w-t5-high-efficiency-triphosphor-fluorescent-tube-549mm.html">14w T5 Tube</a></td>
               <td>&pound;3.99</td>
-              <td>&pound;2.24</td>
+              <td id="tube6772"></td>
               <td>&pound;4.65</td>
               <td>&pound;2.88</td>
               <td>&pound;3.19</td>
               <td>N/A</td>
           </tr>
           <tr>
-              <td>21w T5 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f21w-21w-t5-high-efficiency-triphosphor-fluorescent-tube-849mm.html">21w T5 Tube</a></td>
               <td>&pound;3.99</td>
-              <td>&pound;2.24</td>
+              <td id="6773"></td>
               <td>&pound;4.65</td>
               <td>&pound;2.88</td>
               <td>&pound;3.19</td>
               <td>N/A</td>
           </tr>
           <tr>
-              <td>35w T5 Tube</td>
+              <td><a href="https://www.lampshoponline.com/f35w-35w-t5-high-efficiency-triphosphor-fluorescent-tube-1449mm.html">35w T5 Tube</a></td>
               <td>&pound;4.49</td>
-              <td>&pound;2.24</td>
+              <td id="tube6775"></td>
               <td>&pound;4.65</td>
               <td>&pound;3.18</td>
               <td>&pound;3.19</td>
               <td>N/A</td>
           </tr>
           <tr>
-              <td>8ft 10 T12</td>
+              <td>8ft 100w T12</td>
               <td>&pound;14.99</td>
-              <td>&pound;13.99</td>
+              <td id="tube477"></td>
               <td>N/A</td>
               <td>N/A</td>
               <td>N/A</td>
@@ -370,6 +370,10 @@ $(document).ready(function(){
           $( "#tube6766" ).load( "https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w.html #price-excluding-tax-6766" );
           $( "#tube6763" ).load( "https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w.html #price-excluding-tax-6763" );
           $( "#tube6761" ).load( "https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w.html #price-excluding-tax-6761" );
+          $( "#tube6772" ).load( "https://www.lampshoponline.com/f14w-14w-t5-high-efficiency-triphosphor-fluorescent-tube-549mm.html #price-excluding-tax-6772" );
+          $( "#tube6773" ).load( "https://www.lampshoponline.com/f21w-21w-t5-high-efficiency-triphosphor-fluorescent-tube-849mm.html #price-excluding-tax-6773" );
+          $( "#tube6775" ).load( "https://www.lampshoponline.com/f35w-35w-t5-high-efficiency-triphosphor-fluorescent-tube-1449mm.html #price-excluding-tax-6775" );
+          $( "#tube477" ).load( "https://www.lampshoponline.com/f100w-t12-fluorescent-tube-8ft-100w.html #price-excluding-tax-477" );
       });
 </script>
 
