@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title></title>
 
-    <link rel="stylesheet" href="../../assets/css-responsive-framework/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <script src="../../assets/css-responsive-framework/js/actions.js" charset="utf-8"></script>
+    <script src="../../assets/js/actions.js" charset="utf-8"></script>
     <!-- FontAwesome -->
     <link rel="stylesheet" href="../../assets/font-awesome-4.7.0/css/font-awesome.min.css">
 

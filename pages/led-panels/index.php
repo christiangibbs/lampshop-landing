@@ -37,7 +37,7 @@
 <div class="row row-section">
   <div class="row">
   <div class="col col-2">
-    <img src="http://localhost:8888/lso-landing/landing-led-panels/images/75w_led_panel.jpg" alt="" style="width: 100%;">
+    <img src="images/75w_led_panel.jpg" alt="" style="width: 100%;">
     <div class="panel-head product-list-item" style="background-color: #E64F29;">
       <h2>75W LED PANEL</h2>
     </div>
@@ -88,7 +88,7 @@
 
   </div>
   <div class="col col-2" style="float:right">
-    <img src="http://localhost:8888/lso-landing/landing-led-panels/images/40w_led_panel.jpg" alt="" style="width: 100%;">
+    <img src="images/40w_led_panel.jpg" alt="" style="width: 100%;">
     <div class="panel-head product-list-item" style="background-color: #E64F29;">
       <h2>40W LED PANEL</h2>
     </div>

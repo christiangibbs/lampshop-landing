@@ -65,16 +65,16 @@
           </div>
           <div class="row logo-group">
             <div class="col col-4">
-              <img src="http://localhost:8888/lso-landing/images/logos/sylvania-logo-c.png" alt="">
+              <img src="../../images/logos/sylvania-logo-c.png" alt="">
             </div>
             <div class="col col-4">
-              <img src="http://localhost:8888/lso-landing/images/logos/osram-logo-c.png" alt="">
+              <img src="../../images/logos/osram-logo-c.png" alt="">
             </div>
             <div class="col col-4">
-              <img src="http://localhost:8888/lso-landing/images/logos/ge-logo-c.png" alt="">
+              <img src="../../images/logos/ge-logo-c.png" alt="">
             </div>
             <div class="col col-4">
-              <img src="http://localhost:8888/lso-landing/images/logos/philips-logo-c.png" alt="">
+              <img src="../../images/logos/philips-logo-c.png" alt="">
             </div>
           </div>
         </div>
@@ -123,16 +123,16 @@
             <div class="panel-head">
               <div class="row">
                 <div class="col col-4" style="">
-                  <img src="http://localhost:8888/lso-landing/images/logos/sylvania-logo.png" alt="">
+                  <img src="../../images/logos/sylvania-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/osram-logo.png" alt="">
+                  <img src="../../images/logos/osram-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/ge-logo.png" alt="">
+                  <img src="../../images/logos/ge-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/philips-logo.png" alt="">
+                  <img src="../../images/logos/philips-logo.png" alt="">
                 </div>
               </div>
               <div class="col col-1">
@@ -167,16 +167,16 @@
             <div class="panel-head">
               <div class="row">
                 <div class="col col-4" style="">
-                  <img src="http://localhost:8888/lso-landing/images/logos/sylvania-logo.png" alt="">
+                  <img src="../../images/logos/sylvania-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/osram-logo.png" alt="">
+                  <img src="../../images/logos/osram-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/ge-logo.png" alt="">
+                  <img src="../../images/logos/ge-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/philips-logo.png" alt="">
+                  <img src="../../images/logos/philips-logo.png" alt="">
                 </div>
               </div>
               <div class="col col-1">
@@ -211,16 +211,16 @@
             <div class="panel-head">
               <div class="row">
                 <div class="col col-4" style="">
-                  <img src="http://localhost:8888/lso-landing/images/logos/sylvania-logo.png" alt="">
+                  <img src="../../images/logos/sylvania-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/osram-logo.png" alt="">
+                  <img src="../../images/logos/osram-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/ge-logo.png" alt="">
+                  <img src="../../images/logos/ge-logo.png" alt="">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="http://localhost:8888/lso-landing/images/logos/philips-logo.png" alt="">
+                  <img src="../../images/logos/philips-logo.png" alt="">
                 </div>
               </div>
               <div class="col col-1">
@@ -243,7 +243,7 @@
   <div class="row">
     <div class="col col-p-2">
       <img src="images/anthony.jpg" alt="" style="width: 100%;">
-      <img src="http://localhost:8888/lso-landing/images/rating.png" alt="" style="width: 100%;">
+      <img src="../../images/rating.png" alt="" style="width: 100%;">
     </div>
     <div class="col col-p-10">
       <p style="color: #333; font-size: 20px; font-style: italic;">"I have recently converted my full house to Led lighting from LampShopOnline.
@@ -314,7 +314,7 @@
           <tr>
               <td>14w T5 Tube</td>
               <td>&pound;3.99</td>
-              <td>&pound;2.24</td>
+              <td>&pounhttp://localhost:8888/lso-landing/d;2.24</td>
               <td>&pound;4.65</td>
               <td>&pound;2.88</td>
               <td>&pound;3.19</td>
@@ -339,7 +339,7 @@
               <td>N/A</td>
           </tr>
           <tr>
-              <td>8ft 100w T12</td>
+              <td>8ft 10http://localhost:8888/lso-landing/0w T12</td>
               <td>&pound;14.99</td>
               <td>&pound;13.99</td>
               <td>N/A</td>
@@ -358,7 +358,7 @@
   <div class="row">
     <div class="col col-p-2">
       <img src="images/theresa.jpg" alt="" style="width: 100%;">
-      <img src="http://localhost:8888/lso-landing/images/rating.png" alt="" style="width: 100%;">
+      <img src="../../images/rating.png" alt="" style="width: 100%;">
     </div>
     <div class="col col-p-10">
       <p style="color: #333; font-size: 20px; font-style: italic;">"" As an SME in West Dorset we found that our annual lighting bill was too high: 90 double 5ft daylight fitments on for 59 hours per week accounts for approximately 50% of our monthly electricity bill. Our MD stipulates that we should only use daylight bulbs as she was aware of possible adverse health effects of tungsten lighting.
