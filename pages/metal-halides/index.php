@@ -143,7 +143,7 @@
    <div class="row" style="overflow-x: auto;">
        <table class="tab-compare" cellspacing="5">
            <tr>
-               <th>FLUORESCENT TUBES</th>
+               <th>METAL HALIDES</th>
                <th>BLT Direct</th>
                <th>Lamp Shop Online</th>
                <th>Light Bulbs Direct</th>
