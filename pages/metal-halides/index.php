@@ -16,6 +16,11 @@
      cursor: pointer;
    }
    .pop-search {line-height: 50px; color: #fff; text-decoration: none; margin: 20px; font-size: 16px}
+
+   .accordion dt {background-color: #fff;}
+    .accordion dt:hover {background-color: #f6f6f6;}
+    .accordion dt::before {content: none;}
+    .accordion dd {background-color: #333; color: #fff;}
  </style>
 
  <div class="row">
@@ -23,12 +28,12 @@
      <div class="panel">
        <div class="panel-head" style="background-color: #808080;">
          <h2 style="padding: 10px;">
-           <i class="fa fa-search" aria-hidden="true"></i> Tube Finder Tool
+           <i class="fa fa-search" aria-hidden="true"></i> Metal Halide Finder Tool
          </h2>
        </div>
        <div class="panel-body" style="overflow: hidden;">
-         <div class="col col-1">
-           <b>Simply enter your tube reference number below</b><br />
+         <div class="col col-2">
+           <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your tube reference number below</h2><br />
              <div class="search-box">
                <form action="http://www.lampshoponline.com/catalogsearch/result/" method="get">
                    <div>
@@ -57,7 +62,7 @@
  <div class="row" style="background-color: #fff;">
    <div class="panel-head" style="background-color: #119B3C;">
      <h2 style="padding: 10px;">
-       All Metal Halides Available
+       Our Most Popular Metal Halides
      </h2>
    </div>
    <div class="panel-body all-halides">
@@ -76,7 +81,7 @@
      <div class="col col-6">
        <div class="product">
          <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/cdm-t.png" alt=""><br />
-       </div>#119B3C
+       </div>
        <b>CDM-T</b>
      </div>
      <div class="col col-6">
@@ -98,6 +103,7 @@
        <b>HQI-T</b>
      </div>
    </div>
+
  </div>
 
  <div class="hr"></div>

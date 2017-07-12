@@ -45,7 +45,7 @@
                 GR8 (2pin)
               </div>
               <div class="panel-body">
-                <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/g/r/gr8_lamp_1.jpg" alt="" style="width: 100%;">
+                <img src="images/lamp-2d-2pin.jpg" alt="" style="width: 100%;">
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
                 GR10q (4pin)
               </div>
               <div class="panel-body">
-                <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/b/1/b180123f6316425f8738a4c000f6bf6d-lcb-global-001_2.jpg" alt="" style="width: 100%;">
+                <img src="images/lamp-2d-4pin.jpg" alt="" style="width: 100%;">
               </div>
             </div>
           </div>
@@ -87,7 +87,15 @@
       </div>
     </div>
   </div>
+  <div class="col col-p-8">
+    <div class="panel panel-padding">
+      <div class="panel-head" style="background-color: #888888;">
+        <h2 style="padding: 10px;"><i class="fa fa-book" aria-hidden="true"></i> 2D Lamps are also known as Wattmiser 2D, Lynx Q, PL-Q and C</h2>
+      </div>
+    </div>
+  </div>
   <div class="col col-p-4">
+    <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/budget-2d-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #FB6F3F;">
         <h2 style="padding: 10px;">BEST VALUE : Branded 2D - from &pound;0.82</h2>
@@ -96,48 +104,59 @@
         <img src="https://www.lampshoponline.com/media/catalog/category/2d2.jpg" alt="" style="height: 140px;">
       </div>
     </div>
+  </a>
+  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/bell-2d-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #279945;">
-        <h2 style="padding: 10px;">Bell 2D - from &pound;1.45</h2>
+        <h2 style="padding: 10px;">Bell CFL Square - from &pound;1.45</h2>
       </div>
       <div class="panel-body product-body">
         <img src="https://www.lampshoponline.com/media/catalog/category/Bell_2D.jpg" alt="" style="height: 140px;">
       </div>
     </div>
+  </a>
+  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/osram-2d-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #279945;">
-        <h2 style="padding: 10px;">Osram 2D - from &pound;2.97</h2>
+        <h2 style="padding: 10px;">Osram CFL Square - from &pound;2.97</h2>
       </div>
       <div class="panel-body product-body">
         <img src="https://www.lampshoponline.com/media/catalog/category/osram_2d.jpg" alt="" style="height: 140px;">
       </div>
     </div>
   </div>
+</a>
   <div class="col col-p-4">
+    <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/ge-wattmiser-2d.html" style="text-decoration: none;">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #148D80;">
-        <h2 style="padding: 10px;">BEST QUALITY : GE 2D - from &pound;2.80</h2>
+        <h2 style="padding: 10px;">BEST QUALITY : GE Wattmiser 2D - from &pound;2.80</h2>
       </div>
       <div class="panel-body product-body">
         <img src="https://www.lampshoponline.com/media/catalog/category/ge2d2_copy.jpg" alt="" style="height: 140px;">
       </div>
     </div>
+  </a>
+  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/philips-pl-q-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #279945;">
-        <h2 style="padding: 10px;">Philips 2D - from &pound;2.95</h2>
+        <h2 style="padding: 10px;">Philips PL-Q - from &pound;2.95</h2>
       </div>
       <div class="panel-body product-body">
         <img src="https://www.lampshoponline.com/media/catalog/category/philips_pl-q.jpg" alt="" style="height: 140px;">
       </div>
     </div>
+  </a>
+  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/sylvania-2d-lynx-q-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #279945;">
-        <h2 style="padding: 10px;">Sylvania 2D - from &pound;2.20</h2>
+        <h2 style="padding: 10px;">Sylvania Lynx Q- from &pound;2.20</h2>
       </div>
       <div class="panel-body product-body">
         <img src="https://www.lampshoponline.com/media/catalog/category/sylvania_2d.jpg" alt="" style="height: 140px;">
       </div>
     </div>
+  </a>
   </div>
 </div>
 </div>

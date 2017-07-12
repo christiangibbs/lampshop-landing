@@ -92,7 +92,7 @@
   <div class="col col-2" style="float:right">
     <img src="images/40w_led_panel.jpg" alt="" style="width: 100%;">
     <div class="panel-head product-list-item" style="background-color: #E64F29;">
-      <h2>40W LED PANEL</h2>
+      <h2>45W LED PANEL</h2>
     </div>
 
     <div class="panel-head product-list-item" style="background-color: #51AC47;">
@@ -136,7 +136,7 @@
     </div>
 
     <div class="button-container">
-      <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=40w+led+panel">
+      <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=45w+led+panel">
         <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW PRODUCTS</button>
       </a>
     </div>
@@ -154,7 +154,7 @@
   <div class="row" style="overflow-x: auto;">
       <table class="tab-compare" cellspacing="5" >
           <tr>
-              <th>FLUORESCENT TUBES</th>
+              <th>LED PANELS</th>
               <th>BLT Direct</th>
               <th>Lamp Shop Online</th>
               <th>Light Bulbs Direct</th>
@@ -190,10 +190,6 @@
   include('../../components/footer.php');
  ?>
 
-
-
-  <!-- <p id="f18w"></p>
-  <p id="f100w"></p> -->
 
 <script type="text/javascript">
       $(document).ready(function(){
