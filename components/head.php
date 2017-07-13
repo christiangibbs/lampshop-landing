@@ -22,6 +22,18 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="../../assets/font-awesome-4.7.0/css/font-awesome.min.css">
 
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-13062331-2', 'auto');
+      ga('require', 'GTM-WWDFDH3');
+      ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -100,7 +112,7 @@
               </a>
             </li>
             <li>
-              <a href="http://www.lampshoponline.com/lighting-glossary">
+              <a href="https://www.lampshoponline.com/lighting-glossary">
                 <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
               </a>
             </li>
