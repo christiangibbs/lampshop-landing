@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>LampShopOnline - <?php echo($page);?></title>
 
+    <meta name="description" content="The best priced light bulbs, tubes and control gear online from the most reputable brands around. Massive stock of T5, T8, T12 fluorescent tubes and LED products." />
+    <meta name="keywords" content="gu10, halogen bulbs, light bulbs, fluorescent tubes, compact fluoresent, metal halide lamps, lamps, control gear, osram, tridonic, GE lighting, 2d lamps, pl-c, pl-l, philips lighting" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="7plWDwbefAIvmST-xXItloreP5xj2bi_xo9LaWYRVzA" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <link rel="icon" href="https://www.lampshoponline.com/media/favicon/default/lso_logo_transparent.png" type="image/x-icon" />
