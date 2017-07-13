@@ -386,7 +386,7 @@ $(document).ready(function(){
       <iframe src="https://widget.reviews.co.uk/badge/widget?elementId=badge-170&amp;version=1&amp;&amp;store=lampshoponline&amp;primaryClr=%2312d06c&amp;neutralClr=%23f4f4f4&amp;starsClr=%23fff&amp;textClr=%23fff" frameborder="0" width="100%" style="min-width: 140px;" height="203"></iframe>
     </div>
     <div class="col col-p-10">
-      <p style="color: #333; font-size: 20px; font-style: italic;">"" As an SME in West Dorset we found that our annual lighting bill was too high: 90 double 5ft daylight fitments on for 59 hours per week accounts for approximately 50% of our monthly electricity bill. Our MD stipulates that we should only use daylight bulbs as she was aware of possible adverse health effects of tungsten lighting.
+      <p style="color: #333; font-size: 20px; font-style: italic;">"As an SME in West Dorset we found that our annual lighting bill was too high: 90 double 5ft daylight fitments on for 59 hours per week accounts for approximately 50% of our monthly electricity bill. Our MD stipulates that we should only use daylight bulbs as she was aware of possible adverse health effects of tungsten lighting.
 Gradually converting to LED was the only feasible option for us; we rely on high quality lighting to show our products to best effect. The cost of replacement LED tubes was offset by the fact that we no longer needed a ballast. The outcome has been a great success, we are gradually making replacements and look forward to not having to replace the LED tubes for up to 16 years.
 Rob and the team at Lampshoponline have helped make the transition to LED convenient, accessible and affordable. Rob also advises on green government grants.
 We would not hesitate to recommend Lampshoponline as a supplier."
