@@ -54,39 +54,51 @@ box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
       </div>
       <div class="panel-body all-lamps" style="overflow: hidden;">
         <div class="col col-6">
-          <div class="top-product">
-           <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__90808.jpg" alt=""><br />
-          </div>
+          <a href="https://www.lampshoponline.com/budget-28w-4pin-2d-lamp.html">
+            <div class="top-product">
+             <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__90808.jpg" alt=""><br />
+            </div>
+          </a>
           <b>28w 4-Pin 2D Lamp</b>
         </div>
         <div class="col col-6">
-          <div class="top-product">
-            <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__90808.jpg" alt=""><br />
-          </div>
+          <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/ge-wattmiser-2d/ge-wattmiser-2d-compact-fluorescent-4-pin-28w-24w.html">
+            <div class="top-product">
+              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__90808.jpg" alt=""><br />
+            </div>
+          </a>
           <b>GE 28w 4-Pin Wattmiser</b>
         </div>
         <div class="col col-6">
-          <div class="top-product">
-            <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__11235.jpg" alt=""><br />
-          </div>
+          <a href="https://www.lampshoponline.com/budget-16w-4pin-2d-lamp.html">
+            <div class="top-product">
+              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__11235.jpg" alt=""><br />
+            </div>
+          </a>
           <b>16w 4-Pin 2D</b>
         </div>
         <div class="col col-6">
-          <div class="top-product">
-            <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__49847.jpg" alt=""><br />
-          </div>
+          <a href="https://www.lampshoponline.com/budget-16w-2pin-2d-lamp.html">
+            <div class="top-product">
+              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__49847.jpg" alt=""><br />
+            </div>
+          </a>
           <b>16w 2-Pin 2D</b>
         </div>
         <div class="col col-6">
-          <div class="top-product">
-            <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/e/bell_2d_lamps__72853.jpg" alt=""><br />
-          </div>
+          <a href="https://www.lampshoponline.com/bell-28w-2d-4pin-835-04176.html">
+            <div class="top-product">
+              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/e/bell_2d_lamps__72853.jpg" alt=""><br />
+            </div>
+          </a>
           <b>Bell 28w 2D 4-Pin 835</b>
         </div>
         <div class="col col-6">
-          <div class="top-product">
-            <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__13369.jpg" alt=""><br />
-          </div>
+          <a href="https://www.lampshoponline.com/budget-38w-4pin-2d-lamp.html">
+            <div class="top-product">
+              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__13369.jpg" alt=""><br />
+            </div>
+          </a>
           <b>38w 4-Pin 2D</b>
         </div>
       </div>
