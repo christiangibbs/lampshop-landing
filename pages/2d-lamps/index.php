@@ -50,7 +50,7 @@ box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
   <div class="col col-1">
     <div class="panel panel-padding">
       <div class="panel-title" style="background-color: #1E9A41;">
-      <h2 style="color: #fff; margin-left: 10px;">Choose 2D Energy Saving Lamps</h2>
+      <h2 style="color: #fff; margin-left: 10px;">Choose 2D Energy Saving Lamps From Our Most Popular 2D Products</h2>
       </div>
       <div class="panel-body all-lamps" style="overflow: hidden;">
         <div class="col col-6">
