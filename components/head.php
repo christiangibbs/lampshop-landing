@@ -79,9 +79,10 @@
     </div>
 
     <div class="row" style="background-color: #FD6F35">
-      <div class="col col-1" style="margin: 0px; padding: 0px;">
+      <div class="col col-1" style="margin: 0px; padding: 0px; text-align: center;">
+        <div style="display: inline-block;">
         <nav class="nav-expand">
-          <a class="nav-trigger">
+          <a class="nav-trigger" style="float: none;">
             |||
           </a>
           <ul class="nav-ul">
@@ -119,4 +120,5 @@
           </ul>
         </nav>
       </div>
+    </div>
     </div>
