@@ -48,6 +48,18 @@
           Check out our reviews on reviews.co.uk below.
           This is an independent website so we have no control over what is written good or bad.
           Just honest feedback from real customers.
+
+          <script src="https://widget.reviews.co.uk/vertical/dist.js"></script>
+          <div id="full-page-widget" style="width:100%;"></div>
+          <script>
+          verticalWidget('full-page-widget',{
+            store: 'lampshoponline',
+            primaryClr: '#11CD6B',
+            layout:'fullWidth',
+            height: 500,
+            numReviews: 21
+          });
+          </script>
         </div>
       </div>
     </div>

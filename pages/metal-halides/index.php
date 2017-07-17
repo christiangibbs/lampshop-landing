@@ -68,37 +68,37 @@
    <div class="panel-body all-halides">
      <div class="col col-6">
        <div class="product">
-        <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/cdm-td.png" alt=""><br />
+        <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-td.png" alt="CDM-TD"><br />
        </div>
        <b>CDM-TD</b>
      </div>
      <div class="col col-6">
        <div class="product">
-         <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/cdm-tc.png" alt=""><br />
+         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-tc.png" alt="CDM-TC"><br />
        </div>
        <b>CDM-TC</b>
      </div>
      <div class="col col-6">
        <div class="product">
-         <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/cdm-t.png" alt=""><br />
+         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-t.png" alt="CDM-T"><br />
        </div>
        <b>CDM-T</b>
      </div>
      <div class="col col-6">
        <div class="product">
-         <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/hqi-ts.png" alt=""><br />
+         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-ts.png" alt="HQI-TS"><br />
        </div>
        <b>HQI-TS</b>
      </div>
      <div class="col col-6">
        <div class="product">
-         <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/hqi-e.png" alt=""><br />
+         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-e.png" alt="HQI-E"><br />
        </div>
        <b>HQI-E</b>
      </div>
      <div class="col col-6">
        <div class="product">
-         <img src="http://localhost/lso-landing/landing-metal-halides-v2/images/hqi-t.png" alt=""><br />
+         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-t.png" alt="HQI-T"><br />
        </div>
        <b>HQI-T</b>
      </div>

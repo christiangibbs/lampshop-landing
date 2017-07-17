@@ -71,21 +71,21 @@
           </div>
           <div class="row logo-group" style="margin-top: 20px;">
             <div class="col col-4">
-              <img src="../../images/logos/sylvania-logo-c.png" alt="">
+              <img src="../../images/logos/sylvania-logo-c.png" alt="Sylvania Logo">
             </div>
             <div class="col col-4">
-              <img src="../../images/logos/osram-logo-c.png" alt="">
+              <img src="../../images/logos/osram-logo-c.png" alt="Osram Logo">
             </div>
             <div class="col col-4">
-              <img src="../../images/logos/ge-logo-c.png" alt="">
+              <img src="../../images/logos/ge-logo-c.png" alt="GE Logo">
             </div>
             <div class="col col-4">
-              <img src="../../images/logos/philips-logo-c.png" alt="">
+              <img src="../../images/logos/philips-logo-c.png" alt="Philips Logo">
             </div>
           </div>
         </div>
         <div class="col col-2">
-          <img src="images/need-help.jpg" alt="" style="width: 100%;">
+          <img src="images/need-help.jpg" alt="Need Help?" style="width: 100%;">
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@
 <!-- Banner -->
 <div class="row">
   <div class="col col-1">
-    <img src="images/banner.jpg" alt="" style="width: 100%;">
+    <img src="images/banner.jpg" alt="Tube Banner" style="width: 100%;">
   </div>
 </div>
 
@@ -112,7 +112,7 @@
       <div class="col col-1 bs-product">
         <div class="col col-p-3">
           <div class="circle">
-            <img src="images/t5.png" alt="" style="margin-top: 16px;">
+            <img src="images/t5.png" alt="T5" style="margin-top: 16px;">
           </div>
           <h1>T5</h1>
         </div>
@@ -130,16 +130,16 @@
             <div class="panel-head">
               <div class="row">
                 <div class="col col-4" style="">
-                  <img src="../../images/logos/sylvania-logo.png" alt="">
+                  <img src="../../images/logos/sylvania-logo.png" alt="Sylvania Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/osram-logo.png" alt="">
+                  <img src="../../images/logos/osram-logo.png" alt="Osram Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/ge-logo.png" alt="">
+                  <img src="../../images/logos/ge-logo.png" alt="GE Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/philips-logo.png" alt="">
+                  <img src="../../images/logos/philips-logo.png" alt="Philips Logo">
                 </div>
               </div>
               <div class="col col-1">
@@ -157,7 +157,7 @@
       <div class="col col-1 bs-product">
         <div class="col col-p-3">
           <div class="circle">
-            <img src="images/t8.png" alt="" style="margin-top: 8px;">
+            <img src="images/t8.png" alt="T8" style="margin-top: 8px;">
           </div>
           <h1>T8</h1>
         </div>
@@ -175,16 +175,16 @@
             <div class="panel-head">
               <div class="row">
                 <div class="col col-4" style="">
-                  <img src="../../images/logos/sylvania-logo.png" alt="">
+                  <img src="../../images/logos/sylvania-logo.png" alt="Sylvania Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/osram-logo.png" alt="">
+                  <img src="../../images/logos/osram-logo.png" alt="Osram Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/ge-logo.png" alt="">
+                  <img src="../../images/logos/ge-logo.png" alt="GE Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/philips-logo.png" alt="">
+                  <img src="../../images/logos/philips-logo.png" alt="Philips Logo">
                 </div>
               </div>
               <div class="col col-1">
@@ -202,7 +202,7 @@
       <div class="col col-1 bs-product">
         <div class="col col-p-3">
           <div class="circle">
-            <img src="images/t12.png" alt="" style="margin-top: 8px;">
+            <img src="images/t12.png" alt="T12" style="margin-top: 8px;">
           </div>
           <h1>T12</h1>
         </div>
@@ -220,16 +220,16 @@
             <div class="panel-head">
               <div class="row">
                 <div class="col col-4" style="">
-                  <img src="../../images/logos/sylvania-logo.png" alt="">
+                  <img src="../../images/logos/sylvania-logo.png" alt="Sylvania Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/osram-logo.png" alt="">
+                  <img src="../../images/logos/osram-logo.png" alt="Osram Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/ge-logo.png" alt="">
+                  <img src="../../images/logos/ge-logo.png" alt="GE Logo">
                 </div>
                 <div class="col col-4" style="line-height: 40px; text-align: center;">
-                  <img src="../../images/logos/philips-logo.png" alt="">
+                  <img src="../../images/logos/philips-logo.png" alt="Philips Logo">
                 </div>
               </div>
               <div class="col col-1">
