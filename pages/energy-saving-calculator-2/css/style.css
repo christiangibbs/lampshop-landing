@@ -1,0 +1,61 @@
+/* Energy Saving Calculator Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-family: lato; }
+
+#calc-container, #recommend-product {
+  width: 600px;
+  margin: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 40px;
+  float: left; }
+
+.heading {
+  padding: 10px; }
+
+.btn-savings-calculator, .btn-recommend, .btn-print {
+  height: 50px;
+  width: 48%;
+  background-color: #f27131;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0% 1%; }
+  .btn-savings-calculator:hover, .btn-recommend:hover, .btn-print:hover {
+    background-color: #f28c31; }
+
+.hdr-step {
+  width: 100%;
+  height: 50px;
+  background-color: #39b54a; }
+  .hdr-step h2 {
+    line-height: 50px;
+    margin: 0;
+    margin-left: 20px;
+    color: #ffffff; }
+
+.content {
+  padding: 10px; }
+
+.tblContainer {
+  background: white;
+  border: 0 none;
+  width: 100%; }
+  .tblContainer .tblTxt {
+    width: 250px; }
+  .tblContainer .tblInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    padding: 5px; }
+
+/*# sourceMappingURL=style.css.map */
