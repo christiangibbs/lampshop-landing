@@ -5,10 +5,10 @@
 ?>
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 <!-- Scripts -->
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/calculator.js"></script>
 <script src="js/recommend.js"></script>
