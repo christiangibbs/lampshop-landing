@@ -48,16 +48,17 @@
     cursor: pointer;
   } .top-product img {width: 100%;}
 
-  /*.product {
-
+  .product {
+    opacity: 0.5;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
-  }*/
+  }
 
   .product:hover{
+    opacity: 1;
     -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
