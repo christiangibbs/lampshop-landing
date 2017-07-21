@@ -67,70 +67,83 @@
    </div>
    <div class="panel-body all-halides">
      <div class="col col-6">
-       <div class="product">
-        <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-td.png" alt="CDM-TD"><br />
-       </div>
+       <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=cdm-td">
+         <div class="product">
+          <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-td.png" alt="CDM-TD"><br />
+         </div>
+       </a>
        <b>CDM-TD</b>
      </div>
      <div class="col col-6">
-       <div class="product">
-         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-tc.png" alt="CDM-TC"><br />
-       </div>
+       <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=cdm-tc">
+         <div class="product">
+           <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-tc.png" alt="CDM-TC"><br />
+         </div>
+       </a>
        <b>CDM-TC</b>
      </div>
      <div class="col col-6">
-       <div class="product">
-         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-t.png" alt="CDM-T"><br />
-       </div>
+       <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=cdm-t">
+         <div class="product">
+           <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/cdm-t.png" alt="CDM-T"><br />
+         </div>
+       </a>
        <b>CDM-T</b>
      </div>
      <div class="col col-6">
-       <div class="product">
-         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-ts.png" alt="HQI-TS"><br />
-       </div>
+       <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=hqi-ts">
+         <div class="product">
+           <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-ts.png" alt="HQI-TS"><br />
+         </div>
+       </a>
        <b>HQI-TS</b>
      </div>
      <div class="col col-6">
-       <div class="product">
-         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-e.png" alt="HQI-E"><br />
-       </div>
+       <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=hqi-e">
+         <div class="product">
+           <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-e.png" alt="HQI-E"><br />
+         </div>
+       </a>
        <b>HQI-E</b>
      </div>
      <div class="col col-6">
-       <div class="product">
-         <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-t.png" alt="HQI-T"><br />
-       </div>
+       <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=hqi-t">
+         <div class="product">
+           <img src="https://www.lampshoponline.com/landing/pages/metal-halides/images/hqi-t.png" alt="HQI-T"><br />
+         </div>
+       </a>
        <b>HQI-T</b>
      </div>
    </div>
-
  </div>
 
  <div class="hr"></div>
 
  <div class="row" style="background-color: #fff;">
+   
    <div class="panel-head" style="background-color: #808080;">
      <h2 style="padding: 10px;">
        <i class="fa fa-search"></i> Our Most Popular Halide Searches
      </h2>
    </div>
+
    <div class="panel-body" style="overflow: hidden;">
-     <a class="button pop-search" href="#">
+     <a class="button pop-search" href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=70w+cdm-t">
        70w CDM-T
      </a>
-     <a class="button pop-search" href="#">
+     <a class="button pop-search" href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=70w+cdm-tc">
        70w CDM-TC
      </a>
-     <a class="button pop-search" href="#">
+     <a class="button pop-search" href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=70w+cdm-td">
        70w CDM-TD
      </a>
-     <a class="button pop-search" href="#">
+     <a class="button pop-search" href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=70w+hqi-ts">
        70w HQI-TS
      </a>
-     <a class="button pop-search" href="#">
+     <a class="button pop-search" href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=250w+hqi-t">
        250w HQI-T
      </a>
-     <a class="button pop-search" href="#">
+     <a class="button pop-search" href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=250w+hqi-e">
        250w HQI-E
      </a>
 

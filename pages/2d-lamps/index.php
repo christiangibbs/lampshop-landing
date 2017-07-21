@@ -26,13 +26,22 @@
 
    .fa-star {color: yellow;}
 
+   .view-all-a {
+     text-decoration: none;
+   }
+
+    .view-all-a b {
+      color: black;
+    }
+
+    .view-all-a:hover .fa-search {color: #03CC6F}
    .fa-search { color: #1E9A41;
      -o-transition:.5s;
      -ms-transition:.5s;
      -moz-transition:.5s;
      -webkit-transition:.5s;
      transition:.5s;
-   } .fa-search:hover {color: #03CC6F}
+   }
 
    .top-product {
       width: 65%;
@@ -110,10 +119,11 @@ box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
           <b>38w 4-Pin 2D</b>
         </div>
         <div class="col col-7" style="margin-top: 3%;">
-          <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps.html">
+          <a class="view-all-a" href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps.html">
               <i class="fa fa-search" aria-hidden="true" style="font-size: 55px; margin-bottom:10px;"></i><br />
+              <b>VIEW ALL</b>
           </a>
-          <b>VIEW ALL</b>
+
         </div>
       </div>
     </div>

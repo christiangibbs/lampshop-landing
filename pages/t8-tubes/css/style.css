@@ -1,0 +1,30 @@
+.details-head {
+  background-color: #808080;
+}
+
+  .details-head:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+
+  .logo-group > div {line-height: 50px; text-align: center;}
+    .logo-group > div > img {max-width: 80%; max-height: 40px;}
+
+
+    .bs-product {background-color: #999999; margin: 10px 0px; max-width: 100%; border-top-left-radius: 100px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition:.5s;}
+      .bs-product .circle {background-color: white; width: 122px; height: 122px; border-radius: 100%; text-align: center; float: left;}
+.product-link:hover .bs-product {background-color: #01CF3F;}
+      .bs-product h1 {margin: 0px; font-size: 95px; color: white; float: left;}
+    .bs-product ul {list-style-type: none; line-height: 18px; font-size: 16px; color: white;}
+    .bs-product .panel {width: 100%; text-align: center; margin: 0px; background-color: white; padding-top: 20px;}
+    .bs-product .panel .panel-head .row > div {line-height: 40px; text-align: center;}
+    .bs-product .panel .panel-head .row img {max-width: 80%; max-height: 40px;}
+    .bs-product button {height: 36px; width: 100%; background-color: #01CF3F;}
+
+
+    .tab-compare tr td a {text-decoration: none; color: #000000;}
