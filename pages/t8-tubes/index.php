@@ -222,7 +222,7 @@
                </div>
              </div>
              <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.10</h2>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.06</h2>
              <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
                  <h2>View Product</h2>
             </button>
@@ -254,7 +254,7 @@
              </div>
              </div>
              <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.40</h2>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.38</h2>
              <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
                  <h2>View Product</h2>
             </button>
@@ -286,7 +286,7 @@
                </div>
              </div>
              <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.50</h2>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.32</h2>
              <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
                  <h2>View Product</h2>
             </button>
@@ -318,7 +318,7 @@
                </div>
              </div>
              <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;2.47</h2>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;2.76</h2>
              <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
                  <h2>View Product</h2>
             </button>
