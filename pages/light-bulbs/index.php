@@ -21,12 +21,8 @@
     .accordion dt:hover {background-color: #f6f6f6;}
     .accordion dt::before {content: none;}
     .accordion dd {background-color: #333; color: #fff;}
-    .product img {opacity: 0.7; width: 100%;}
+    .product img {opacity: 0.7; width: 75%;}
     .product img:hover {opacity: 1;}
-
-    @media screen and (max-width: 768px) {
-      .product img {width: 50%;}
-    }
 
     .tblContainer {
       background: white;
@@ -42,21 +38,15 @@
         box-sizing: border-box;
         font-size: 13px;
         padding: 5px; }
+
+    .tblContainer input {height: 50px; width: 100%;}
+    .tblContainer {font-size: 16px;}
  </style>
 
 <body ng-app="calcApp" ng-init="" ng-controller="myCtrl1">
    <div class="row">
-     <div class="col col-p-5">
-       <div class="panel panel-padding">
-         <div class="panel-head" style="background-color: #119B3C;">
-           <h2 style="padding: 10px;">
-             Cap Types
-           </h2>
-         </div>
-         <div class="panel-body">
-            <img src="images/cap-types.jpg" alt="" style="width:100%;">
-         </div>
-       </div>
+     <div class="col col-p-4">
+
        <div class="panel panel-padding">
          <div class="panel-head" style="background-color: #119B3C;">
            <h2 style="padding: 10px;">
@@ -123,7 +113,7 @@
        </div>
 
      </div>
-     <div class="col col-p-7">
+     <div class="col col-p-8">
        <div class="panel panel-padding">
          <div class="panel-head" style="background-color: #119B3C;">
            <h2 style="padding: 10px;">
@@ -222,17 +212,18 @@
            </div>
          </div>
        </div>
+       <div class="panel panel-padding">
+         <div class="panel-head" style="background-color: #119B3C;">
+           <h2 style="padding: 10px;">
+             Your Guide to Cap Types
+           </h2>
+         </div>
+         <div class="panel-body" style="text-align: center;">
+            <img src="images/cap-types.jpg" alt="" style="width:80%;">
+         </div>
+       </div>
      </div>
    </div>
-
-
-     </div>
-     <div class="col col-p-8">
-       <div class="col col-1">
-
-       </div>
-       <div class="col col-1" style="margin-top:10px;">
-
      </div>
    </div>
 
