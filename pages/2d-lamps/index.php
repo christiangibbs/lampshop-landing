@@ -196,7 +196,7 @@ box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
   <div class="col col-p-4">
     <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/budget-2d-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
-      <div class=" product">
+      <div class="product">
         <div class="panel-head" style="background-color: #FB6F3F;">
           <h2 style="padding: 10px;">BEST VALUE : Branded 2D - from &pound;0.82</h2>
         </div>
@@ -208,7 +208,7 @@ box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
   </a>
   <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/bell-2d-lamps.html" style="text-decoration: none;">
     <div class="panel panel-padding">
-      <div class=" product">
+      <div class="product">
         <div class="panel-head" style="background-color: #279945;">
           <h2 style="padding: 10px;">Bell CFL Square - from &pound;1.45</h2>
         </div>

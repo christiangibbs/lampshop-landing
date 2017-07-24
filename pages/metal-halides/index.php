@@ -1,5 +1,6 @@
 <?php
   include('../../components/head.php');
+  $panel = "We recommend any of our Metal Halides as they are all premium brands and the highest quality.";
  ?>
 
  <style media="screen">
@@ -22,6 +23,7 @@
     .accordion dt::before {content: none;}
     .accordion dd {background-color: #333; color: #fff;}
  </style>
+
 
  <div class="row">
    <div class="col col-1">
@@ -120,7 +122,7 @@
  <div class="hr"></div>
 
  <div class="row" style="background-color: #fff;">
-   
+
    <div class="panel-head" style="background-color: #808080;">
      <h2 style="padding: 10px;">
        <i class="fa fa-search"></i> Our Most Popular Halide Searches

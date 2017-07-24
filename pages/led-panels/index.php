@@ -1,5 +1,6 @@
 <?php
   include('../../components/head.php');
+  $panel = "We recommend any of our LED Panels as they are all premium brands and the highest quality.";
  ?>
  <style media="screen">
     body {background-color: #f5f5f5;}

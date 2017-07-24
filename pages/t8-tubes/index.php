@@ -1,8 +1,19 @@
 <?php
   include('../../components/head.php');
+  $panel = "We recommend any of our Fluorescent Tubes as they are all premium brands and the highest quality.";
  ?>
  <style media="screen">
    .col {margin: 0% 0 0% 1.5%;}
+   .product-list-item {background-color: #209F96; width: 90%; margin: 0 auto;}
+   .product-list-item:hover {background-color: #006662; cursor: pointer;}
+
+   .product:hover{
+     -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+   }
+
+   .col-4 a {text-decoration: none; color: #000000;}
  </style>
 
  <link rel="stylesheet" href="css/style.css">
@@ -189,126 +200,134 @@
 
  <div class="row">
    <div class="col col-4">
-     <div class="panel">
-       <div class="panel panel-head" style="background-color: #119B3C;">
-         <h2 style="padding: 10px;">18w 2FT T8</h2>
-       </div>
-       <div class="panel panel-body">
-         <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
-         <b>Available in:</b> <br />
-         <div class="col col-1">
-           <div class="temp-small temp827">
+     <a href="https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html">
+       <div class="panel panel-padding">
+         <div class="product">
+           <div class="panel-head" style="background-color: #119B3C;">
+             <h2 style="padding: 10px;">18w 2FT T8</h2>
            </div>
-           <div class="temp-small temp830">
+           <div class="panel-body product-body">
+             <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
+             <b>Available in:</b> <br />
+             <div class="col col-1">
+               <div class="temp-small temp827">
+               </div>
+               <div class="temp-small temp830">
+               </div>
+               <div class="temp-small temp835">
+               </div>
+               <div class="temp-small temp840">
+               </div>
+               <div class="temp-small temp865">
+               </div>
+             </div>
+             <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.10</h2>
+             <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
+                 <h2>View Product</h2>
+            </button>
            </div>
-           <div class="temp-small temp835">
-           </div>
-           <div class="temp-small temp840">
-           </div>
-           <div class="temp-small temp865">
          </div>
-
-         </div>
-         <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-         <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.10</h2>
        </div>
-       <a href="https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html">
-         <button type="submit" title="Search" class="button" style="width: 100%; ">
-             <h2>View Product</h2>
-        </button></a>
-     </div>
+     </a>
    </div>
    <div class="col col-4">
-     <div class="panel">
-       <div class="panel panel-head" style="background-color: #119B3C;">
-         <h2 style="padding: 10px;">36w 4FT T8</h2>
-       </div>
-       <div class="panel panel-body">
-         <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
-         <b>Available in:</b> <br />
-         <div class="col col-1">
-           <div class="temp-small temp827">
+     <a href="https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w.html">
+       <div class="panel panel-padding">
+         <div class="product">
+           <div class="panel panel-head" style="background-color: #119B3C;">
+             <h2 style="padding: 10px;">36w 4FT T8</h2>
            </div>
-           <div class="temp-small temp830">
+           <div class="panel-body">
+             <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
+             <b>Available in:</b> <br />
+             <div class="col col-1">
+               <div class="temp-small temp827">
+               </div>
+               <div class="temp-small temp830">
+               </div>
+               <div class="temp-small temp835">
+               </div>
+               <div class="temp-small temp840">
+               </div>
+               <div class="temp-small temp865">
+             </div>
+             </div>
+             <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.40</h2>
+             <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
+                 <h2>View Product</h2>
+            </button>
            </div>
-           <div class="temp-small temp835">
-           </div>
-           <div class="temp-small temp840">
-           </div>
-           <div class="temp-small temp865">
          </div>
-
-         </div>
-         <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-         <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.40</h2>
        </div>
-       <a href="https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w.html">
-         <button type="submit" title="Search" class="button" style="width: 100%; ">
-             <h2>View Product</h2>
-        </button></a>
-     </div>
+     </a>
    </div>
    <div class="col col-4">
-     <div class="panel">
-       <div class="panel panel-head" style="background-color: #119B3C;">
-         <h2 style="padding: 10px;">58w 5FT T8</h2>
-       </div>
-       <div class="panel panel-body">
-         <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
-         <b>Available in:</b> <br />
-         <div class="col col-1">
-           <div class="temp-small temp827">
+     <a href="https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w.html">
+       <div class="panel panel-padding">
+         <div class="product">
+           <div class="panel panel-head" style="background-color: #119B3C;">
+             <h2 style="padding: 10px;">58w 5FT T8</h2>
            </div>
-           <div class="temp-small temp830">
+           <div class="panel-body">
+             <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
+             <b>Available in:</b> <br />
+             <div class="col col-1">
+               <div class="temp-small temp827">
+               </div>
+               <div class="temp-small temp830">
+               </div>
+               <div class="temp-small temp835">
+               </div>
+               <div class="temp-small temp840">
+               </div>
+               <div class="temp-small temp865">
+               </div>
+             </div>
+             <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.50</h2>
+             <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
+                 <h2>View Product</h2>
+            </button>
            </div>
-           <div class="temp-small temp835">
-           </div>
-           <div class="temp-small temp840">
-           </div>
-           <div class="temp-small temp865">
          </div>
-
-         </div>
-         <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-         <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;1.50</h2>
        </div>
-       <a href="https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w.html">
-         <button type="submit" title="Search" class="button" style="width: 100%; ">
-             <h2>View Product</h2>
-        </button></a>
-     </div>
+     </a>
    </div>
    <div class="col col-4">
-     <div class="panel">
-       <div class="panel panel-head" style="background-color: #119B3C;">
-         <h2 style="padding: 10px;">70w 6FT T8</h2>
-       </div>
-       <div class="panel panel-body">
-         <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
-         <b>Available in:</b> <br />
-         <div class="col col-1">
-           <div class="temp-small temp827">
+     <a href="https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w.html">
+       <div class="panel panel-padding">
+         <div class="product">
+           <div class="panel panel-head" style="background-color: #119B3C;">
+             <h2 style="padding: 10px;">70w 6FT T8</h2>
            </div>
-           <div class="temp-small temp830">
+           <div class="panel-body">
+             <img style="width: 100%;" src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923_85816.1382621088.800__37772.jpg" alt="">
+             <b>Available in:</b> <br />
+             <div class="col col-1">
+               <div class="temp-small temp827">
+               </div>
+               <div class="temp-small temp830">
+               </div>
+               <div class="temp-small temp835">
+               </div>
+               <div class="temp-small temp840">
+               </div>
+               <div class="temp-small temp865">
+               </div>
+             </div>
+             <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
+             <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;2.47</h2>
+             <button type="submit" title="Search" class="button" style="width: 100%; margin-top:5px;">
+                 <h2>View Product</h2>
+            </button>
            </div>
-           <div class="temp-small temp835">
-           </div>
-           <div class="temp-small temp840">
-           </div>
-           <div class="temp-small temp865">
          </div>
-         </div>
-         <p style="color: black;">827 Extra Warm White, 830 Warm White, 835 Standard White, 840 Cool White, and 865 Daylight</p>
-         <h2 style="color: #119B3C;"><b style="color: #000000;">From:</b> &pound;2.47</h2>
        </div>
-       <a href="https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w.html">
-         <button type="submit" title="Search" class="button" style="width: 100%; ">
-             <h2>View Product</h2>
-        </button></a>
-     </div>
+     </a>
    </div>
- </div>
-
+</div>
   <div class="hr"></div>
 
  <!-- Comparison table -->
