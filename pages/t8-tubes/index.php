@@ -61,7 +61,7 @@
          <div class="col col-2">
            <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your tube reference number below</h2><br />
              <div class="search-box">
-               <form action="http://www.lampshoponline.com/catalogsearch/result/" method="get">
+               <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
                    <div>
                        <!--<label for="search"></label>-->
                        <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter tube reference number" style="font-size: 16px;">
@@ -71,7 +71,7 @@
                        <script type="text/javascript">
                        //<![CDATA[
                            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
-                           searchForm.initAutocomplete('http://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                           searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
                        //]]>
                        </script>
                    </div>
