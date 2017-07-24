@@ -13,6 +13,8 @@
    .all-bulbs .col {text-align: center; margin: 0.75% 0 0% 1.5%;}
    .all-bulbs .icons img {width: 100%; margin: 10px auto; max-width: 140px;}
 
+   .col-5 b {font-size: 16px;}
+
    .pop-search {line-height: 50px; color: #fff; text-decoration: none; margin: 20px; font-size: 16px}
 
    .accordion dt {background-color: #fff;}
