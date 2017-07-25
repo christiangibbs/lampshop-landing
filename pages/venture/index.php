@@ -4,8 +4,9 @@
  ?>
 
  <style media="screen">
+  body {min-width: 1350px;}
+ .col {margin: 0% 0 0% 1.5%;}
  .product p {font-size: 14px;}
-   .col {margin: 0% 0 0% 1.5%;}
    .wrapper {width: 90%; margin: 10px auto;}
    .portfolio-item {float: left;}
    .product:hover{
@@ -14,9 +15,7 @@
       box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
    }
 
-   .portfolio-nav ul li {width: 10%;}
-     ul li img {width: 100%;}
-     b {font-size: 14px;}
+   .portfolio-nav ul li {width: 100%;}
    .portfolio-items a {text-decoration: none; color: #000000;}
  </style>
 
@@ -34,7 +33,7 @@
             <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
                 <div>
                     <!--<label for="search"></label>-->
-                    <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter tube reference number" style="font-size: 16px;">
+                    <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter your search term" style="font-size: 16px;">
                     <button type="submit" title="Search" class="button">
                         <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
                    </button>
@@ -48,39 +47,68 @@
             </form>
           </div>
         </div>
-
-
       </div>
-      <div class="panel-body">
-        <div class="portfolio-nav">
-          <ul>
+      <div class="panel-body" style="overflow: hidden; background-color: #fff;">
+        <div class="col col-1" style="overflow: none;">
+          <div class="portfolio-nav">
+            <a href="#" data-filter=".son-lamps">
+            </a>
+            <div class="col col-1">
 
-            <li data-filter=".son-lamps">
-              <img src="images/son-lamps.JPG" alt=""><br />
-              <b>SON Lamps</b>
-            </li>
-            <li data-filter=".mh-de-lamps">
-              <img src="images/mh-de-lamps.JPG" alt=""><br />
-              <b>MH-DE Lamps</b>
-            </li>
-            <li data-filter=".open-rated-hipe">
-              <img src="images/open-rated-hipe.JPG" alt=""><br />
-              <b>Open Rated HIPE</b>
-            </li>
-            <li data-filter=".pulse-start-lamps">
-              <img src="images/pulse-start-lamps.JPG" alt=""><br />
-              <b>Pulse Start Lamps</b>
-            </li>
-            <li data-filter=".high-wattage-lamps">
-              <img src="images/high-wattage-lamps.JPG" alt=""><br />
-              <b>High Wattage Lamps</b>
-            </li>
-            <li data-filter=".venture-capacitors">
-              <img src="images/venture-capacitors.JPG" alt=""><br />
-              <b>Venture Capacitors</b>
-            </li>
-            <li class="active" data-filter="*"><b>All Products</b></li>
-          </ul>
+            </div>
+            <ul style="padding: 0px;">
+              <div class="col col-8">
+                <li >
+                  <img src="images/son-lamps.JPG" alt=""><br />
+                  <b>SON Lamps</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <li data-filter=".mh-de-lamps">
+                  <img src="images/mh-de-lamps.JPG" alt=""><br />
+                  <b>MH-DE Lamps</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <li data-filter=".mh-de-lamps">
+                  <img src="images/mh-de-lamps.JPG" alt=""><br />
+                  <b>MH-DE Lamps</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <li data-filter=".open-rated-hipe">
+                  <img src="images/open-rated-hipe.JPG" alt=""><br />
+                  <b>Open Rated HIPE</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <li data-filter=".pulse-start-lamps">
+                  <img src="images/pulse-start-lamps.JPG" alt=""><br />
+                  <b>Pulse Start Lamps</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <li data-filter=".high-wattage-lamps">
+                  <img src="images/high-wattage-lamps.JPG" alt=""><br />
+                  <b>High Wattage</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <li data-filter=".venture-capacitors">
+                  <img src="images/venture-capacitors.JPG" alt=""><br />
+                  <b>Venture Capacitors</b>
+                </li>
+              </div>
+              <div class="col col-8">
+                <img src="images/logo.png" alt="Venture Logo" style="width: 100%; margin-bottom: 25px;">
+                <li class="active" data-filter="*">
+                  <button type="submit" title="Search" class="button" style="width: 100%;">
+                      <span style="color: #fff; font-weight: bold;"><i class="fa fa-undo"></i> Reset Filter</span>
+                 </button>
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -95,7 +123,6 @@
         include('products/high-wattage-lamps.php');
         include('products/venture-capacitors.php');
        ?>
-
     </div>
   </div>
 </div>
@@ -109,7 +136,7 @@
     });
 
     $('.portfolio-nav ul li').click(function(){
-      $('.portfolio-nav ul li').removeClass('active');
+      $('.portfolio-nav a').removeClass('active');
       $(this).addClass('active');
 
       var selector = $(this).attr('data-filter');
@@ -129,8 +156,6 @@
     margin: 0;
     padding: 0;
     display: inline-block;
-    padding: 10px 15px;
-    border: 2px solid #ffffff;
     background-color: #fff;
     cursor: pointer;
     -webkit-transition: all .5s ease;
@@ -144,8 +169,8 @@
 .portfolio-nav ul li:hover img {
   opacity: 1;
 }
-.active {
-    border: 2px solid gold !important;
+.active img {
+  opacity: 1;
 }
 
 </style>
