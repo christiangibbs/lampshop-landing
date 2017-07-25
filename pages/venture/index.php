@@ -17,6 +17,7 @@
 
    .portfolio-nav ul li {width: 100%;}
    .portfolio-items a {text-decoration: none; color: #000000;}
+   .cat-filter ul .col-7 li b {font-size: 14px;}
  </style>
 
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
@@ -48,15 +49,25 @@
           </div>
         </div>
       </div>
+
+      <style media="screen">
+
+      </style>
       <div class="panel-body" style="overflow: hidden; background-color: #fff;">
         <div class="col col-1" style="overflow: none;">
-          <div class="portfolio-nav">
+          <div class="portfolio-nav cat-filter">
             <a href="#" data-filter=".son-lamps">
             </a>
             <div class="col col-1">
 
             </div>
             <ul style="padding: 0px;">
+              <div class="col col-7">
+                <li data-filter=".white-lux">
+                  <img src="images/white-lux.JPG" alt=""><br />
+                  <b>White-Lux</b>
+                </li>
+              </div>
               <div class="col col-7">
                 <li data-filter=".son-lamps">
                   <img src="images/son-lamps.JPG" alt=""><br />
@@ -88,12 +99,6 @@
                 </li>
               </div>
               <div class="col col-7">
-                <li data-filter=".venture-capacitors">
-                  <img src="images/venture-capacitors.JPG" alt=""><br />
-                  <b>Venture Capacitors</b>
-                </li>
-              </div>
-              <div class="col col-7">
                 <img src="images/logo.png" alt="Venture Logo" style="width: 100%; margin-bottom: 25px;">
                 <li class="active" data-filter="*">
                   <button type="submit" title="Search" class="button" style="width: 100%;">
@@ -110,12 +115,12 @@
     <div class="portfolio-items" style="padding-top: 10px;">
 
       <?php
+        include('products/white-lux.php');
         include('products/son-lamps.php');
         include('products/mh-de-lamps.php');
         include('products/open-rated-hipe.php');
         include('products/pulse-start-lamps.php');
         include('products/high-wattage-lamps.php');
-        include('products/venture-capacitors.php');
        ?>
     </div>
   </div>
