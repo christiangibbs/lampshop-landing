@@ -1,4 +1,4 @@
-<div class="col col-10 mh-de-lamps">
+<div class="col col-6 mh-de-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-double-ended-mh-de/venture-60248-mh-de-70w-uvs-4k.html">
     <div class="panel panel-padding">
       <div class="product">
@@ -12,7 +12,7 @@
     </div>
   </a>
 </div>
-<div class="col col-10 mh-de-lamps">
+<div class="col col-6 mh-de-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-double-ended-mh-de/venture-16786-mh-de-70w-uvs-3k.html">
     <div class="panel panel-padding">
       <div class="product">
@@ -26,7 +26,7 @@
     </div>
   </a>
 </div>
-<div class="col col-10 mh-de-lamps">
+<div class="col col-6 mh-de-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-double-ended-mh-de/venture-74756-mh-de-150w-uvs-4k.html">
     <div class="panel panel-padding">
       <div class="product">
@@ -40,7 +40,7 @@
     </div>
   </a>
 </div>
-<div class="col col-10 mh-de-lamps">
+<div class="col col-6 mh-de-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-double-ended-mh-de/venture-11295-mh-de-150w-uvs-3k.html">
     <div class="panel panel-padding">
       <div class="product">
@@ -54,7 +54,7 @@
     </div>
   </a>
 </div>
-<div class="col col-10 mh-de-lamps">
+<div class="col col-6 mh-de-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-double-ended-mh-de/venture-29963-mh-de-150w-uvs-fs-6k.html">
     <div class="panel panel-padding">
       <div class="product">
@@ -68,7 +68,7 @@
     </div>
   </a>
 </div>
-<div class="col col-10 mh-de-lamps">
+<div class="col col-6 mh-de-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-double-ended-mh-de/venture-72748-mh-de-250w-4k-fc2.html">
     <div class="panel panel-padding">
       <div class="product">
