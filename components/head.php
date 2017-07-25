@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Split Testing Code -->
+    
+    <?php include('split-testing-code/' . $page . '.php'); ?>
     <meta charset="utf-8">
     <title>LampShopOnline - <?php echo($page);?></title>
 
@@ -69,7 +72,7 @@
         margin: 0 auto;
       }
     </style>
-    <?php include('split-testing-code/' . $page . '.php'); ?>
+
   </head>
   <body>
 
