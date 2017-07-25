@@ -1,4 +1,4 @@
-<div class="col col-6 high-wattage-lamps">
+<div class="col col-10 high-wattage-lamps">
   <a href="https://www.lampshoponline.com/lamps/hid-lamps/venture-store/venture-high-wattage-lamps/enclosed-rated-double-ended-special-base/venture-22132-mbil-s-2000w.html">
     <div class="panel panel-padding">
       <div class="product">

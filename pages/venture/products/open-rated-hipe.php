@@ -115,7 +115,7 @@
     <div class="panel panel-padding">
       <div class="product">
         <div class="panel-title" style="background-color: #119B3C;">
-          <p>VENTURE 10014 - HIPE 250W/C/V/UVS/PS/4K</p>
+          <p>VENTURE 10014 - HIPE 250W/C/V/UVS/PS/4K</p>->value
         </div>
         <div class="panel-body">
           <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/2/_/2_52518.1383321705.800.800__53747.png" alt="" style="width: 100%;">

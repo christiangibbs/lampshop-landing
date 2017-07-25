@@ -1,4 +1,5 @@
 <?php
+  $page = "t8-tubes";
   include('../../components/head.php');
   $panel = "We recommend any of our Fluorescent Tubes as they are all premium brands and the highest quality.";
  ?>

@@ -1,4 +1,5 @@
 <?php
+  $page = 'light-bulbs';
   include('../../components/head.php');
   $panel = "We recommend any of our Light Bulbs as they are all premium brands and the highest quality.";
  ?>

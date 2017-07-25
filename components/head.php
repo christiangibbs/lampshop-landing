@@ -69,6 +69,7 @@
         margin: 0 auto;
       }
     </style>
+    <?php include('split-testing-code/' . $page . '.php'); ?>
   </head>
   <body>
 
