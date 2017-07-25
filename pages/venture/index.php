@@ -4,6 +4,7 @@
  ?>
 
  <style media="screen">
+ .product p {font-size: 14px;}
    .col {margin: 0% 0 0% 1.5%;}
    .wrapper {width: 90%; margin: 10px auto;}
    .portfolio-item {float: left;}
@@ -13,6 +14,9 @@
       box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
    }
 
+   .portfolio-nav ul li {width: 10%;}
+     ul li img {width: 100%;}
+     b {font-size: 14px;}
    .portfolio-items a {text-decoration: none; color: #000000;}
  </style>
 
@@ -21,8 +25,31 @@
 <div class="row">
   <div class="col col-1">
     <div class="panel">
-      <div class="panel-head"  style="background-color: #119B3C;">
-        <h2 style="padding: 10px;">Product Filter</h2>
+      <div class="panel-head" style="background-color: #119B3C; overflow: hidden">
+        <div class="col col-p-8" style="overflow: hidden">
+          <h2 style="padding: 23px;">Product Filter <span style="font-size: 0.9em;">(click to filter through categories)</span></h2>
+        </div>
+        <div class="col col-p-3">
+          <div class="search-box" style="margin: 0px;">
+            <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
+                <div>
+                    <!--<label for="search"></label>-->
+                    <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter tube reference number" style="font-size: 16px;">
+                    <button type="submit" title="Search" class="button">
+                        <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
+                   </button>
+                    <script type="text/javascript">
+                    //<![CDATA[
+                        var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+                        searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                    //]]>
+                    </script>
+                </div>
+            </form>
+          </div>
+        </div>
+
+
       </div>
       <div class="panel-body">
         <div class="portfolio-nav">
@@ -30,29 +57,29 @@
 
             <li data-filter=".son-lamps">
               <img src="images/son-lamps.JPG" alt=""><br />
-              SON Lamps
+              <b>SON Lamps</b>
             </li>
             <li data-filter=".mh-de-lamps">
               <img src="images/mh-de-lamps.JPG" alt=""><br />
-              MH-DE Lamps
+              <b>MH-DE Lamps</b>
             </li>
             <li data-filter=".open-rated-hipe">
               <img src="images/open-rated-hipe.JPG" alt=""><br />
-              Open Rated HIPE
+              <b>Open Rated HIPE</b>
             </li>
             <li data-filter=".pulse-start-lamps">
               <img src="images/pulse-start-lamps.JPG" alt=""><br />
-              Pulse Start Lamps
+              <b>Pulse Start Lamps</b>
             </li>
             <li data-filter=".high-wattage-lamps">
               <img src="images/high-wattage-lamps.JPG" alt=""><br />
-              High Wattage Lamps
+              <b>High Wattage Lamps</b>
             </li>
             <li data-filter=".venture-capacitors">
               <img src="images/venture-capacitors.JPG" alt=""><br />
-              Venture Capacitors
+              <b>Venture Capacitors</b>
             </li>
-            <li class="active" data-filter="*">All Products</li>
+            <li class="active" data-filter="*"><b>All Products</b></li>
           </ul>
         </div>
       </div>
