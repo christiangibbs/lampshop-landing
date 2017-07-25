@@ -56,43 +56,43 @@
 
             </div>
             <ul style="padding: 0px;">
-              <div class="col col-8">
+              <div class="col col-7">
                 <li data-filter=".son-lamps">
                   <img src="images/son-lamps.JPG" alt=""><br />
                   <b>SON Lamps</b>
                 </li>
               </div>
-              <div class="col col-8">
+              <div class="col col-7">
                 <li data-filter=".mh-de-lamps">
                   <img src="images/mh-de-lamps.JPG" alt=""><br />
                   <b>MH-DE Lamps</b>
                 </li>
               </div>
-              <div class="col col-8">
+              <div class="col col-7">
                 <li data-filter=".open-rated-hipe">
                   <img src="images/open-rated-hipe.JPG" alt=""><br />
                   <b>Open Rated HIPE</b>
                 </li>
               </div>
-              <div class="col col-8">
+              <div class="col col-7">
                 <li data-filter=".pulse-start-lamps">
                   <img src="images/pulse-start-lamps.JPG" alt=""><br />
                   <b>Pulse Start Lamps</b>
                 </li>
               </div>
-              <div class="col col-8">
+              <div class="col col-7">
                 <li data-filter=".high-wattage-lamps">
                   <img src="images/high-wattage-lamps.JPG" alt=""><br />
                   <b>High Wattage</b>
                 </li>
               </div>
-              <div class="col col-8">
+              <div class="col col-7">
                 <li data-filter=".venture-capacitors">
                   <img src="images/venture-capacitors.JPG" alt=""><br />
                   <b>Venture Capacitors</b>
                 </li>
               </div>
-              <div class="col col-8">
+              <div class="col col-7">
                 <img src="images/logo.png" alt="Venture Logo" style="width: 100%; margin-bottom: 25px;">
                 <li class="active" data-filter="*">
                   <button type="submit" title="Search" class="button" style="width: 100%;">
