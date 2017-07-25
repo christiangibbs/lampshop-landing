@@ -4,7 +4,6 @@
  ?>
 
  <style media="screen">
-  body {min-width: 1350px;}
  .col {margin: 0% 0 0% 1.5%;}
  .product p {font-size: 14px;}
    .wrapper {width: 90%; margin: 10px auto;}
