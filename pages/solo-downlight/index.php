@@ -173,7 +173,7 @@ include('../../components/head.php');
     <div class="col col-p-9 col-m">
       <div class="panel panel-padding">
         <div class="col col-1" style="background-color: #009FE3">
-          <h2 style="padding:10px; color: #fff;">ALL-IN-ONE LED DWNLIGHT 10W</h2>
+          <h2 style="padding:10px; color: #fff;">SPECIFICATION</h2>
         </div>
         <div class="col col-2 col-m">
           <table class="tblSpec" cellspacing="0" cellpadding="5">
@@ -286,7 +286,7 @@ include('../../components/head.php');
   <div class="col col-1">
     <div class="panel panel-padding">
       <div class="panel-head" style="background-color: #009FE3">
-        <h2 style="padding:10px; color: #fff;">ALL-IN-ONE LED DWNLIGHT 10W</h2>
+        <h2 style="padding:10px; color: #fff;">INSTALLATION INSTRUCTIONS</h2>
       </div>
       <div class="panel-body"  style="overflow: hidden;">
         <div class="col col-8 col-m" style="text-align: center;">
