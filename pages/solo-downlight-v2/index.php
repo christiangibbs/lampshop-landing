@@ -32,7 +32,8 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
   .tblSpec tr td {width: 50%; text-align: left;}
   .tblSpec tr td:nth-child(1) {font-weight: bold;}
 
-  .oc {opacity: 1;}
+  .oc {opacity: 0.8;}
+  .oc:hover{opacity: 1;}
 </style>
 <div class="row downlight-page">
   <div class="col col-1 oc" style="background-color: #009FE3;">
