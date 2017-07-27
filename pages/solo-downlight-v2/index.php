@@ -23,6 +23,9 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
   .usp { width: calc(100%/3); margin: 0px; padding: 0px;}
   .usp h1 {color: #ffffff;}
 
+  @media screen and (max-width: 778px) {
+    .usp {width: 100%;}
+  }
 
   @media screen and (max-width: 1300px) {
     .info-panel-long {display: none;}
