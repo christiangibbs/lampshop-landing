@@ -19,6 +19,11 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
 
   .lrg-font h2 {font-size: 24px; color: #000000;}
   .lrg-font h3 {font-size: 20px; color: #222222;}
+
+  .usp { width: calc(100%/3); margin: 0px; padding: 0px;}
+  .usp h1 {color: #ffffff;}
+
+
   @media screen and (max-width: 1300px) {
     .info-panel-long {display: none;}
     .info-panel-short {display: block;}
@@ -34,13 +39,54 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
 
   .oc {opacity: 1;}
 </style>
-<div class="row downlight-page">
-  <div class="col col-1 oc" style="background-color: #009FE3;">
-    <h2 style="padding:10px; color: #fff;">ALL-IN-ONE LED DWNLIGHT 10W</h2>
-  </div>
-  <div class="col col-1" style="background-color: #fff;">
-    <div class="col col-p-6 image-panel oc"  style="background-color: #addaec;">
+<div class="row downlight-page" style="background-color: #fff;">
+
+  <div class="col col-1" style="margin-bottom: -4px;">
+    <div class="col col-2 oc">
+      <div class="col col-1 oc" style="background-color: #009FE3;">
+        <h2 style="padding:10px; color: #fff;">ALL-IN-ONE LED DWNLIGHT 10W</h2>
+      </div>
       <img src="images/banner.png" alt="" style="width: 100%;">
+    </div>
+    <div class="col col-2 oc">
+      <div class="panel">
+        <div class="panel-head" style="background-color: #0087c1;">
+          <h2 style="padding:10px; color: #fff;">3 COLOURS, 3 FASCIAS, 1 DOWNLIGHT</h2>
+        </div>
+        <div class="colour-temps panel-padding" style="overflow: hidden;">
+          <div class="col col-3">
+            <img src="images/colour-warm.png" alt="" style="width: 100%; padding-bottom: 5px;">
+            <h3>3000K WARM WHITE</h3>
+            <h4>Recommended for home &amp; hospitality</h4><br />
+          </div>
+          <div class="col col-3">
+            <img src="images/colour-cool.png" alt="" style="width: 100%; padding-bottom: 5px;">
+            <h3>4000K COOL WHITE</h3>
+            <h4>Recommended for lobby, corridor &amp; washwoom</h4><br />
+          </div>
+          <div class="col col-3">
+            <img src="images/colour-daylight.png" alt="" style="width: 100%; padding-bottom: 5px;">
+            <h3>6000K DAYLIGHT WHITE</h3>
+            <h4>Recommended for office &amp; workshop</h4><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-1">
+    <div class="col col-3 col-m usp" style="background-color: #E28413; color: #ffffff;">
+      <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
+    </div>
+    <div class="col col-3 col-m usp" style="background-color: #FFBA08; color: #ffffff;">
+      <h1><i class="fa fa-gbp"></i> Best Price Available Online</h1>
+    </div>
+    <div class="col col-3 col-m usp" style="background-color: #DD1C1A; color: #ffffff;">
+      <h1><i class="fa fa-certificate" aria-hidden="true"></i> Only Official Britesource Distributer</h1>
+    </div>
+  </div>
+  <div class="col col-1 " style="background-color: #fff;">
+    <div class="col col-p-6 image-panel oc"  style="background-color: #addaec;">
       <div class="col col-1" style="background-color: #009FE3">
         <h2 style="padding:10px; color: #fff;">Call Us For Any Enquiries: 0113 887 6270</h2>
       </div>
@@ -48,15 +94,6 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
         <div class="solo-info">
           <div class="panel-padding lrg-font">
             <h2>REASONS TO BUY FROM US</h2><br />
-            <h3>
-              <b><i class="fa fa-check" style="color: #009FE3"></i> Largest Online Stockist</b>
-            </h3>
-            <h3>
-              <b><i class="fa fa-check" style="color: #009FE3"></i> Best Price Available Online</b>
-            </h3>
-            <h3>
-              <b><i class="fa fa-check" style="color: #009FE3"></i> Only Official Britesource Distributer</b>
-            </h3>
             <h3>
               <b><i class="fa fa-check" style="color: #009FE3"></i> Bulk Prices Available</b>
             </h3>
@@ -121,28 +158,7 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
       </div>
     </div>
     <div class="col col-p-6">
-      <div class="panel oc">
-        <div class="panel-head" style="background-color: #0087c1;">
-          <h2 style="padding:10px; color: #fff;">3 COLOURS, 3 FASCIAS, 1 DOWNLIGHT</h2>
-        </div>
-        <div class="panel-body colour-temps" style="overflow: hidden;">
-          <div class="col col-3">
-            <img src="images/colour-warm.png" alt="" style="width: 100%; padding-bottom: 5px;">
-            <h3>3000K WARM WHITE</h3>
-            <h4>Recommended for home &amp; hospitality</h4><br />
-          </div>
-          <div class="col col-3">
-            <img src="images/colour-cool.png" alt="" style="width: 100%; padding-bottom: 5px;">
-            <h3>4000K COOL WHITE</h3>
-            <h4>Recommended for lobby, corridor &amp; washwoom</h4><br />
-          </div>
-          <div class="col col-3">
-            <img src="images/colour-daylight.png" alt="" style="width: 100%; padding-bottom: 5px;">
-            <h3>6000K DAYLIGHT WHITE</h3>
-            <h4>Recommended for office &amp; workshop</h4><br />
-          </div>
-        </div>
-      </div>
+
 
       <table class="tab-compare oc" cellspacing="5">
           <tr>
