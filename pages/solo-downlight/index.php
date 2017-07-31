@@ -32,6 +32,7 @@ $panel = 'We also supply an Emergency Version of this Downlight, which allows th
     .info-panel-short {display: block;}
     .image-panel {width: 100%;}
   }
+  
   .tblSpec tr:nth-child(even) {
     background-color: #dfeaef;
   }
