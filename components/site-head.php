@@ -127,7 +127,7 @@
         <div class="row" style="margin: 0px auto;">
           <div class="col col-1">
             <div class="logo-container">
-              <a href="http://localhost/lampshop-landing/pages/t8-tubes/#" class="logo-href">
+              <a href="https://www.lampshoponline.com/" class="logo-href">
                 <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
               </a>
             </div>
@@ -145,31 +145,31 @@
               </a>
               <ul class="nav-ul">
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/"><i class="fa fa-home"></i> Home</a>
+                  <a href="https://www.lampshoponline.com/"><i class="fa fa-home"></i> Home</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Special Offers</a>
+                  <a href="https://www.lampshoponline.com/special-offers.html">Special Offers</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Fluorescent Tubes</a>
+                  <a href="https://www.lampshoponline.com/fluorescent-tubes.html">Fluorescent Tubes</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Lamps</a>
+                  <a href="https://www.lampshoponline.com/lamps.html">Lamps</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">LED</a>
+                  <a href="https://www.lampshoponline.com/led.html">LED</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Control Gear</a>
+                  <a href="https://www.lampshoponline.com/control-gear.html">Control Gear</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Fittings</a>
+                  <a href="https://www.lampshoponline.com/fittings.html">Fittings</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Advice Centre</a>
+                  <a href="https://www.lampshoponline.com/catalog/category/view/s/advice/id/868/">Advice Centre</a>
                 </li>
                 <li>
-                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Contact Us</a>
+                  <a href="https://www.lampshoponline.com/contacts/">Contact Us</a>
                 </li>
               </ul>
             </nav>
