@@ -52,7 +52,4 @@ $(document).ready(function(){
     // Keep an eye on the window width and pass to function checkWidth()
     $(window).resize(checkWidth);
 
-
-
-
 });

@@ -127,7 +127,7 @@
         <div class="row" style="margin: 0px auto;">
           <div class="col col-1">
             <div class="logo-container">
-              <a href="#" class="logo-href">
+              <a href="http://localhost/lampshop-landing/pages/t8-tubes/#" class="logo-href">
                 <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
               </a>
             </div>
@@ -145,31 +145,31 @@
               </a>
               <ul class="nav-ul">
                 <li>
-                  <a href="#"><i class="fa fa-home"></i> Home</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/"><i class="fa fa-home"></i> Home</a>
                 </li>
                 <li>
-                  <a href="#">Special Offers</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/">Special Offers</a>
                 </li>
                 <li>
-                  <a href="#">Fluorescent Tubes</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">Fluorescent Tubes</a>
                 </li>
                 <li>
-                  <a href="#">Lamps</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">Lamps</a>
                 </li>
                 <li>
-                  <a href="#">LED</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">LED</a>
                 </li>
                 <li>
-                  <a href="#">Control Gear</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">Control Gear</a>
                 </li>
                 <li>
-                  <a href="#">Fittings</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">Fittings</a>
                 </li>
                 <li>
-                  <a href="#">Advice Centre</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">Advice Centre</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="http://localhost/lampshop-landing/pages/t8-tubes/#">Contact Us</a>
                 </li>
               </ul>
             </nav>
