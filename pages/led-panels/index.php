@@ -11,7 +11,6 @@
 
    .col {padding: 0px;}
 
-
    .panel-body {background-color: #fff; border: 1px solid #e3e3e3; border-top: none;}
 
    .product-list-item {background-color: #209F96; width: 90%; margin: 5px auto;}
