@@ -20,7 +20,7 @@
    .cat-filter ul .col-7 li b {font-size: 14px;}
  </style>
 
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
 
 <div class="row">
   <div class="col col-1">

@@ -1,9 +1,8 @@
 <?php
-  $page = 'venture';
+  $page = 'cornlight';
   include('../../components/head.php');
   $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>
-
  <style media="screen">
  .product p {font-size: 14px;}
    .wrapper {width: 90%; margin: 10px auto;}
@@ -31,14 +30,111 @@
         opacity: 1;
       }
 
+      .padding {margin: 0 0 0 1.5%;}
 
    .portfolio-nav ul li {width: 100%;}
-   .portfolio-items a {text-decoration: none; color: #000000;}
+   .portfolio-items a, .product-items a {text-decoration: none; color: #000000;}
    .cat-filter ul .col-7 li b {font-size: 18px;}
  </style>
 
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
+<div class="row">
+  <div class="col col-1">
+    <div class="panel">
+      <div class="panel-head" style="background-color: #119B3C;">
+        <h2 style="padding: 10px;">
+          Our Most Popular Cornlights
+        </h2>
+      </div>
+      <div class="panel-body product-items" style="overflow: hidden;">
+        <div class="col col-6 lstProduct panel-padding">
+          <a href="https://www.lampshoponline.com/led/led-corn-lights/120w-led-corn-light-mh-son-replacement-ges-e40-cap.html">
+            <div class="panel panel-padding">
+              <div class="product">
+                <div class="panel-title" style="background-color: #119B3C;">
+                  <p>120W LED Corn Light</p>
+                </div>
+                <div class="panel-body">
+                  <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/o/cornlight_pro_pic_copy__66636.jpg" alt="120W LED Corn Light" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col col-6 lstProduct panel-padding">
+          <a href="https://www.lampshoponline.com/led/led-corn-lights/80w-led-corn-light-mh-son-replacement-ges-e40-cap.html">
+            <div class="panel panel-padding">
+              <div class="product">
+                <div class="panel-title" style="background-color: #119B3C;">
+                  <p>80W LED Corn Light</p>
+                </div>
+                <div class="panel-body">
+                  <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/o/cornlight_pro_pic_copy__66636.jpg" alt="80W LED Corn Light" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col col-6 lstProduct panel-padding">
+          <a href="https://www.lampshoponline.com/led/led-corn-lights/100w-led-corn-light-mh-son-replacement-ges-e40-cap.html">
+            <div class="panel panel-padding">
+              <div class="product">
+                <div class="panel-title" style="background-color: #119B3C;">
+                  <p>100W LED Corn Light</p>
+                </div>
+                <div class="panel-body">
+                  <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/o/cornlight_pro_pic_copy__66636.jpg" alt="100W LED Corn Light" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col col-6 lstProduct panel-padding">
+          <a href="https://www.lampshoponline.com/led/led-corn-lights/30w-led-corn-light-mh-son-replacement-es-e27-cap.html">
+            <div class="panel panel-padding">
+              <div class="product">
+                <div class="panel-title" style="background-color: #119B3C;">
+                  <p>30W LED Corn Light e27</p>
+                </div>
+                <div class="panel-body">
+                  <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/o/cornlight_pro_pic_copy__66636.jpg" alt="30W LED Corn Light e27" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col col-6 lstProduct panel-padding">
+          <a href="https://www.lampshoponline.com/led/led-corn-lights/60w-led-corn-light-mh-son-replacement-ges-e40-cap.html">
+            <div class="panel panel-padding">
+              <div class="product">
+                <div class="panel-title" style="background-color: #119B3C;">
+                  <p>60W LED Corn Light</p>
+                </div>
+                <div class="panel-body">
+                  <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/o/cornlight_pro_pic_copy__66636.jpg" alt="60W LED Corn Light" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col col-6 lstProduct panel-padding">
+          <a href="https://www.lampshoponline.com/led/led-corn-lights/20w-led-corn-light-mh-son-replacement-es-e27-cap.html">
+            <div class="panel panel-padding">
+              <div class="product">
+                <div class="panel-title" style="background-color: #119B3C;">
+                  <p>20W LED Corn Light e27</p>
+                </div>
+                <div class="panel-body">
+                  <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/o/cornlight_pro_pic_copy__66636.jpg" alt="20W LED Corn Light e27" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="row">
   <div class="col col-p-4">
     <div class="row" style="width: 95%;">
