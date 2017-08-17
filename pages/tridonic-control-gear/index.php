@@ -186,7 +186,7 @@
               <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
                   <div>
                       <!--<label for="search"></label>-->
-                      <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter tube reference number" style="font-size: 16px;">
+                      <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="font-size: 16px;">
                       <button type="submit" title="Search" class="button">
                           <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
                      </button>
