@@ -176,7 +176,7 @@
     <div class="panel">
       <div class="panel-head" style="background-color: #808080;">
         <h2 style="padding: 10px;">
-          <i class="fa fa-search" aria-hidden="true"></i> FIND THE RIGHT TUBE USING OUR PRODUCT FINDER TOOL
+          <i class="fa fa-search" aria-hidden="true"></i> FIND THE RIGHT PRODUCT USING OUR PRODUCT FINDER TOOL
         </h2>
       </div>
       <div class="panel-body" style="overflow: hidden;">
