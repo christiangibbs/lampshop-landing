@@ -171,7 +171,7 @@
             </div>
 
             <div class="button-container">
-              <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=led+panel">
+              <a href="https://www.lampshoponline.com/led/led-corn-lights.html">
                 <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW ALL PRODUCTS</button>
               </a>
             </div>
