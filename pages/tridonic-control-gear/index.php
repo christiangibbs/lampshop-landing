@@ -89,7 +89,7 @@
                     <h4 style="padding: 10px;">HF Ballasts - Non Dimmable</h4>
                   </div>
                   <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/non-dimmable-hf-ballasts__51257.jpg" alt="">
+                    <img src="https://www.lampshoponline.com/media/catalog/category/TA_EVG_F_PC_TC_PRO.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@
                     <h4 style="padding: 10px;">HF Ballasts - Dimmable</h4>
                   </div>
                   <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/Untitled__14028.1384262783.800.800.jpg" alt="">
+                    <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pca-t5c-eco__81363.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@
                     <h4 style="padding: 10px;">Emergency Combo Balasts</h4>
                   </div>
                   <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/EXISTALITE_XCU414.3E_EMERGENCY_COMBO_UNIT.jpg" alt="">
+                    <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pc-combo__63287.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -156,7 +156,7 @@
                     <h4 style="padding: 10px;">Emergency Inverter</h4>
                   </div>
                   <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/non-dimmable-hf-ballasts__51257.jpg" alt="">
+                    <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-em-basic.jpg" alt="">
                   </div>
                 </div>
               </div>
