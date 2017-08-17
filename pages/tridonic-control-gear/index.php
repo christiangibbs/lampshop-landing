@@ -1,5 +1,6 @@
 <?php
   include('../../components/head.php');
+  $panel = "Tridonic are the number one manufacturers of control gear and lighting control systems.";
  ?>
  <style media="screen">
    .col {margin: 0% 0 0% 1.5%;}
