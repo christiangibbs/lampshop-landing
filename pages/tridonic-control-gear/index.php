@@ -176,12 +176,12 @@
     <div class="panel">
       <div class="panel-head" style="background-color: #808080;">
         <h2 style="padding: 10px;">
-          <i class="fa fa-search" aria-hidden="true"></i> FIND THE RIGHT TUBE USING OUR TUBE FINDER TOOL
+          <i class="fa fa-search" aria-hidden="true"></i> FIND THE RIGHT TUBE USING OUR PRODUCT FINDER TOOL
         </h2>
       </div>
       <div class="panel-body" style="overflow: hidden;">
         <div class="col col-2">
-          <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your tube reference number below</h2><br />
+          <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your reference number below</h2><br />
             <div class="search-box">
               <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
                   <div>
