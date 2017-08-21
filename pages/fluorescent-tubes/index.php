@@ -252,24 +252,6 @@ $(document).ready(function(){
 
 <div class="hr"></div>
 
-<!-- Review 1 -->
-<div class="row row-section">
-  <div class="row">
-    <div class="col col-p-2">
-            <iframe src="https://widget.reviews.co.uk/badge/widget?elementId=badge-170&amp;version=1&amp;&amp;store=lampshoponline&amp;primaryClr=%2312d06c&amp;neutralClr=%23f4f4f4&amp;starsClr=%23fff&amp;textClr=%23fff" frameborder="0" width="100%" style="min-width: 140px;" height="203"></iframe>
-    </div>
-    <div class="col col-p-10">
-      <p style="color: #333; font-size: 20px; font-style: italic;">"I have recently converted my full house to Led lighting from LampShopOnline.
-      I didn't really have much of an idea of how to go about this and the task seemed to be quite daunting, however after speaking to the friendly, knowledgeable team at LampShopOnline it was actually really easy, they explained all the benefits of each bulb and found all the correct equivalents for me meaning that I just had to swap the bulbs over, it was really as easy as that! They have saved me a small fortune in energy costs over the last 9 months and I am also doing my bit for the environment too."</p>
-
-      <p style="font-weight: bold; color: #333; font-size: 20px;">Anthony Mollett - A very happy customer</p>
-
-    </div>
-  </div>
-</div>
-
-<div class="hr"></div>
-
 <!-- Comparison table -->
 <div class="row row-section">
   <div class="panel-head" style="background-color: #808080;">
@@ -377,26 +359,6 @@ $(document).ready(function(){
       });
 </script>
 
-<div class="hr"></div>
-
-<!-- Review 2 -->
-<div class="row row-section">
-  <div class="row">
-    <div class="col col-p-2">
-      <iframe src="https://widget.reviews.co.uk/badge/widget?elementId=badge-170&amp;version=1&amp;&amp;store=lampshoponline&amp;primaryClr=%2312d06c&amp;neutralClr=%23f4f4f4&amp;starsClr=%23fff&amp;textClr=%23fff" frameborder="0" width="100%" style="min-width: 140px;" height="203"></iframe>
-    </div>
-    <div class="col col-p-10">
-      <p style="color: #333; font-size: 20px; font-style: italic;">"As an SME in West Dorset we found that our annual lighting bill was too high: 90 double 5ft daylight fitments on for 59 hours per week accounts for approximately 50% of our monthly electricity bill. Our MD stipulates that we should only use daylight bulbs as she was aware of possible adverse health effects of tungsten lighting.
-Gradually converting to LED was the only feasible option for us; we rely on high quality lighting to show our products to best effect. The cost of replacement LED tubes was offset by the fact that we no longer needed a ballast. The outcome has been a great success, we are gradually making replacements and look forward to not having to replace the LED tubes for up to 16 years.
-Rob and the team at Lampshoponline have helped make the transition to LED convenient, accessible and affordable. Rob also advises on green government grants.
-We would not hesitate to recommend Lampshoponline as a supplier."
-</p>
-
-      <p style="font-weight: bold; color: #333; font-size: 20px;">Theresa Tiso / Pp / Lilliput Textiles Ltd</p>
-
-    </div>
-  </div>
-</div>
 
 <div class="hr"></div>
 
