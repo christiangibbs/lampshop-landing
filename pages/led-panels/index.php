@@ -36,6 +36,35 @@
       .product:hover img {
         opacity: 1;
       }
+
+      .temp-small {
+        height: 20px;
+        width: 20px;
+        border-radius: 100px;
+        border: 2px solid #333333;
+        margin: 5px;
+        float: left;
+      }
+      .temp {
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        border: 5px solid #333333;
+        margin: 0 auto;
+      }
+     .temp840 {
+       background: -webkit-radial-gradient(#fff, #D2F7FF); /* Safari 5.1 to 6.0 */
+       background: -o-radial-gradient(#fff, #D2F7FF); /* For Opera 11.6 to 12.0 */
+       background: -moz-radial-gradient(#fff, #D2F7FF); /* For Firefox 3.6 to 15 */
+       background: radial-gradient(#fff, #D2F7FF); /* Standard syntax (must be last) */
+     }
+
+     .temp865 {
+       background: -webkit-radial-gradient(#fff, #BCF0FD); /* Safari 5.1 to 6.0 */
+       background: -o-radial-gradient(#fff, #BCF0FD); /* For Opera 11.6 to 12.0 */
+       background: -moz-radial-gradient(#fff, #BCF0FD); /* For Firefox 3.6 to 15 */
+       background: radial-gradient(#fff, #BCF0FD); /* Standard syntax (must be last) */
+     }
  </style>
 
 
@@ -63,7 +92,7 @@
             </div>
 
             <div class="panel-head product-list-item">
-              <p class="points"><i class="fa fa-check fapoint" aria-hidden="true"></i> 2 YEAR NO QUIBBLE WARRANTY</p>
+              <p class="points"><i class="fa fa-check fapoint" aria-hidden="true"></i> 3 YEAR NO QUIBBLE WARRANTY</p>
             </div>
 
             <div class="panel-head product-list-item">
@@ -118,18 +147,8 @@
                     <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/1/2/1200_x_600_mount_kit__59153.jpg" alt="1200X600 LED PANEL SURFACE MOUNTING KIT" style="width: 50%; margin: 10px auto;">
                   </a>
                 </div>
-                <div class="col col-1">
-                  <a href="https://www.lampshoponline.com/led/led-panels/surface-mounting-kit-for-600x600-led-panels-silver.html" class="product">
-                    <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px; width: 100%;">
-                      <h2 style="margin: 0px; padding: 10px;">SURFACE MOUNTING KIT FOR 600X600 LED PANELS - SILVER</h2>
-                    </div>
-                    <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/l/e/led-panel-surface-mounting-kit-for-600x600-panels_silver.jpg" alt="SURFACE MOUNTING KIT FOR 600X600 LED PANELS - SILVER" style="width: 50%; margin: 0 auto;">
-                  </a>
-                </div>
               </div>
             </div>
-
-
             <script type="text/javascript">
               $(document).ready(function(){
                 $('.your-class').slick({
@@ -197,26 +216,55 @@
             <div class="col col-3">
               <a href="https://www.lampshoponline.com/led/led-panels/600x600-led-panels/45w-led-panel-4000k-600mm-x-600mm-c-w-driver.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
-                  <h2 style="margin: 0px; padding: 10px;">45w LED Panel 4000K - 600mm x 600mm c/w Driver</h2>
+                  <h2 style="margin: 0px; padding: 10px;">45w LED Panel 4000K- 600mm x 600mm c/w Driver </h2>
+                  <div class="temp-small temp840">
+                  </div>
                 </div>
                 <img src="images/panel600.png" alt="45w LED Panel 4000K - 600mm x 600mm c/w Driver" style="width: 90%;">
               </a>
+              <div class="" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; z-index: 10px; position: absolute; margin-top:-125px; text-align: center;">
+                <p style="color: white; margin-top: 15px;">from<br />
+                <span style="font-size: 18px; font-weight: bold;">&pound;21.00</span><br />
+                 inc. VAT
+               </p>
+              </div>
             </div>
             <div class="col col-3">
-              <a href="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_panel_pro_white_copy__80416.jpg" class="product">
+              <a href="https://www.lampshoponline.com/led/led-panels/600x600-led-panels/45w-led-panel-6000k-600mm-x-600mm-c-w-driver.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
                   <h2 style="margin: 0px; padding: 10px;">45w LED Panel 6000K - 600mm x 600mm c/w Driver</h2>
+                  <div class="temp-small temp865">
+
+                  </div>
                 </div>
                 <img src="images/panel600.png" alt="45w LED Panel 6000K - 600mm x 600mm c/w Driver" style="width: 90%;">
               </a>
+              <div class="" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; z-index: 10px; position: absolute; margin-top:-125px; text-align: center;">
+                <p style="color: white; margin-top: 15px;">from<br />
+                <span style="font-size: 18px; font-weight: bold;">&pound;21.00</span><br />
+                 inc. VAT
+               </p>
+              </div>
             </div>
             <div class="col col-3">
               <a href="https://www.lampshoponline.com/led/led-panels/1200x600-led-panel/75w-led-panel-1200mm-x-600mm.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
                   <h2 style="margin: 0px; padding: 10px;">72w LED Panel - 1200mm x 600mm</h2>
+                  <div class="temp-small temp840">
+
+                  </div>
+                  <div class="temp-small temp865">
+
+                  </div>
                 </div>
                 <img src="images/panel1200.png" alt="72w LED Panel - 1200mm x 600mm" style="width: 90%;">
               </a>
+              <div class="" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; z-index: 10px; position: absolute; margin-top:-125px; text-align: center;">
+                <p style="color: white; margin-top: 15px;">from<br />
+                <span style="font-size: 18px; font-weight: bold;">&pound;69.90</span><br />
+                 inc. VAT
+               </p>
+              </div>
             </div>
             </div>
 
@@ -226,25 +274,55 @@
               <a href="https://www.lampshoponline.com/led/led-panels/600x600-led-panels/emergency-45w-led-panel-600mm-x-600mm.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
                   <h2 style="margin: 0px; padding: 10px;">Emergency 45w LED Panel 4000k - 600mm x 600mm</h2>
+                  <div class="temp-small temp840">
+
+                  </div>
                 </div>
                 <img src="images/panel600.png" alt="Emergency 45w LED Panel 4000k - 600mm x 600mm" style="width: 90%;">
               </a>
+              <div class="" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; z-index: 10px; position: absolute; margin-top:-125px; text-align: center;">
+                <p style="color: white; margin-top: 15px;">from<br />
+                <span style="font-size: 18px; font-weight: bold;">&pound;66.00</span><br />
+                 inc. VAT
+               </p>
+              </div>
             </div>
             <div class="col col-3">
               <a href="https://www.lampshoponline.com/led/led-panels/600x600-led-panels/emergency-45w-led-panel-6000k-600mm-x-600mm.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
                   <h2 style="margin: 0px; padding: 10px;">Emergency 45w LED Panel 6000k - 600mm x 600mm</h2>
+                  <div class="temp-small temp865">
+
+                  </div>
                 </div>
                 <img src="images/panel600.png" alt="Emergency 45w LED Panel 6000k - 600mm x 600mm" style="width: 90%;">
               </a>
+              <div class="" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; z-index: 10px; position: absolute; margin-top:-125px; text-align: center;">
+                <p style="color: white; margin-top: 15px;">from<br />
+                <span style="font-size: 18px; font-weight: bold;">&pound;66.00</span><br />
+                 inc. VAT
+               </p>
+              </div>
             </div>
             <div class="col col-3">
               <a href="https://www.lampshoponline.com/led/led-panels/britesource-round-led-light-panel/18w-round-led-light-panel-225mm-twin-18w-pl-replacement.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
                   <h2 style="margin: 0px; padding: 10px;">18w Round LED Light Panel 225mm Twin 18w PL Replacement</h2>
+                  <div class="temp-small temp840">
+
+                  </div>
+                  <div class="temp-small temp865">
+
+                  </div>
                 </div>
                 <img src="images/circular.png" alt="18w Round LED Light Panel 225mm Twin 18w PL Replacement" style="width: 90%;">
               </a>
+              <div class="" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; z-index: 10px; position: absolute; margin-top:-125px; text-align: center;">
+                <p style="color: white; margin-top: 15px;">from<br />
+                <span style="font-size: 18px; font-weight: bold;">&pound;12.56</span><br />
+                 inc. VAT
+               </p>
+              </div>
             </div>
           </div>
         </div>
