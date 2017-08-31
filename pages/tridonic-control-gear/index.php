@@ -1,177 +1,30 @@
 <?php
+  $page = 'venture';
   include('../../components/head.php');
-  $panel = "Tridonic are the number one manufacturers of control gear and lighting control systems.";
+  $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>
- <style media="screen">
-   .col {margin: 0% 0 0% 1.5%;}
-   .panel {overflow: visible; }
-   .panel-body {padding: 0px !important;}
-   .product-nav img {max-height: 100px; height: 100px; opacity: 0.8; margin: 10px;}
-   .product-nav {
-     text-align:center;
-     width: 100%;
-     background: #ffffff;
-     padding: 0;
-     margin: 0;
-     position:relative;
-   }
 
-   .product-nav ul {
-     background: #ffffff;
-     list-style:none;
-     padding:0 20px;
-     margin: 0;
-   }
+<style media="screen">
+  .col {margin: 0% 0 0% 1.5%;}
+  .product p {font-size: 14px;}
+  .wrapper {width: 90%; margin: 10px auto;}
+  .portfolio-item {float: left;}
+  .product:hover{
+   -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+  }
 
+  .product .panel-body {text-align: center;}
+  .product img {max-width: 100%; height: 150px; margin: 0 auto;}
+  .cat-filter img {max-width: 100%; height: 150px;}
 
-   .product-nav ul li {
-     display: inline-block;
-   }
+  .portfolio-nav ul li {width: 100%;}
+  .portfolio-items a {text-decoration: none; color: #000000;}
+  .cat-filter ul .col-6 li b {font-size: 14px;}
+</style>
 
-
-   .product-nav ul li a {
-     color:#333333;
-     display:block;
-     padding:0px 40px;
-     text-decoration:none;
-     float: left;
-   }
-
-   .product-nav ul li:hover img {
-     opacity: 1;
-   }
-
-
-   .product-nav ul li:hover > a{
-       color:#FFFFFF;
-   }
-
-   .product-nav ul li:hover > ul {
-     display:block;
-   }
-
-   .product-nav ul ul {
-     background: #ffffff;
-     padding:20px 0px;
-     overflow: none;
-     z-index: 200;
-     text-align: center;
-     display:none;
-       width: 100%;
-     position: absolute;
-     top: 165px;
-     left: 0px;
-   }
-
-   .product-nav ul li:hover ul a {
-     text-align: center;
-     padding: 0px !important;
-     width: 100%;
-   }
-
- </style>
-
-<div class="row">
-  <div class="col col-1">
-    <div class="panel panel-default">
-      <div class="panel-head" style="background-color: #ffffff; border: 2px solid #119B3C;">
-        <h2 style="padding: 10px; color: #119B3C;">
-          Tridonic Control Gear
-        </h2>
-      </div>
-      <div class="panel-body">
-        <nav class="product-nav">
-      	<ul>
-      		<li>
-            <a href="https://www.lampshoponline.com/control-gear/hf-ballasts-non-dimmable.html">
-              <div class="col col-1">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color: #119B3C;">
-                    <h4 style="padding: 10px;">HF Ballasts - Non Dimmable</h4>
-                  </div>
-                  <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/TA_EVG_F_PC_TC_PRO.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </a>
-            <?php
-              include('categories/non-dimmable.php');
-             ?>
-      		</li>
-          <li>
-            <a href="https://www.lampshoponline.com/control-gear/hf-ballasts-dimmable.html">
-              <div class="col col-1">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color: #119B3C;">
-                    <h4 style="padding: 10px;">HF Ballasts - Dimmable</h4>
-                  </div>
-                  <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pca-t5c-eco__81363.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-
-            </a>
-            <?php
-              include('categories/dimmable.php');
-             ?>
-      		</li>
-          <li>
-            <a href="https://www.lampshoponline.com/control-gear/emergency-combo-ballasts.html">
-              <div class="col col-1">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color: #119B3C;">
-                    <h4 style="padding: 10px;">Emergency Combo Ballasts</h4>
-                  </div>
-                  <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pc-combo__63287.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-
-            </a>
-            <?php
-              include('categories/combo-ballasts.php');
-             ?>
-      		</li>
-          <li>
-            <a href="https://www.lampshoponline.com/control-gear/switch-start-chokes.html">
-              <div class="col col-1">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color: #119B3C;">
-                    <h4 style="padding: 10px;">Switch Start Chokes</h4>
-                  </div>
-                  <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/4__47405.1382695069.800.800_category.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </a>
-      		</li>
-          <li>
-            <a href="https://www.lampshoponline.com/control-gear/emergency-inverter-modules.html">
-              <div class="col col-1">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color: #119B3C;">
-                    <h4 style="padding: 10px;">Emergency Inverter</h4>
-                  </div>
-                  <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-em-basic.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </a>
-            <?php
-              include('categories/emergency-inverter.php');
-             ?>
-      		</li>
-      	</ul>
-      </nav>
-      </div>
-    </div>
-  </div>
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
 <div class="row">
   <div class="col col-1">
     <div class="panel">
@@ -182,22 +35,22 @@
       </div>
       <div class="panel-body" style="overflow: hidden;">
         <div class="col col-2">
-          <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your reference number below</h2><br />
+          <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your reference number below</h2><br>
             <div class="search-box">
               <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
-                  <div>
-                      <!--<label for="search"></label>-->
-                      <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="font-size: 16px;">
-                      <button type="submit" title="Search" class="button">
-                          <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
-                     </button>
-                      <script type="text/javascript">
-                      //<![CDATA[
-                          var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
-                          searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
-                      //]]>
-                      </script>
-                  </div>
+                <div>
+                  <!--<label for="search"></label>-->
+                  <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="font-size: 16px;">
+                  <button type="submit" title="Search" class="button">
+                      <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
+                 </button>
+                  <script type="text/javascript">
+                  //<![CDATA[
+                      var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+                      searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                  //]]>
+                  </script>
+                </div>
               </form>
           </div>
         </div>
@@ -209,74 +62,154 @@
   </div>
 </div>
 
-<style media="screen">
-  footer .col {margin: 0% 0 0% 1.5%;}
+<div class="row">
+  <div class="col col-1">
+    <div class="panel">
+      <div class="panel-head" style="background-color: #119B3C; overflow: hidden">
+        <div class="col col-p-12" style="overflow: hidden">
+          <h2 style="padding: 23px;">Product Filter <span style="font-size: 0.9em;">(click to filter through categories)</span></h2>
+        </div>
+      </div>
 
-</style>
-<footer>
-  <div class="row">
-    <div class="col col-3">
-      <div class="panel panel-padding" style="margin-top: 0px; padding-top: 0px;">
-        <div class="panel-head" style="background-color: #808080;">
-          <h2 style="padding: 10px;"><i class="fa fa-check" aria-hidden="true"></i> Recommended Brand    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h2>
-        </div>
-        <div class="panel-body" style="min-height: 60px; font-size: 16px;">
-          <?php echo $panel; ?>
-        </div>
-      </div>
-    </div>
-    <div class="col col-3">
-      <div class="panel panel-padding" style="margin-top: 0px; padding-top: 0px;">
-        <div class="panel-head" style="background-color: #FD727A;">
-          <h2 style="padding: 10px;"><i class="fa fa-truck" aria-hidden="true"></i> FREE DELIVEY on orders over &pound;40</h2>
-        </div>
-        <div class="panel-body" style="min-height: 60px; font-size: 16px;">
-          If you spend more than £40 we will happily deliver your order for free.
-          *Mainland UK only.
-        </div>
-      </div>
-    </div>
-    <div class="col col-3">
-      <div class="panel panel-padding" style="margin-top: 0px; padding-top: 0px;">
-        <div class="panel-head" style="background-color: #209F96;">
-          <h2 style="padding: 10px;"><i class="fa fa-calendar" aria-hidden="true"></i> 30 DAYS HASSLE FREE RETURN</h2>
-        </div>
-        <div class="panel-body" style="min-height: 60px; font-size: 16px;">
-          Bought the wrong item? We'll allow up to 30 days to return with your money back
-        </div>
-      </div>
-    </div>
-  </div>
+      <style media="screen">
 
-  <div class="row">
-    <div class="col col-1">
-      <div class="panel panel-padding">
-        <div class="panel-head">
-          <div class="panel-head" style="background-color: #808080;">
-            <h2 style="padding: 10px;"><i class="fa fa-smile-o" aria-hidden="true"></i> See what our customers say about us</h2>
+      </style>
+      <div class="panel-body" style="overflow: hidden; background-color: #fff;">
+        <div class="col col-1" style="overflow: none;">
+          <div class="portfolio-nav cat-filter">
+            <ul style="padding: 0px;">
+              <div class="col col-6">
+                <li data-filter=".hf-ballasts-nd">
+                  <div class="panel panel-default">
+                  <div class="panel-heading" style="background-color: #119B3C;">
+                    <h4 style="padding: 10px;">HF Ballasts - Non Dimmable</h4>
+                  </div>
+                  <div class="panel-body">
+                    <img src="https://www.lampshoponline.com/media/catalog/category/TA_EVG_F_PC_TC_PRO.jpg" alt="">
+                  </div>
+                </div>
+                </li>
+              </div>
+              <div class="col col-6">
+                <li data-filter=".hf-ballasts-d">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #119B3C;">
+                      <h4 style="padding: 10px;">HF Ballasts - Dimmable</h4>
+                    </div>
+                    <div class="panel-body">
+                      <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pca-t5c-eco__81363.jpg" alt="">
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col col-6">
+                <li>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #119B3C;">
+                      <h4 style="padding: 10px;">Switch Start Chokes</h4>
+                    </div>
+                    <div class="panel-body">
+                      <img src="https://www.lampshoponline.com/media/catalog/category/4__47405.1382695069.800.800_category.png" alt="">
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col col-6">
+                <li data-filter=".combo-ballasts">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #119B3C;">
+                      <h4 style="padding: 10px;">Emergency Combo Ballasts</h4>
+                    </div>
+                    <div class="panel-body">
+                      <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pc-combo__63287.jpg" alt="">
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col col-6">
+                <li data-filter=".emergency-inverter">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #119B3C;">
+                      <h4 style="padding: 10px;">Emergency Inverter</h4>
+                    </div>
+                    <div class="panel-body">
+                      <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-em-basic.jpg" alt="">
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="col col-6">
+                <li class="active" data-filter="*">
+                  <button type="submit" title="Search" class="button" style="width: 100%;">
+                      <span style="color: #fff; font-weight: bold;"><i class="fa fa-undo"></i> Reset Filter</span>
+                 </button>
+                </li>
+              </div>
+            </ul>
           </div>
         </div>
-        <div class="panel-body">
-          Check out our reviews on reviews.co.uk below.
-          This is an independent website so we have no control over what is written good or bad.
-          Just honest feedback from real customers.
-
-          <script src="https://widget.reviews.co.uk/vertical/dist.js"></script>
-          <div id="full-page-widget" style="width:100%;"></div>
-          <script>
-          verticalWidget('full-page-widget',{
-            store: 'lampshoponline',
-            primaryClr: '#11CD6B',
-            layout:'fullWidth',
-            height: 500,
-            numReviews: 21
-          });
-          </script>
-        </div>
       </div>
     </div>
+
+    <div class="portfolio-items" style="padding-top: 10px;">
+
+      <?php
+        include('products/combo-ballasts.php');
+        include('products/dimmable.php');
+        include('products/emergency-inverter.php');
+        include('products/non-dimmable.php');
+       ?>
+    </div>
   </div>
-</footer>
-<style media="screen">
-  .review_text {font-size: 16px;}
+</div>
+
+
+<script>
+  $(document).ready(function(){
+    $('.portfolio-items').isotope({
+      itemSlector: '.item',
+      layoutMode: 'fitRows'
+    });
+
+    $('.portfolio-nav ul li').click(function(){
+      $('.portfolio-nav a').removeClass('active');
+      $(this).addClass('active');
+
+      var selector = $(this).attr('data-filter');
+      $('.portfolio-items').isotope({
+        filter: selector
+      });
+      return false;
+    });
+  });
+</script>
+
+<style>
+
+.portfolio-nav ul  li {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.portfolio-nav ul li img {
+  opacity: 0.6;
+}
+.portfolio-nav ul li:hover img {
+  opacity: 1;
+}
+.active img {
+  opacity: 1;
+}
+
 </style>
+ <?php
+   include('../../components/footer.php');
+  ?>
