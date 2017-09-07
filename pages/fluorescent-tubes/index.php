@@ -94,14 +94,6 @@
 
 <div class="hr"></div>
 
-<!-- Banner -->
-<div class="row">
-  <div class="col col-1">
-    <img src="images/banner.jpg" alt="Tube Banner" style="width: 100%;">
-  </div>
-</div>
-
-<div class="hr"></div>
 
 <!-- Best Selling Tubes t5, t8, t12 -->
 <div class="row row-section">
