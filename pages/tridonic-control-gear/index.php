@@ -62,6 +62,7 @@
   </div>
 </div>
 
+
 <div class="row">
   <div class="col col-1">
     <div class="panel">
@@ -103,16 +104,16 @@
                 </li>
               </div>
               <div class="col col-6">
-                <li>
+                <a href="https://www.lampshoponline.com/control-gear/switch-start-chokes.html" style="text-decoration: none;">
                   <div class="panel panel-default">
-                    <div class="panel-heading" style="background-color: #119B3C;">
+                    <div class="panel-heading" style="background-color: #119B3C; text-align: center;">
                       <h4 style="padding: 10px;">Switch Start Chokes</h4>
                     </div>
                     <div class="panel-body">
                       <img src="https://www.lampshoponline.com/media/catalog/category/4__47405.1382695069.800.800_category.png" alt="">
                     </div>
                   </div>
-                </li>
+                </a>
               </div>
               <div class="col col-6">
                 <li data-filter=".combo-ballasts">
@@ -141,8 +142,8 @@
               <div class="col col-6">
                 <li class="active" data-filter="*">
                   <button type="submit" title="Search" class="button" style="width: 100%;">
-                      <span style="color: #fff; font-weight: bold;"><i class="fa fa-undo"></i> Reset Filter</span>
-                 </button>
+                    <span style="color: #fff; font-weight: bold;"><i class="fa fa-undo"></i> Reset Filter</span>
+                  </button>
                 </li>
               </div>
             </ul>
