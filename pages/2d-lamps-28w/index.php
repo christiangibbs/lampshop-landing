@@ -34,32 +34,13 @@
   <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
     <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
   </div>
-  <div class="col-sm-12" style="background-color: #e4e4e4; height: 50px;">
-    <h1 style="position: relative; color: #e4e4e4; font-size: 50px"><span style="height: 55%; position: absolute; color: #ffffff; overflow: hidden;">2D Lamps</span>
-      2D Lamps</h1>
+  <div class="col-sm-12" style="background-color: #e0e0e0;">
+    <h1 style="position: relative; color: #333;">28W 2D Lamps</h1>
   </div>
   <div class="col-sm-12">
     <div class="panel-body filter">
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <h2>Step 1:</h2>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            Select your Wattage
-          </div><!-- panel-heading -->
-          <div class="panel-body">
-            <ul class="button-group nav nav-pills" data-filter-group="wattage">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".w16" role="presentation"><a href="#">16W</a></li>
-              <li data-filter=".w21" role="presentation"><a href="#">21W</a></li>
-              <li data-filter=".w28" role="presentation"><a href="#">28W</a></li>
-              <li data-filter=".w38" role="presentation"><a href="#">38W</a></li>
-              <li data-filter=".w55" role="presentation"><a href="#">55W</a></li>
-            </ul>
-          </div>
-        </div><!-- panel panel-default -->
-      </div><!-- col-sm-4 -->
-      <div class="col-sm-4">
-        <h2>Step 2:</h2>
         <div class="panel panel-default">
           <div class="panel-heading">
             Select your Cap Type
@@ -73,8 +54,8 @@
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->
       </div><!-- col-sm-4 -->
-      <div class="col-sm-4">
-        <h2>Step 3:</h2>
+      <div class="col-sm-6">
+        <h2>Step 2:</h2>
         <div class="panel panel-default">
           <div class="panel-heading">
             Select your Brand

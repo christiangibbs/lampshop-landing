@@ -1,289 +1,161 @@
 <?php
-  include('../../components/head.php');
-  $panel = "We recommend GE because they offer almost double the lamp life of budget 2Ds, are the only 2D approved by the manufacturers for use in emergency application and will reduce energy bills in comparison to budget 2Ds.
- * Savings calculated by GE Lighting Ltd"
+  $page = 'venture';
+  include('../../components/head-minimal.php');
+  $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>
 
  <style media="screen">
-    body {background-color: #f5f5f5;}
+   .usp {text-align: center; color: #ffffff;}
+   .usp h1 {font-size: 22px; font-weight: bold; margin: 10px;}
+ </style>
+  <body>
 
-   h2 {margin: 0px; padding: 0px; color: #fff;}
 
-   p {padding: 10px; color: white;}
+    <div class="row" style="margin: 0px;
+    max-width: 100%;
+    width: 100%;
+    background: #119b3c;
+    background-image: linear-gradient(#57e073,#119b3c);
+    background-size: 110px 110px;
+    background-repeat: repeat-x;">
+      <div class="col-sm-2">
+        <a href="https://www.lampshoponline.com/" class="logo-href">
+          <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
+        </a>
+      </div>
+    </div>
 
-   .col {padding: 0px;}
+  <div class="col-sm-4 usp" style="background-color: #E28413;">
+    <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
+  </div>
+  <div class="col-sm-4 usp" style="background-color: #FFBA08;">
+    <h1><i class="fa fa-gbp" aria-hidden="true"></i> Best Price Available Online</h1>
+  </div>
+  <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
+    <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
+  </div>
+  <div class="col-sm-12" style="background-color: #e0e0e0;">
+    <h1 style="position: relative; color: #333;">2D Lamps</h1>
+  </div>
+  <div class="col-sm-12">
+    <div class="panel-body filter">
+      <div class="col-sm-4">
+        <h2>Step 1:</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Select your Wattage
+          </div><!-- panel-heading -->
+          <div class="panel-body">
+            <ul class="button-group nav nav-pills" data-filter-group="wattage">
+              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
+              <li data-filter=".w16" role="presentation"><a href="#">16W</a></li>
+              <li data-filter=".w21" role="presentation"><a href="#">21W</a></li>
+              <li data-filter=".w28" role="presentation"><a href="#">28W</a></li>
+              <li data-filter=".w38" role="presentation"><a href="#">38W</a></li>
+              <li data-filter=".w55" role="presentation"><a href="#">55W</a></li>
+            </ul>
+          </div>
+        </div><!-- panel panel-default -->
+      </div><!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <h2>Step 2:</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Select your Cap Type
+          </div>
+          <div class="panel-body">
+            <ul class="button-group nav nav-pills" data-filter-group="pin">
+              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
+              <li data-filter=".pin2" role="presentation"><a href="#">2 Pin</a></li>
+              <li data-filter=".pin4" role="presentation"><a href="#">4 Pin</a></li>
+            </ul>
+          </div><!-- panel-body -->
+        </div><!-- panel panel-default -->
+      </div><!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <h2>Step 3:</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Select your Brand
+          </div>
+          <div class="panel-body">
+            <ul class="button-group nav nav-pills" data-filter-group="brand">
+              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
+              <li data-filter=".branded" role="presentation"><a href="#">Branded</a></li>
+              <li data-filter=".ge" role="presentation"><a href="#">GE</a></li>
+              <li data-filter=".bell" role="presentation"><a href="#">Bell</a></li>
+              <li data-filter=".philips" role="presentation"><a href="#">Philips</a></li>
+              <li data-filter=".osram" role="presentation"><a href="#">Osram</a></li>
+              <li data-filter=".sylvania" role="presentation"><a href="#">Sylvania</a></li>
+            </ul>
+          </div><!-- panel-body -->
+        </div><!-- panel panel-default -->
+      </div><!-- col-sm-4 -->
+    </div><!-- panel-body filter -->
+  </div><!-- col-sm-12 -->
+  <div class="col-sm-12">
+    <h2>Final Step:</h2>
+    <div class="products">
+      <?php include('products/branded.php'); ?>
+      <?php include('products/ge.php'); ?>
+      <?php include('products/bell.php'); ?>
+      <?php include('products/philips.php'); ?>
+      <?php include('products/osram.php'); ?>
+      <?php include('products/sylvania.php'); ?>
+    </div><!-- products -->
+  </div><!-- col-sm-12 -->
 
-   .all-lamps .col {text-align: center; margin: 0.75% 0 0% 1.5%;}
-   .all-lamps .icons img {width: 100%; margin: 10px auto; max-width: 140px;}
-   .all-lamps b {font-size: 16px;}
 
-   .panel-body {background-color: #fff; border: 1px solid #e3e3e3; border-top: none;}
+  <script type="text/javascript">
+    // external js: isotope.pkgd.js
 
-   .product-list-item {background-color: #209F96; width: 90%; margin: 0 auto;}
-   .product-list-item:hover {background-color: #006662; cursor: pointer;}
+    // init Isotope
+    var $products = $('.products').isotope({
+      itemSelector: '.product'
+    });
 
-   .product-body {text-align: center;}
+    // store filter for each group
+    var filters = {};
 
-   .fa-star {color: yellow;}
+    $('.filter').on( 'click', 'li', function() {
+      var $this = $(this);
+      // get group key
+      var $buttonGroup = $this.parents('.button-group');
+      var filterGroup = $buttonGroup.attr('data-filter-group');
+      // set filter for group
+      filters[ filterGroup ] = $this.attr('data-filter');
+      // combine filters
+      var filterValue = concatValues( filters );
+      // set filter for Isotope
+      $products.isotope({ filter: filterValue });
+    });
 
-   .view-all-a {
-     text-decoration: none;
-   }
+    // change is-checked class on buttons
+    $('.button-group').each( function( i, buttonGroup ) {
+      var $buttonGroup = $( buttonGroup );
+      $buttonGroup.on( 'click', 'li', function() {
+        $buttonGroup.find('.active').removeClass('active');
+        $( this ).addClass('active');
+        console.log(i);
+      });
 
-    .view-all-a b {
-      color: black;
+    });
+
+    // flatten object by concatting values
+    function concatValues( obj ) {
+      var value = '';
+      for ( var prop in obj ) {
+        value += obj[ prop ];
+      }
+      return value;
     }
 
-    .view-all-a:hover .fa-search {color: #03CC6F}
-   .fa-search { color: #1E9A41;
-     -o-transition:.5s;
-     -ms-transition:.5s;
-     -moz-transition:.5s;
-     -webkit-transition:.5s;
-     transition:.5s;
-   }
+  </script>
 
-   .top-product {
-      width: 65%;
-      margin: 0 auto;
-      padding: 10px;
-      border: 1px solid #333;
-      border-radius: 10px;
-      margin-bottom: 5px;
-   } .top-product:hover {
-     background-color: #f6f6f6;
-     cursor: pointer;
-   } .top-product img {width: 100%;}
-
-   .product:hover{
-     -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
-   }
- </style>
-
-<div id="landing">
-<div class="row">
-  <div class="col col-1">
-    <div class="panel panel-padding">
-      <div class="panel-title" style="background-color: #1E9A41;">
-      <h2 style="color: #fff; margin-left: 10px;">Choose 2D Energy Saving Lamps From Our Most Popular 2D Products</h2>
-      </div>
-      <div class="panel-body all-lamps" style="overflow: hidden;">
-        <div class="col col-7">
-          <a href="https://www.lampshoponline.com/budget-28w-4pin-2d-lamp.html">
-            <div class="top-product">
-             <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__90808.jpg" alt=""><br />
-            </div>
-          </a>
-          <b>28w 4-Pin 2D Lamp</b>
-        </div>
-        <div class="col col-7">
-          <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/ge-wattmiser-2d/ge-wattmiser-2d-compact-fluorescent-4-pin-28w-24w.html">
-            <div class="top-product">
-              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__90808.jpg" alt=""><br />
-            </div>
-          </a>
-          <b>GE 28w 4-Pin Wattmiser</b>
-        </div>
-        <div class="col col-7">
-          <a href="https://www.lampshoponline.com/budget-16w-4pin-2d-lamp.html">
-            <div class="top-product">
-              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__11235.jpg" alt=""><br />
-            </div>
-          </a>
-          <b>16w 4-Pin 2D</b>
-        </div>
-        <div class="col col-7">
-          <a href="https://www.lampshoponline.com/budget-16w-2pin-2d-lamp.html">
-            <div class="top-product">
-              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__49847.jpg" alt=""><br />
-            </div>
-          </a>
-          <b>16w 2-Pin 2D</b>
-        </div>
-        <div class="col col-7">
-          <a href="https://www.lampshoponline.com/bell-28w-2d-4pin-835-04176.html">
-            <div class="top-product">
-              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/e/bell_2d_lamps__72853.jpg" alt=""><br />
-            </div>
-          </a>
-          <b>Bell 28w 2D 4-Pin 835</b>
-        </div>
-        <div class="col col-7">
-          <a href="https://www.lampshoponline.com/budget-38w-4pin-2d-lamp.html">
-            <div class="top-product">
-              <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10_32794__13369.jpg" alt=""><br />
-            </div>
-          </a>
-          <b>38w 4-Pin 2D</b>
-        </div>
-        <div class="col col-7" style="margin-top: 3%;">
-          <a class="view-all-a" href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps.html">
-              <i class="fa fa-search" aria-hidden="true" style="font-size: 55px; margin-bottom:10px;"></i><br />
-              <b>VIEW ALL</b>
-          </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col col-p-4">
-    <div class="panel panel-padding">
-      <div class="panel-head" style="background-color: #1E9A41;">
-        <h2 style="padding: 10px;">Branded 2D</h2>
-      </div>
-      <div class="panel-body">
-        <div class="row">
-          <div class="col col-2">
-            <div class="panel panel-padding">
-              <div class="panel-title" style="background-color: #1E9A41; color: white">
-                GR8 (2pin)
-              </div>
-              <div class="panel-body">
-                <img src="images/lamp-2d-2pin.jpg" alt="" style="width: 100%;">
-              </div>
-            </div>
-          </div>
-          <div class="col col-2">
-            <div class="panel panel-padding">
-              <div class="panel-title" style="background-color: #1E9A41; color: white">
-                GR10q (4pin)
-              </div>
-              <div class="panel-body">
-                <img src="images/lamp-2d-4pin.jpg" alt="" style="width: 100%;">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel-head product-list-item">
-          <p><i class="fa fa-ban" aria-hidden="true"></i> EMERGENCY AND NONE EMERGENCY AVAILABLE</p>
-        </div><br />
-
-        <div class="panel-head product-list-item">
-          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 8,000 TO 15,000 HOURS AVERAGE LAMP LIFE</p>
-        </div><br />
-
-        <div class="panel-head product-list-item">
-          <p><i class="fa fa-gbp" aria-hidden="true"></i> LOWEST PRICE ONLINE</p>
-        </div><br />
-
-        <div class="panel-head product-list-item">
-          <p><i class="fa fa-home" aria-hidden="true"></i> HUGE STOCK AVAILABLE - NEXT DAY DELIVERY</p>
-        </div><br />
-
-        <div class="panel-head product-list-item">
-          <p><i class="fa fa-key" aria-hidden="true"></i> IDEAL FOR RENTAL PROPERTIES</p>
-        </div><br />
-
-        <div class="panel-head product-list-item">
-          <p><i class="fa fa-paint-brush" aria-hidden="true"></i> RANGE OF COLOURS AVAILABLE</p>
-        </div><br />
-      </div>
-    </div>
-  </div>
-  <div class="col col-p-8">
-    <div class="panel panel-padding">
-      <div class="panel-head" style="background-color: #888888;">
-        <h2 style="padding: 10px;"><i class="fa fa-book" aria-hidden="true"></i> 2D Lamps are also known as Wattmiser 2D, Lynx Q, PL-Q and CFL Square</h2>
-      </div>
-    </div>
-  </div>
-  <div class="col col-p-4">
-    <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/budget-2d-lamps.html" style="text-decoration: none;">
-    <div class="panel panel-padding">
-      <div class="product">
-        <div class="panel-head" style="background-color: #FB6F3F;">
-          <h2 style="padding: 10px;">BEST VALUE : Branded 2D - from &pound;0.82</h2>
-        </div>
-        <div class="panel-body product-body">
-          <img src="https://www.lampshoponline.com/media/catalog/category/2d2.jpg" alt="" style="height: 140px;">
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/bell-2d-lamps.html" style="text-decoration: none;">
-    <div class="panel panel-padding">
-      <div class="product">
-        <div class="panel-head" style="background-color: #279945;">
-          <h2 style="padding: 10px;">Bell CFL Square - from &pound;1.45</h2>
-        </div>
-        <div class="panel-body product-body">
-          <img src="https://www.lampshoponline.com/media/catalog/category/Bell_2D.jpg" alt="" style="height: 140px;">
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/osram-2d-lamps.html" style="text-decoration: none;">
-    <div class="panel panel-padding">
-      <div class=" product">
-        <div class="panel-head" style="background-color: #279945;">
-          <h2 style="padding: 10px;">Osram CFL Square - from &pound;2.97</h2>
-        </div>
-        <div class="panel-body product-body">
-          <img src="https://www.lampshoponline.com/media/catalog/category/osram_2d.jpg" alt="" style="height: 140px;">
-        </div>
-      </div>
-    </div>
-  </div>
-</a>
-  <div class="col col-p-4">
-    <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/ge-wattmiser-2d.html" style="text-decoration: none;">
-    <div class="panel panel-padding">
-      <div class=" product">
-        <div class="panel-head" style="background-color: #148D80;">
-          <h2 style="padding: 10px;">BEST QUALITY : GE Wattmiser 2D - from &pound;2.80</h2>
-        </div>
-        <div class="panel-body product-body">
-          <img src="https://www.lampshoponline.com/media/catalog/category/ge2d2_copy.jpg" alt="" style="height: 140px;">
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/philips-pl-q-lamps.html" style="text-decoration: none;">
-    <div class="panel panel-padding">
-      <div class=" product">
-        <div class="panel-head" style="background-color: #279945;">
-          <h2 style="padding: 10px;">Philips PL-Q - from &pound;2.95</h2>
-        </div>
-        <div class="panel-body product-body">
-          <img src="https://www.lampshoponline.com/media/catalog/category/philips_pl-q.jpg" alt="" style="height: 140px;">
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/sylvania-2d-lynx-q-lamps.html" style="text-decoration: none;">
-    <div class="panel panel-padding">
-      <div class=" product">
-        <div class="panel-head" style="background-color: #279945;">
-          <h2 style="padding: 10px;">Sylvania Lynx Q- from &pound;2.20</h2>
-        </div>
-        <div class="panel-body product-body">
-          <img src="https://www.lampshoponline.com/media/catalog/category/sylvania_2d.jpg" alt="" style="height: 140px;">
-        </div>
-      </div>
-    </div>
-  </a>
-  </div>
-</div>
-</div>
-
-<?php
-  include('../../components/footer.php');
- ?>
-
-
-
-  <!-- <p id="f18w"></p>
-  <p id="f100w"></p> -->
-
-<script type="text/javascript">
-      $(document).ready(function(){
-          $( "#f18w" ).load( "https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html #price-excluding-tax-6764" );
-          $( "#f100w" ).load( "https://www.lampshoponline.com/f100w-t12-fluorescent-tube-8ft-100w.html #price-excluding-tax-477" );
-      });
-</script>
+  <script>!function(e,t,r,n,c,h,o){function a(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return r}try{for(c=e.getElementsByTagName('a'),o='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(h=c[n]).href.indexOf(o))>-1&&(h.href='mailto:'+a(h.href,t+o.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(h=c[n]).parentNode.replaceChild(e.createTextNode(a(h.getAttribute('data-cfemail'),0)),h)}catch(e){}}catch(e){}}(document);</script><script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+  </body>
+</html>
