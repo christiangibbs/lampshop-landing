@@ -112,8 +112,8 @@
             </div>
 
             <div class="button-container">
-              <a href="https://www.lampshoponline.com/catalogsearch/result/?cat=0&q=led+panel">
-                <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW ALL PRODUCTS</button>
+              <a href="https://www.lampshoponline.com/led/led-panels.html">
+                <button type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> VIEW ALL CATEGORIES</button>
               </a>
             </div>
           </div>
@@ -216,7 +216,7 @@
             <div class="col col-3">
               <a href="https://www.lampshoponline.com/led/led-panels/600x600-led-panels/45w-led-panel-4000k-600mm-x-600mm-c-w-driver.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
-                  <h2 style="margin: 0px; padding: 10px;">45w LED Panel 4000K- 600mm x 600mm c/w Driver </h2>
+                  <h2 style="margin: 0px; padding: 10px;">40w LED Panel 4000K- 600mm x 600mm c/w Driver </h2>
                   <div class="temp-small temp840">
                   </div>
                 </div>
@@ -232,7 +232,7 @@
             <div class="col col-3">
               <a href="https://www.lampshoponline.com/led/led-panels/600x600-led-panels/45w-led-panel-6000k-600mm-x-600mm-c-w-driver.html" class="product">
                 <div class="panel-head product-list-item" style="background-color: #808080; margin: 0px;">
-                  <h2 style="margin: 0px; padding: 10px;">45w LED Panel 6000K - 600mm x 600mm c/w Driver</h2>
+                  <h2 style="margin: 0px; padding: 10px;">40w LED Panel 6000K - 600mm x 600mm c/w Driver</h2>
                   <div class="temp-small temp865">
 
                   </div>
