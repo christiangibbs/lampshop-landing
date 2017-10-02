@@ -65,7 +65,7 @@
               Select your Colour
             </div>
             <div class="panel-body">
-              <ul class="button-group nav nav-pills" data-filter-group="pin">
+              <ul class="button-group nav nav-pills" data-filter-group="colour">
                 <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
                 <li data-filter=".t827" role="presentation"><a href="#">Extra Warm White (827)</a></li>
                 <li data-filter=".t835" role="presentation"><a href="#">Standard White (835)</a></li>
