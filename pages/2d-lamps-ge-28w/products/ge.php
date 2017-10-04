@@ -30,7 +30,6 @@
 </div><!-- col-sm-2 product w16 branded pin2 -->
 
 <!-- 2 Pin -->
-
 <div class="col-sm-2 product pin2 t827">
   <div class="panel panel-default">
       <a href="https://www.lampshoponline.com/lamps/compact-fluorescents/2d-lamps/ge-wattmiser-2d/ge-wattmiser-2d-2-pin/ge-wattmiser-f28w-2d-827-2p-85109.html" class="thumbnail">

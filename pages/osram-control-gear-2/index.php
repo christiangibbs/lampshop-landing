@@ -7,6 +7,8 @@
  <style media="screen">
    .usp {text-align: center; color: #ffffff;}
    .usp h1 {font-size: 22px; font-weight: bold; margin: 10px;}
+   .thumbnail a>img, .thumbnail>img {min-height: 125px; max-height: 125px;}
+   .products .product {height: auto;}
  </style>
   <body>
 
@@ -25,7 +27,6 @@
       </div>
     </div>
 
-
   <div class="col-sm-4 usp" style="background-color: #E28413;">
     <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
   </div>
@@ -35,50 +36,68 @@
   <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
     <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
   </div>
-  <div class="col-sm-12" style="background-color: #4b91c1; text-align: center;">
-    <img src="images/ge-logo.png" alt="GE Logo" style="height: 150px; padding: 10px;">
+  <div class="col-sm-12" style="background-color: #f2f2f2; text-align: center;">
+    <img src="images/osram-logo.png" alt="Osram Logo" style="height: 150px; padding: 10px;">
   </div>
   <div class="col-sm-12" style="background-color: #e0e0e0;">
-    <h1 style="position: relative; color: #333;">16W GE Watt-Miser&trade; (2D Lamp)</h1>
+    <h1 style="position: relative; color: #333;">Osram Control Gear</h1>
+  </div>
+  <div class="col-sm-6" style="padding: 0px;">
+    <img src="images/control-gear-banner.jpg" alt="Need Help?" style="width: 100%;">
+    <div class="panel-heading" style="background-color: #e6e6e6;">
+      Search your product reference below
+    </div>
+    <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
+      <div>
+        <!--<label for="search"></label>-->
+        <input class="form-control" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="font-size: 24px; border: none; border-radius: 0px; width: 95%; float: left;">
+        <button type="submit" title="Search" class="btn btn-success" style="float:left; border-radius: 0px; border: none; padding: 6px; width: 5%">
+            <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
+       </button>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+            searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
+      </div>
+    </form>
+  </div>
+  <div class="col-sm-6">
+    <div class="panel-body filter">
+      <div class="col-sm-12">
+        <h2>Dimmable or None-Dimmable?</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Select your Control Gear
+          </div><!-- panel-heading -->
+          <div class="panel-body">
+            <ul class="button-group nav nav-pills" data-filter-group="wattage">
+              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
+              <li data-filter=".dimmable" role="presentation">
+                <a href="#" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/TA_EVG_F_PC_TC_PRO.jpg' style='height: 100px;'/>">Dimmable
+                </a>
+              </li>
+              <li data-filter=".non-dimmable" role="presentation">
+                <a href="#" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/tridonic-pca-t5c-eco__81363.jpg' style='height: 100px;'/>">None-Dimmable
+                </a>
+              </li>
+              <li data-filter=".electronic-hid-ballasts" role="presentation">
+                <a href="#" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/hid-ballasts__49555.jpg' style='height: 100px;'/>">Electronic HID Ballasts
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- panel panel-default -->
+      </div><!-- col-sm-4 -->
+    </div><!-- panel-body filter -->
   </div>
   <div class="col-sm-12">
-    <div class="panel-body filter">
-      <div class="col-sm-6">
-        <h2>Step 1:</h2>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            Select your Cap Type
-          </div>
-          <div class="panel-body">
-            <ul class="button-group nav nav-pills" data-filter-group="pin">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".pin2" role="presentation"><a href="#">2 Pin</a></li>
-              <li data-filter=".pin4" role="presentation"><a href="#">4 Pin</a></li>
-            </ul>
-          </div><!-- panel-body -->
-        </div><!-- panel panel-default -->
-      </div><!-- col-sm-6 -->
-      <div class="col-sm-6">
-        <h2>Step 2:</h2>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            Select your Colour
-          </div>
-          <div class="panel-body">
-            <ul class="button-group nav nav-pills" data-filter-group="colour">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".t827" role="presentation"><a href="#">Extra Warm White (827)</a></li>
-              <li data-filter=".t835" role="presentation"><a href="#">Standard White (835)</a></li>
-            </ul>
-          </div><!-- panel-body -->
-        </div><!-- panel panel-default -->
-      </div><!-- col-sm-6 -->
-    </div><!-- panel-body filter -->
-  </div><!-- col-sm-12 -->
-  <div class="col-sm-12">
-    <h2>Final Step:</h2>
+    <h2>Results:</h2>
     <div class="products">
-      <?php include('products/ge.php'); ?>
+      <?php include('products/dimmable.php'); ?>
+      <?php include('products/non-dimmable.php'); ?>
+      <?php include('products/electronic-hid.php'); ?>
     </div><!-- products -->
   </div><!-- col-sm-12 -->
 
@@ -126,6 +145,12 @@
       }
       return value;
     }
+
+    $('a[data-toggle="tooltip"]').tooltip({
+      animated: 'fade',
+      placement: 'bottom',
+      html: true
+  });
 
   </script>
 

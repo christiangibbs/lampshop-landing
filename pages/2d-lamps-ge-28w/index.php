@@ -10,14 +10,13 @@
  </style>
   <body>
 
-
     <div class="row" style="margin: 0px;
-    max-width: 100%;
-    width: 100%;
-    background: #119b3c;
-    background-image: linear-gradient(#57e073,#119b3c);
-    background-size: 110px 110px;
-    background-repeat: repeat-x;">
+                            max-width: 100%;
+                            width: 100%;
+                            background: #119b3c;
+                            background-image: linear-gradient(#57e073,#119b3c);
+                            background-size: 110px 110px;
+                            background-repeat: repeat-x;">
       <div class="col-sm-2">
         <a href="https://www.lampshoponline.com/" class="logo-href">
           <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
