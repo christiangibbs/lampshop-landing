@@ -1,191 +1,161 @@
 <?php
   $page = 'venture';
-  include('../../components/head.php');
+  include('../../components/head-minimal.php');
   $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>
 
-<style media="screen">
-  .col {margin: 0% 0 0% 1.5%;}
-  .product p {font-size: 14px;}
-  .wrapper {width: 90%; margin: 10px auto;}
-  .portfolio-item {float: left;}
-  .product:hover{
-   -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
-  }
+ <style media="screen">
+   .usp {text-align: center; color: #ffffff;}
+   .usp h1 {font-size: 22px; font-weight: bold; margin: 10px;}
+   .thumbnail a>img, .thumbnail>img {min-height: 125px; max-height: 125px;}
+   .products .product {height: auto;}
+ </style>
+  <body>
 
-  .product .panel-body {text-align: center;}
-  .product img {max-width: 100%; height: 150px; margin: 0 auto;}
-  .cat-filter img {max-width: 100%; height: 150px;}
 
-  .portfolio-nav ul li {width: 100%;}
-  .portfolio-items a {text-decoration: none; color: #000000;}
-  .cat-filter ul .col-6 li b {font-size: 14px;}
-</style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
-<div class="row">
-  <div class="col col-1">
-    <div class="panel">
-      <div class="panel-head" style="background-color: #808080;">
-        <h2 style="padding: 10px;">
-          <i class="fa fa-search" aria-hidden="true"></i> FIND THE RIGHT PRODUCT USING OUR PRODUCT FINDER TOOL
-        </h2>
-      </div>
-      <div class="panel-body" style="overflow: hidden;">
-        <div class="col col-2">
-          <h2 style="font-weight: bold; color: black; margin-top: 10px;">Simply enter your reference number below</h2><br>
-            <div class="search-box">
-              <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get">
-                <div>
-                  <!--<label for="search"></label>-->
-                  <input class="input-box" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="font-size: 16px;">
-                  <button type="submit" title="Search" class="button">
-                      <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
-                 </button>
-                  <script type="text/javascript">
-                  //<![CDATA[
-                      var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
-                      searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
-                  //]]>
-                  </script>
-                </div>
-              </form>
-          </div>
-        </div>
-        <div class="col col-2">
-          <img src="images/control-gear-banner.jpg" alt="Need Help?" style="width: 100%;">
-        </div>
+    <div class="row" style="margin: 0px;
+    max-width: 100%;
+    width: 100%;
+    background: #119b3c;
+    background-image: linear-gradient(#57e073,#119b3c);
+    background-size: 110px 110px;
+    background-repeat: repeat-x;">
+      <div class="col-sm-2">
+        <a href="https://www.lampshoponline.com/" class="logo-href">
+          <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
+        </a>
       </div>
     </div>
+
+  <div class="col-sm-4 usp" style="background-color: #E28413;">
+    <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
   </div>
-</div>
+  <div class="col-sm-4 usp" style="background-color: #FFBA08;">
+    <h1><i class="fa fa-gbp" aria-hidden="true"></i> Best Price Available Online</h1>
+  </div>
+  <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
+    <h1><i class="fa fa-certificate" aria-hidden="true"></i> Official Osram distributor</h1>
+  </div>
+  <div class="col-sm-12" style="background-color: #f2f2f2; text-align: center;">
+    <img src="images/osram-logo.png" alt="Osram Logo" style="height: 150px; padding: 10px;">
+  </div>
+  <div class="col-sm-12" style="background-color: #e0e0e0;">
+    <h1 style="position: relative; color: #333;">Osram Control Gear</h1>
+  </div>
+  <div class="col-sm-6" style="padding: 0px;">
+    <img src="images/control-gear-banner.jpg" alt="Need Help?" style="width: 100%;">
 
-<div class="row">
-  <div class="col col-1">
-    <div class="panel">
-      <div class="panel-head" style="background-color: #119B3C; overflow: hidden">
-        <div class="col col-p-12" style="overflow: hidden">
-          <h2 style="padding: 23px;">Product Filter <span style="font-size: 0.9em;">(click to filter through categories)</span></h2>
-        </div>
+  </div>
+  <div class="col-sm-6">
+    <form action="https://www.lampshoponline.com/catalogsearch/result/" method="get" style="padding: 10px;">
+      <div>
+        <!--<label for="search"></label>-->
+        <input class="form-control" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="font-size: 24px; border: 1px solid #FD6F32; border-right: none; border-radius: 0px; width: 95%; float: left;">
+        <button type="submit" title="Search" class="btn" style="float:left; border-radius: 0px; border: none; padding: 7px; width: 5%; background-color: #FD6F32;">
+            <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:18px"></i>
+       </button>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+            searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
       </div>
-
-      <style media="screen">
-
-      </style>
-      <div class="panel-body" style="overflow: hidden; background-color: #fff;">
-        <div class="col col-1" style="overflow: none;">
-          <div class="portfolio-nav cat-filter">
-            <ul style="padding: 0px;">
-              <div class="col col-4">
-                <li data-filter=".hf-ballasts-nd">
-                  <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color: #119B3C;">
-                    <h4 style="padding: 10px;">HF Ballasts - Non Dimmable</h4>
-                  </div>
-                  <div class="panel-body">
-                    <img src="https://www.lampshoponline.com/media/catalog/category/TA_EVG_F_PC_TC_PRO.jpg" alt="">
-                  </div>
-                </div>
-                </li>
-              </div>
-              <div class="col col-4">
-                <li data-filter=".hf-ballasts-d">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" style="background-color: #119B3C;">
-                      <h4 style="padding: 10px;">HF Ballasts - Dimmable</h4>
-                    </div>
-                    <div class="panel-body">
-                      <img src="https://www.lampshoponline.com/media/catalog/category/tridonic-pca-t5c-eco__81363.jpg" alt="">
-                    </div>
-                  </div>
-                </li>
-              </div>
-              <div class="col col-4">
-                <li data-filter=".hf-ballasts-d">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" style="background-color: #119B3C;">
-                      <h4 style="padding: 10px;">Electronic HID Ballasts</h4>
-                    </div>
-                    <div class="panel-body">
-                      <img src="https://www.lampshoponline.com/media/catalog/category/hid-ballasts__49555.jpg" alt="">
-                    </div>
-                  </div>
-                </li>
-              </div>
-              <div class="col col-4">
-                <li class="active" data-filter="*">
-                  <button type="submit" title="Search" class="button" style="width: 100%;">
-                      <span style="color: #fff; font-weight: bold;"><i class="fa fa-undo"></i> Reset Filter</span>
-                 </button>
-                </li>
-              </div>
+    </form>
+    <div class="panel-body filter">
+      <div class="col-sm-12">
+        <h2>Dimmable or None-Dimmable?</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Select your Control Gear
+          </div><!-- panel-heading -->
+          <div class="panel-body">
+            <ul class="button-group nav nav-pills" data-filter-group="wattage">
+              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
+              <li data-filter=".dimmable" role="presentation">
+                <a href="#" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/qti-te__25744.jpg' style='height: 100px;'/>">Dimmable
+                </a>
+              </li>
+              <li data-filter=".non-dimmable" role="presentation">
+                <a href="#" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/600qtpde110.png' style='height: 100px;'/>">None-Dimmable
+                </a>
+              </li>
+              <li data-filter=".electronic-hid-ballasts" role="presentation">
+                <a href="#" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/osram-pti-gear__53317.jpg' style='height: 100px;'/>">Electronic HID Ballasts
+                </a>
+              </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="portfolio-items" style="padding-top: 10px;">
-
-      <?php
-        include('products/combo-ballasts.php');
-        include('products/dimmable.php');
-        include('products/emergency-inverter.php');
-        include('products/non-dimmable.php');
-       ?>
-    </div>
+        </div><!-- panel panel-default -->
+      </div><!-- col-sm-4 -->
+    </div><!-- panel-body filter -->
   </div>
-</div>
+  <div class="col-sm-12">
+    <h2>Results:</h2>
+    <div class="products">
+      <?php include('products/dimmable.php'); ?>
+      <?php include('products/non-dimmable.php'); ?>
+      <?php include('products/electronic-hid.php'); ?>
+    </div><!-- products -->
+  </div><!-- col-sm-12 -->
 
 
-<script>
-  $(document).ready(function(){
-    $('.portfolio-items').isotope({
-      itemSlector: '.item',
-      layoutMode: 'fitRows'
+  <script type="text/javascript">
+    // external js: isotope.pkgd.js
+
+    // init Isotope
+    var $products = $('.products').isotope({
+      itemSelector: '.product'
     });
 
-    $('.portfolio-nav ul li').click(function(){
-      $('.portfolio-nav a').removeClass('active');
-      $(this).addClass('active');
+    // store filter for each group
+    var filters = {};
 
-      var selector = $(this).attr('data-filter');
-      $('.portfolio-items').isotope({
-        filter: selector
+    $('.filter').on( 'click', 'li', function() {
+      var $this = $(this);
+      // get group key
+      var $buttonGroup = $this.parents('.button-group');
+      var filterGroup = $buttonGroup.attr('data-filter-group');
+      // set filter for group
+      filters[ filterGroup ] = $this.attr('data-filter');
+      // combine filters
+      var filterValue = concatValues( filters );
+      // set filter for Isotope
+      $products.isotope({ filter: filterValue });
+    });
+
+    // change is-checked class on buttons
+    $('.button-group').each( function( i, buttonGroup ) {
+      var $buttonGroup = $( buttonGroup );
+      $buttonGroup.on( 'click', 'li', function() {
+        $buttonGroup.find('.active').removeClass('active');
+        $( this ).addClass('active');
+        console.log(i);
       });
-      return false;
+
     });
+
+    // flatten object by concatting values
+    function concatValues( obj ) {
+      var value = '';
+      for ( var prop in obj ) {
+        value += obj[ prop ];
+      }
+      return value;
+    }
+
+    $('a[data-toggle="tooltip"]').tooltip({
+      animated: 'fade',
+      placement: 'bottom',
+      html: true
   });
-</script>
 
-<style>
+  </script>
 
-.portfolio-nav ul  li {
-    text-align: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    background-color: #fff;
-    cursor: pointer;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease;
-}
-.portfolio-nav ul li img {
-  opacity: 0.6;
-}
-.portfolio-nav ul li:hover img {
-  opacity: 1;
-}
-.active img {
-  opacity: 1;
-}
-
-</style>
- <?php
-   include('../../components/footer.php');
-  ?>
+  <script>!function(e,t,r,n,c,h,o){function a(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return r}try{for(c=e.getElementsByTagName('a'),o='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(h=c[n]).href.indexOf(o))>-1&&(h.href='mailto:'+a(h.href,t+o.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(h=c[n]).parentNode.replaceChild(e.createTextNode(a(h.getAttribute('data-cfemail'),0)),h)}catch(e){}}catch(e){}}(document);</script><script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+  </body>
+</html>
