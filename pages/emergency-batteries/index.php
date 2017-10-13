@@ -10,25 +10,74 @@
  </style>
   <body>
 
+
+    <div class="row" style="margin: 0px;
+    max-width: 100%;
+    width: 100%;
+    background: #119b3c;
+    background-image: linear-gradient(#57e073,#119b3c);
+    background-size: 110px 110px;
+    background-repeat: repeat-x;">
+      <div class="col-sm-2">
+        <a href="https://www.lampshoponline.com/" class="logo-href">
+          <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+  <div class="col-sm-4 usp" style="background-color: #E28413;">
+    <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
+  </div>
+  <div class="col-sm-4 usp" style="background-color: #FFBA08;">
+    <h1><i class="fa fa-gbp" aria-hidden="true"></i> Best Price Available Online</h1>
+  </div>
+  <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
+    <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
+  </div>
+  <div class="col-sm-12" style="background-color: #e0e0e0;">
+    <h1 style="position: relative; color: #333;">2D Lamps</h1>
+  </div>
   <div class="col-sm-12">
     <div class="panel-body filter">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <h2>Step 1:</h2>
         <div class="panel panel-default">
           <div class="panel-heading">
-            Select your Cap Type
+            Select your Brand
+          </div><!-- panel-heading -->
+          <div class="panel-body">
+            <ul class="button-group nav nav-pills" data-filter-group="wattage">
+              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
+              <li data-filter=".yuasa" role="presentation"><a href="#">Yuasa</a></li>
+              <li data-filter=".yuasaNp" role="presentation"><a href="#">Yuasa NP Series</a></li>
+              <li data-filter=".britesource" role="presentation"><a href="#">BriteSource</a></li>
+              <li data-filter=".mackwell" role="presentation"><a href="#">Mackwell Batteries</a></li>
+              <li data-filter=".elp" role="presentation"><a href="#">ELP Emergency Batteries</a></li> 
+            </ul>
+          </div>
+        </div><!-- panel panel-default -->
+      </div><!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <h2>Step 2:</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Select the number of cells
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="pin">
               <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".pin2" role="presentation"><a href="#">2 Pin</a></li>
-              <li data-filter=".pin4" role="presentation"><a href="#">4 Pin</a></li>
+              <li data-filter=".cell1" role="presentation"><a href="#">1</a></li>
+              <li data-filter=".cell2" role="presentation"><a href="#">2</a></li>
+              <li data-filter=".cell3" role="presentation"><a href="#">3</a></li>
+              <li data-filter=".cell4" role="presentation"><a href="#">4</a></li>
+              <li data-filter=".cell5" role="presentation"><a href="#">5</a></li>
+              <li data-filter=".cell6" role="presentation"><a href="#">6</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->
       </div><!-- col-sm-4 -->
-      <div class="col-sm-6">
-        <h2>Step 2:</h2>
+      <div class="col-sm-4">
+        <h2>Step 3:</h2>
         <div class="panel panel-default">
           <div class="panel-heading">
             Select your Brand

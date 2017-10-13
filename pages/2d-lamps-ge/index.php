@@ -10,34 +10,6 @@
  </style>
   <body>
 
-
-    <div class="row" style="margin: 0px;
-    max-width: 100%;
-    width: 100%;
-    background: #119b3c;
-    background-image: linear-gradient(#57e073,#119b3c);
-    background-size: 110px 110px;
-    background-repeat: repeat-x;">
-      <div class="col-sm-2">
-        <a href="https://www.lampshoponline.com/" class="logo-href">
-          <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
-        </a>
-      </div>
-    </div>
-
-
-  <div class="col-sm-4 usp" style="background-color: #E28413;">
-    <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
-  </div>
-  <div class="col-sm-4 usp" style="background-color: #FFBA08;">
-    <h1><i class="fa fa-gbp" aria-hidden="true"></i> Best Price Available Online</h1>
-  </div>
-  <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
-    <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
-  </div>
-  <div class="col-sm-12" style="background-color: #4b91c1; text-align: center;">
-    <img src="images/ge-logo.png" alt="GE Logo" style="height: 150px; padding: 10px;">
-  </div>
   <div class="col-sm-12" style="background-color: #e0e0e0;">
     <h1 style="position: relative; color: #333;">GE Watt-Miser&trade; (2D Lamps)</h1>
   </div>
