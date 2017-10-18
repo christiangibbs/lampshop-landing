@@ -10,21 +10,6 @@
  </style>
   <body>
 
-
-    <div class="row" style="margin: 0px;
-    max-width: 100%;
-    width: 100%;
-    background: #119b3c;
-    background-image: linear-gradient(#57e073,#119b3c);
-    background-size: 110px 110px;
-    background-repeat: repeat-x;">
-      <div class="col-sm-2">
-        <a href="https://www.lampshoponline.com/" class="logo-href">
-          <img class="logo" src="https://www.lampshoponline.com/skin/frontend/rwd/lampshop/images/logo.png" alt="Logo">
-        </a>
-      </div>
-    </div>
-
   <div class="col-sm-4 usp" style="background-color: #E28413;">
     <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
   </div>
@@ -35,7 +20,7 @@
     <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
   </div>
   <div class="col-sm-12" style="background-color: #e0e0e0;">
-    <h1 style="position: relative; color: #333;">2D Lamps</h1>
+    <h1 style="position: relative; color: #333;">Try Our Battery Finder Tool</h1>
   </div>
   <div class="col-sm-12">
     <div class="panel-body filter">
@@ -49,10 +34,9 @@
             <ul class="button-group nav nav-pills" data-filter-group="wattage">
               <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
               <li data-filter=".yuasa" role="presentation"><a href="#">Yuasa</a></li>
-              <li data-filter=".yuasaNp" role="presentation"><a href="#">Yuasa NP Series</a></li>
               <li data-filter=".britesource" role="presentation"><a href="#">BriteSource</a></li>
               <li data-filter=".mackwell" role="presentation"><a href="#">Mackwell Batteries</a></li>
-              <li data-filter=".elp" role="presentation"><a href="#">ELP Emergency Batteries</a></li> 
+              <li data-filter=".elp" role="presentation"><a href="#">ELP</a></li>
             </ul>
           </div>
         </div><!-- panel panel-default -->
@@ -61,7 +45,7 @@
         <h2>Step 2:</h2>
         <div class="panel panel-default">
           <div class="panel-heading">
-            Select the number of cells
+            Select the number of Cells
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="pin">
@@ -76,36 +60,15 @@
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->
       </div><!-- col-sm-4 -->
-      <div class="col-sm-4">
-        <h2>Step 3:</h2>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            Select your Brand
-          </div>
-          <div class="panel-body">
-            <ul class="button-group nav nav-pills" data-filter-group="brand">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".branded" role="presentation"><a href="#">Branded</a></li>
-              <li data-filter=".ge" role="presentation"><a href="#">GE</a></li>
-              <li data-filter=".bell" role="presentation"><a href="#">Bell</a></li>
-              <li data-filter=".philips" role="presentation"><a href="#">Philips</a></li>
-              <li data-filter=".osram" role="presentation"><a href="#">Osram</a></li>
-              <li data-filter=".sylvania" role="presentation"><a href="#">Sylvania</a></li>
-            </ul>
-          </div><!-- panel-body -->
-        </div><!-- panel panel-default -->
-      </div><!-- col-sm-4 -->
     </div><!-- panel-body filter -->
   </div><!-- col-sm-12 -->
   <div class="col-sm-12">
     <h2>Final Step:</h2>
     <div class="products">
-      <?php include('products/branded.php'); ?>
-      <?php include('products/ge.php'); ?>
-      <?php include('products/bell.php'); ?>
-      <?php include('products/philips.php'); ?>
-      <?php include('products/osram.php'); ?>
-      <?php include('products/sylvania.php'); ?>
+      <?php include('products/britesource.php'); ?>
+      <?php include('products/yuasa.php'); ?>
+      <?php include('products/mackwell.php'); ?>
+      <?php include('products/elp.php'); ?>
     </div><!-- products -->
   </div><!-- col-sm-12 -->
 

@@ -136,15 +136,22 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<style media="screen">
+  .brands {
+    text-align: center;
+  }
+  .brands img {max-width: 100%; max-height: 40px; padding: 10px;}
+</style>
 
+<!--
 <div class="col-sm-12" style="padding: 0px;">
-  <div class="col-sm-4 usp" style="background-color: #E28413;">
+  <div class="col-sm-4 usp" style="color: #333333;">
     <h1><i class="fa fa-refresh" aria-hidden="true"></i> Easy Return Process</h1>
   </div>
-  <div class="col-sm-4 usp" style="background-color: #FFBA08;">
+  <div class="col-sm-4 usp" style="color: #333333;">
     <h1><i class="fa fa-gbp" aria-hidden="true"></i> Best Price Available Online</h1>
   </div>
-  <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
+  <div class="col-sm-4 usp" style="color: #333333;">
     <h1><i class="fa fa-certificate" aria-hidden="true"></i> All major brands stocked</h1>
   </div>
-</div>
+</div> -->
