@@ -57,17 +57,17 @@
           </div><!-- panel-heading -->
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="wattage">
-              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter class="active" role="presentation"><a style="cursor: pointer" >Any</a></li>
               <li data-filter=".dimmable" role="presentation">
-                <a data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/qti-te__25744.jpg' style='height: 100px;'/>">Dimmable
+                <a style="cursor: pointer" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/qti-te__25744.jpg' style='height: 100px;'/>">Dimmable
                 </a>
               </li>
               <li data-filter=".non-dimmable" role="presentation">
-                <a data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/600qtpde110.png' style='height: 100px;'/>">None-Dimmable
+                <a style="cursor: pointer" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/600qtpde110.png' style='height: 100px;'/>">None-Dimmable
                 </a>
               </li>
               <li data-filter=".electronic-hid-ballasts" role="presentation">
-                <a data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/osram-pti-gear__53317.jpg' style='height: 100px;'/>">Electronic HID Ballasts
+                <a style="cursor: pointer" data-toggle="tooltip" title="<img src='https://www.lampshoponline.com/media/catalog/category/osram-pti-gear__53317.jpg' style='height: 100px;'/>">Electronic HID Ballasts
                 </a>
               </li>
             </ul>
