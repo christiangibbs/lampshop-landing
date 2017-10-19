@@ -1,5 +1,5 @@
 <?php
-  $page = 'fluorescent-tubes';
+  $page = 'Fluorescent Tubes';
   include('../../components/head.php');
   $panel = "We recommend any of our Fluorescent Tubes as they are all premium brands and the highest quality.";
 ?>

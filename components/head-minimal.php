@@ -124,24 +124,85 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="https://www.lampshoponline.com/"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="#">Special Offers</a></li>
-        <li><a href="#">Fluorescent Tubes</a></li>
-        <li><a href="#">Lamps</a></li>
-        <li><a href="#">LED</a></li>
-        <li><a href="#">Control Gear</a></li>
-        <li><a href="#">Fittings</a></li>
-        <li><a href="#">Advice Centre</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="https://www.lampshoponline.com/special-offers.html">Special Offers</a></li>
+        <li><a href="https://www.lampshoponline.com/fluorescent-tubes.html">Fluorescent Tubes</a></li>
+        <li><a href="https://www.lampshoponline.com/lamps.html">Lamps</a></li>
+        <li><a href="https://www.lampshoponline.com/led.html">LED</a></li>
+        <li><a href="https://www.lampshoponline.com/control-gear.html">Control Gear</a></li>
+        <li><a href="https://www.lampshoponline.com/fittings.html">Fittings</a></li>
+        <li><a href="https://www.lampshoponline.com/catalog/category/view/s/advice/id/868/">Advice Centre</a></li>
+        <li><a href="https://www.lampshoponline.com/contacts/">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="tel:01138876270" style="font-size: 18px;">Your #1 Source for Fluorescent Tubes!</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <style media="screen">
-  .brands {
-    text-align: center;
-  }
-  .brands img {max-width: 100%; max-height: 40px; padding: 10px;}
+  .usp-bar {text-align: center; background-color: #ffffff; color: #157d61;  padding: 5px; border-bottom: 2px solid #FF6F28;}
+  .usp-bar i {font-size: 22px; line-height: 40px;}
 </style>
+
+<div class="col-sm-12 usp-bar">
+  <div class="col-sm-2">
+    <div class="col-sm-4">
+      <i class="fa fa-truck" aria-hidden="true"></i>
+    </div>
+    <div class="col-sm-8">
+      <span style="font-weight: bold;">Free Delivery</span> On All Orders Over &pound;48
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="col-sm-4">
+      <i class="fa fa-line-chart" aria-hidden="true"></i>
+    </div>
+    <div class="col-sm-8">
+      Over <span style="font-weight: bold;">1,000,000</span> Lamps Sold In 2017
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="col-sm-4">
+      <i class="fa fa-certificate" aria-hidden="true"></i>
+    </div>
+    <div class="col-sm-8">
+      We Only Supply <span style="font-weight: bold;">Trusted </span> Brands
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="col-sm-4">
+      <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+    </div>
+    <div class="col-sm-8">
+      30 Day <span style="font-weight: bold;">Money Back</span> Guarentee
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="col-sm-4">
+      <i class="fa fa-smile-o" aria-hidden="true"></i>
+    </div>
+    <div class="col-sm-8">
+      Customer Satisfaction <span style="font-weight: bold;">Guarenteed</span>
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="col-sm-4">
+      <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+    </div>
+    <div class="col-sm-8">
+      Over <span style="font-weight: bold;">30 Years</span> Experience In Lighting
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-12" style="text-align: center; font-size: 22px; line-height: 40px; background-color: #f1f1f1; box-shadow: 0 2px 4px -2px gray; border-bottom: 2px solid #FF6F28;">
+  <em>Need some help whilst you're shopping?</em> Call our experts for advice <b>0113 8876270</b>
+</div>
 
 <!--
 <div class="col-sm-12" style="padding: 0px;">

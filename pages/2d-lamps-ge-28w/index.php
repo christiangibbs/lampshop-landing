@@ -1,5 +1,5 @@
 <?php
-  $page = 'venture';
+  $page = 'GE 28W 2D Lamps';
   include('../../components/head-minimal.php');
   $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>
@@ -9,7 +9,7 @@
    .usp h1 {font-size: 22px; font-weight: bold; margin: 10px;}
  </style>
   <body>
-    
+
     <div class="col-sm-12" style="background-color: #4b91c1; text-align: center;">
       <img src="images/ge-logo.png" alt="GE Logo" style="height: 150px; padding: 10px;">
     </div>

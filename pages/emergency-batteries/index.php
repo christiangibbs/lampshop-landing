@@ -1,5 +1,5 @@
 <?php
-  $page = 'venture';
+  $page = 'Emergency Batteries';
   include('../../components/head-minimal.php');
   $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>

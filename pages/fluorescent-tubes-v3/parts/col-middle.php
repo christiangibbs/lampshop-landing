@@ -1,4 +1,4 @@
-<div class="col-sm-8">
+<div class="col-sm-8 col-sm-offset-2" style="z-index: -1;">
   <div class="col-sm-12" style="background-color: #ffffff; padding: 0px;">
     <div class="col-sm-6" style="background: red; /* For browsers that do not support gradients */
       background: -webkit-linear-gradient(left, #e3e3e3 , white); /* For Safari 5.1 to 6.0 */
@@ -28,11 +28,88 @@
   <div class="col-sm-12" style="height:2px; width: 100%; background-color: #e3e3e3; margin-bottom: 10px;">
 
   </div>
+
   <div class="col-sm-12">
 
     <div class="panel panel-default">
       <div class="panel-title" style="background-color: #109A3B;">
-        <h2 style="position: relative; color: #333; margin:0px; padding: 10px; color: #ffffff;">Normal Fluorescent Tubes Or Shop By Type</h2>
+        <h2 style="position: relative; color: #333; margin:0px; padding: 10px; color: #ffffff;">The Most Popular Fluorescent Tubes</h2>
+      </div><!-- / panel-title -->
+    </div><!-- / panel panel-default -->
+
+    <div class="col-sm-2 product">
+     <div class="panel panel-default">
+       <a href="https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w-daylight.html" class="thumbnail">
+         <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T5 Mini">
+       </a>
+       <div class="panel-body">
+         <h3>F18W T8</h3>
+       </div><!-- / panel-body -->
+     </div><!-- / panel panel-default -->
+   </div><!-- / col-sm-3 product -->
+
+    <div class="col-sm-2 product">
+      <div class="panel panel-default">
+        <a href="https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w-daylight.html" class="thumbnail">
+          <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T5 Standard">
+        </a>
+        <div class="panel-body">
+          <h3>F58W T8</h3>
+        </div><!-- / panel-body -->
+      </div><!-- / panel panel-default -->
+    </div><!-- / col-sm-3 product -->
+
+     <div class="col-sm-2 product">
+       <div class="panel panel-default">
+         <a href="https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w-daylight.html" class="thumbnail">
+           <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T8 Tubes">
+         </a>
+         <div class="panel-body">
+           <h3>F36W T8</h3>
+         </div><!-- / panel-body -->
+       </div><!-- / panel panel-default -->
+     </div><!-- / col-sm-3 product -->
+
+    <div class="col-sm-2 product">
+      <div class="panel panel-default">
+        <a href="https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w-daylight.html" class="thumbnail">
+          <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T12 Tubes">
+        </a>
+        <div class="panel-body">
+          <h3>F70W T8</h3>
+        </div><!-- / panel-body -->
+      </div><!-- / panel panel-default -->
+    </div><!-- / col-sm-3 product -->
+
+    <div class="col-sm-2 product">
+      <div class="panel panel-default">
+        <a href="https://www.lampshoponline.com/f100w-t12-fluorescent-tube-8ft-100w.html" class="thumbnail">
+          <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/1/t12_web_pics_copy__84880.jpg" alt="T12 Tubes">
+        </a>
+        <div class="panel-body">
+          <h3>F100W T12</h3>
+        </div><!-- / panel-body -->
+      </div><!-- / panel panel-default -->
+    </div><!-- / col-sm-3 product -->
+
+    <div class="col-sm-2 product">
+      <div class="panel panel-default">
+        <a href="https://www.lampshoponline.com/f14w-14w-t5-high-efficiency-triphosphor-fluorescent-tube-549mm.html" class="thumbnail">
+          <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/f/l/fluorescent_t5_tube_64931.1294831722.800.800_93756.1362748880.800.800_66109__42498.jpg" alt="T12 Tubes">
+        </a>
+        <div class="panel-body">
+          <h3>F14W T5</h3>
+        </div><!-- / panel-body -->
+      </div><!-- / panel panel-default -->
+    </div><!-- / col-sm-3 product -->
+
+  </div><!-- / col-sm-12 -->
+
+  <div class="col-sm-12">
+
+    <div class="panel panel-default">
+      <div class="panel-title" style="background-color: #109A3B;">
+        <h2 style="position: relative; color: #333; margin:0px; padding: 10px; color: #ffffff;">Or Shop By Type</h2>
       </div><!-- / panel-title -->
     </div><!-- / panel panel-default -->
 

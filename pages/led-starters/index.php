@@ -1,5 +1,5 @@
 <?php
-  $page = "led-panels";
+  $page = "LED Starters";
   include('../../components/head-minimal.php');
   $panel = "We recommend any of our LED Panels as they are all premium brands and the highest quality.";
  ?>
