@@ -1,4 +1,33 @@
 <div class="col-sm-8">
+  <div class="col-sm-12" style="background-color: #ffffff; padding: 0px;">
+    <div class="col-sm-6" style="background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, #e3e3e3 , white); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, #e3e3e3, white); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, #e3e3e3, white); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, #e3e3e3, white); /* Standard syntax */ height: 185px;">
+      <form class="form-inline" action="https://www.lampshoponline.com/catalogsearch/result/" method="get" style="margin-top: 50px;">
+        <div class="form-group" style="width: 100%;">
+         <input class="form-control" type="text" name="q" value="" maxlength="128" placeholder="enter reference number" style="height: 80px; font-size: 34px;">
+         <button type="submit" title="Search" class="btn btn-warning">
+            <i class="fa fa-search" aria-hidden="true" style="color: white; font-size:50px"></i>
+         </button>
+        </div>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+            searchForm.initAutocomplete('https://www.lampshoponline.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
+      </form>
+    </div>
+    <div class="col-sm-6" style="padding: 0px;">
+      <img src="images/banner.jpg" alt="" style="float: right; width: 100%;">
+    </div>
+  </div>
+
+  <div class="col-sm-12" style="height:2px; width: 100%; background-color: #e3e3e3; margin-bottom: 10px;">
+
+  </div>
   <div class="col-sm-12">
 
     <div class="panel panel-default">
