@@ -62,6 +62,8 @@
 </head>
 <body>
 <style media="screen">
+
+a {cursor: pointer;}
 .top-head {
     margin: 0px;
     max-width: 100%;
