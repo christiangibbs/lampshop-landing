@@ -12,16 +12,6 @@
  </style>
   <body>
 
-
-  <div class="col-sm-4 usp" style="background-color: #E28413;">
-    <h1><i class="fa fa-trophy" aria-hidden="true"></i> Largest Online Stockist</h1>
-  </div>
-  <div class="col-sm-4 usp" style="background-color: #FFBA08;">
-    <h1><i class="fa fa-gbp" aria-hidden="true"></i> Best Price Available Online</h1>
-  </div>
-  <div class="col-sm-4 usp" style="background-color: #DD1C1A;">
-    <h1><i class="fa fa-certificate" aria-hidden="true"></i> Official Osram distributor</h1>
-  </div>
   <div class="col-sm-12" style="background-color: #f2f2f2; text-align: center;">
     <img src="images/osram-logo.png" alt="Osram Logo" style="height: 150px; padding: 10px;">
   </div>

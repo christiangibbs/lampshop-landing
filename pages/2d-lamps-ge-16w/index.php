@@ -9,7 +9,9 @@
    .usp h1 {font-size: 22px; font-weight: bold; margin: 10px;}
  </style>
   <body>
-
+  <div class="col-sm-12" style="background-color: #4b91c1; text-align: center;">
+    <img src="images/ge-logo.png" alt="GE Logo" style="height: 150px; padding: 10px;">
+  </div>
   <div class="col-sm-12" style="background-color: #e0e0e0;">
     <h1 style="position: relative; color: #333;">16W GE Watt-Miser&trade; (2D Lamp)</h1>
   </div>

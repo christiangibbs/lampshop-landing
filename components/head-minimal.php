@@ -134,7 +134,7 @@
         <li><a href="https://www.lampshoponline.com/contacts/">Contact Us</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="tel:01138876270" style="font-size: 18px;">Your #1 Source for Fluorescent Tubes!</a></li>
+        <li><a href="tel:01138876270" style="font-size: 18px;">Your #1 Source for <?php echo $page; ?></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
