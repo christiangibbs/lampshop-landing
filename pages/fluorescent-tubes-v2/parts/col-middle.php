@@ -39,7 +39,7 @@
 
     <div class="col-sm-2 product">
      <div class="panel panel-default">
-       <a href="https://www.lampshoponline.com/f18w-t8-triphosphor-fluorescent-tube-2ft-18w-daylight.html" class="thumbnail">
+       <a href="https://www.lampshoponline.com/fluorescent-tubes/t8-tubes/f18w-t8-triphosphor-fluorescent-tube-2ft-18w.html" class="thumbnail">
          <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T5 Mini">
        </a>
        <div class="panel-body">
@@ -50,7 +50,7 @@
 
     <div class="col-sm-2 product">
       <div class="panel panel-default">
-        <a href="https://www.lampshoponline.com/f58w-t8-triphosphor-fluorescent-tube-5ft-58w-daylight.html" class="thumbnail">
+        <a href="https://www.lampshoponline.com/fluorescent-tubes/t8-tubes/f58w-t8-triphosphor-fluorescent-tube-5ft-58w.html" class="thumbnail">
           <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T5 Standard">
         </a>
         <div class="panel-body">
@@ -61,7 +61,7 @@
 
      <div class="col-sm-2 product">
        <div class="panel panel-default">
-         <a href="https://www.lampshoponline.com/f36w-t8-triphosphor-fluorescent-tube-4ft-36w-daylight.html" class="thumbnail">
+         <a href="https://www.lampshoponline.com/fluorescent-tubes/t8-tubes/f36w-t8-triphosphor-fluorescent-tube-4ft-36w.html" class="thumbnail">
            <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T8 Tubes">
          </a>
          <div class="panel-body">
@@ -72,7 +72,7 @@
 
     <div class="col-sm-2 product">
       <div class="panel panel-default">
-        <a href="https://www.lampshoponline.com/f70w-t8-triphosphor-fluorescent-tube-6ft-70w-daylight.html" class="thumbnail">
+        <a href="https://www.lampshoponline.com/fluorescent-tubes/t8-tubes/f70w-t8-triphosphor-fluorescent-tube-6ft-70w.html" class="thumbnail">
           <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/8/t8_tube_94615.1324545917.800.800_37637.1362674923.800.800_54923__87404.jpg" alt="T12 Tubes">
         </a>
         <div class="panel-body">
