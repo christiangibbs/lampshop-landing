@@ -177,7 +177,7 @@
       <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
     </div>
     <div class="col-sm-8">
-      30 Day <span style="font-weight: bold;">Money Back</span> Guarentee
+      30 Day <span style="font-weight: bold;">Money Back</span> Guaranteed
     </div>
   </div>
 
@@ -186,7 +186,7 @@
       <i class="fa fa-smile-o" aria-hidden="true"></i>
     </div>
     <div class="col-sm-8">
-      Customer Satisfaction <span style="font-weight: bold;">Guarenteed</span>
+      Customer Satisfaction <span style="font-weight: bold;">Guaranteed</span>
     </div>
   </div>
 
@@ -201,7 +201,7 @@
 </div>
 
 <div class="col-sm-12" style="text-align: center; font-size: 22px; line-height: 40px; background-color: #f1f1f1; box-shadow: 0 2px 4px -2px gray; border-bottom: 2px solid #FF6F28;">
-  <em>Need some help whilst you're shopping?</em> Call our experts for advice <b><a href="tel:01138876270">0113 8876270</a></b>
+  <em>Need some help whilst you're shopping? Call our experts for advice</em> <b><a href="tel:01138876270">0113 8876270</a></b>
 </div>
 
 <!--
