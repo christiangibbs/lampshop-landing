@@ -1,5 +1,5 @@
 <?php
-  $page = '';
+  $page = 'Fluorescent Tubes';
   include('../../components/head-minimal.php');
   $panel = "We recommend any of our Venture products as they are a premium brand and the highest quality.";
  ?>
