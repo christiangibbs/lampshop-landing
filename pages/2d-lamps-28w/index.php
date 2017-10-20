@@ -20,9 +20,9 @@
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="pin">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".pin2" role="presentation"><a href="#">2 Pin</a></li>
-              <li data-filter=".pin4" role="presentation"><a href="#">4 Pin</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".pin2" role="presentation"><a>2 Pin</a></li>
+              <li data-filter=".pin4" role="presentation"><a>4 Pin</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->
@@ -35,13 +35,13 @@
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="brand">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".branded" role="presentation"><a href="#">Branded</a></li>
-              <li data-filter=".ge" role="presentation"><a href="#">GE</a></li>
-              <li data-filter=".bell" role="presentation"><a href="#">Bell</a></li>
-              <li data-filter=".philips" role="presentation"><a href="#">Philips</a></li>
-              <li data-filter=".osram" role="presentation"><a href="#">Osram</a></li>
-              <li data-filter=".sylvania" role="presentation"><a href="#">Sylvania</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".branded" role="presentation"><a>Branded</a></li>
+              <li data-filter=".ge" role="presentation"><a>GE</a></li>
+              <li data-filter=".bell" role="presentation"><a>Bell</a></li>
+              <li data-filter=".philips" role="presentation"><a>Philips</a></li>
+              <li data-filter=".osram" role="presentation"><a>Osram</a></li>
+              <li data-filter=".sylvania" role="presentation"><a>Sylvania</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->

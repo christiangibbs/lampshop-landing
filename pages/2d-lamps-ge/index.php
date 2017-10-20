@@ -25,12 +25,12 @@
           </div><!-- panel-heading -->
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="wattage">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".w16" role="presentation"><a href="#">16W</a></li>
-              <li data-filter=".w21" role="presentation"><a href="#">21W</a></li>
-              <li data-filter=".w28" role="presentation"><a href="#">28W</a></li>
-              <li data-filter=".w38" role="presentation"><a href="#">38W</a></li>
-              <li data-filter=".w55" role="presentation"><a href="#">55W</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".w16" role="presentation"><a>16W</a></li>
+              <li data-filter=".w21" role="presentation"><a>21W</a></li>
+              <li data-filter=".w28" role="presentation"><a>28W</a></li>
+              <li data-filter=".w38" role="presentation"><a>38W</a></li>
+              <li data-filter=".w55" role="presentation"><a>55W</a></li>
             </ul>
           </div>
         </div><!-- panel panel-default -->
@@ -43,9 +43,9 @@
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="pin">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".pin2" role="presentation"><a href="#">2 Pin</a></li>
-              <li data-filter=".pin4" role="presentation"><a href="#">4 Pin</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".pin2" role="presentation"><a>2 Pin</a></li>
+              <li data-filter=".pin4" role="presentation"><a>4 Pin</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->

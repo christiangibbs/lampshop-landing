@@ -32,11 +32,11 @@
           </div><!-- panel-heading -->
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="wattage">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".yuasa" role="presentation"><a href="#">Yuasa</a></li>
-              <li data-filter=".britesource" role="presentation"><a href="#">BriteSource</a></li>
-              <li data-filter=".mackwell" role="presentation"><a href="#">Mackwell Batteries</a></li>
-              <li data-filter=".elp" role="presentation"><a href="#">ELP</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".yuasa" role="presentation"><a>Yuasa</a></li>
+              <li data-filter=".britesource" role="presentation"><a>BriteSource</a></li>
+              <li data-filter=".mackwell" role="presentation"><a>Mackwell Batteries</a></li>
+              <li data-filter=".elp" role="presentation"><a>ELP</a></li>
             </ul>
           </div>
         </div><!-- panel panel-default -->
@@ -49,13 +49,13 @@
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="pin">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".cell1" role="presentation"><a href="#">1</a></li>
-              <li data-filter=".cell2" role="presentation"><a href="#">2</a></li>
-              <li data-filter=".cell3" role="presentation"><a href="#">3</a></li>
-              <li data-filter=".cell4" role="presentation"><a href="#">4</a></li>
-              <li data-filter=".cell5" role="presentation"><a href="#">5</a></li>
-              <li data-filter=".cell6" role="presentation"><a href="#">6</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".cell1" role="presentation"><a>1</a></li>
+              <li data-filter=".cell2" role="presentation"><a>2</a></li>
+              <li data-filter=".cell3" role="presentation"><a>3</a></li>
+              <li data-filter=".cell4" role="presentation"><a>4</a></li>
+              <li data-filter=".cell5" role="presentation"><a>5</a></li>
+              <li data-filter=".cell6" role="presentation"><a>6</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->

@@ -25,9 +25,9 @@
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="pin">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".pin2" role="presentation"><a href="#">2 Pin</a></li>
-              <li data-filter=".pin4" role="presentation"><a href="#">4 Pin</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".pin2" role="presentation"><a>2 Pin</a></li>
+              <li data-filter=".pin4" role="presentation"><a>4 Pin</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->
@@ -40,9 +40,9 @@
           </div>
           <div class="panel-body">
             <ul class="button-group nav nav-pills" data-filter-group="colour">
-              <li data-filter class="active" role="presentation"><a href="#">Any</a></li>
-              <li data-filter=".t827" role="presentation"><a href="#">Extra Warm White (827)</a></li>
-              <li data-filter=".t835" role="presentation"><a href="#">Standard White (835)</a></li>
+              <li data-filter class="active" role="presentation"><a>Any</a></li>
+              <li data-filter=".t827" role="presentation"><a>Extra Warm White (827)</a></li>
+              <li data-filter=".t835" role="presentation"><a>Standard White (835)</a></li>
             </ul>
           </div><!-- panel-body -->
         </div><!-- panel panel-default -->
