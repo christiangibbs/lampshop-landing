@@ -10,10 +10,10 @@
  </style>
   <body>
   <div class="col-sm-12" style="background-color: #4b91c1; text-align: center;">
-    <img src="images/ge-logo.png" alt="GE Logo" style="height: 150px; padding: 10px;">
+    <img src="images/ge-logo.png" alt="GE Logo" style="height: 75px; padding: 10px;">
   </div>
-  <div class="col-sm-12" style="background-color: #e0e0e0;">
-    <h1 style="position: relative; color: #333;">16W GE Watt-Miser&trade; (2D Lamp)</h1>
+  <div class="col-sm-12" style="background-color: #155886; text-align: center;">
+    <h1 style="position: relative; color: #ffffff; font-size: 20px; margin: 0px; line-height: 30px; font-weight: bold;">16W GE Watt-Miser&trade; (2D Lamp)</h1>
   </div>
   <div class="col-sm-12">
     <div class="panel-body filter">
