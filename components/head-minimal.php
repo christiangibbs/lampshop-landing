@@ -201,7 +201,7 @@
 </div>
 
 <div class="col-sm-12" style="text-align: center; font-size: 22px; line-height: 40px; background-color: #f1f1f1; box-shadow: 0 2px 4px -2px gray; border-bottom: 2px solid #FF6F28;">
-  <em>Need some help whilst you're shopping?</em> Call our experts for advice <b>0113 8876270</b>
+  <em>Need some help whilst you're shopping?</em> Call our experts for advice <b><a href="tel:01138876270">0113 8876270</a></b>
 </div>
 
 <!--
