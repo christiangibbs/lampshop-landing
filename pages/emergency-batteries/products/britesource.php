@@ -78,7 +78,7 @@
     </div><!-- panel-body -->
   </div><!-- panel panel-default -->
 </div><!-- col-sm-2 product britesource cell4 -->
-<div class="col-sm-2 product britesource cell4">
+<div class="col-sm-2 product britesource cell5">
   <div class="panel panel-default">
       <a href="https://www.lampshoponline.com/control-gear/emergency-batteries/emergency-lighting-batteries/emergency-battery-5-cell-stick-c-w-leads.html" class="thumbnail">
         <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/5/_/5_cell_stick_copy__26207.jpg" alt="EMERGENCY BATTERY 5 CELL STICK C/W LEADS">
@@ -88,7 +88,7 @@
     </div><!-- panel-body -->
   </div><!-- panel panel-default -->
 </div><!-- col-sm-2 product britesource cell4 -->
-<div class="col-sm-2 product britesource cell4">
+<div class="col-sm-2 product britesource cell5">
   <div class="panel panel-default">
       <a href="https://www.lampshoponline.com/control-gear/emergency-batteries/emergency-lighting-batteries/emergency-battery-5-cell-side-by-side-c-w-leads.html" class="thumbnail">
         <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/5/_/5_cell_side_by_side_copy__55959.jpg" alt="EMERGENCY BATTERY 5 CELL SIDE BY SIDE C/W LEADS">
@@ -98,7 +98,7 @@
     </div><!-- panel-body -->
   </div><!-- panel panel-default -->
 </div><!-- col-sm-2 product britesource cell4 -->
-<div class="col-sm-2 product britesource cell4">
+<div class="col-sm-2 product britesource cell6">
   <div class="panel panel-default">
       <a href="https://www.lampshoponline.com/control-gear/emergency-batteries/emergency-lighting-batteries/emergency-battery-6-cell-stick-c-w-leads.html" class="thumbnail">
         <img src="https://www.lampshoponline.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_cell_stick_copy__31688.jpg" alt="EMERGENCY BATTERY 6 CELL STICK C/W LEADS">

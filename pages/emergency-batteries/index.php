@@ -31,7 +31,7 @@
             Select your Brand
           </div><!-- panel-heading -->
           <div class="panel-body">
-            <ul class="button-group nav nav-pills" data-filter-group="wattage">
+            <ul class="button-group nav nav-pills" data-filter-group="brand">
               <li data-filter class="active" role="presentation"><a>Any</a></li>
               <li data-filter=".yuasa" role="presentation"><a>Yuasa</a></li>
               <li data-filter=".britesource" role="presentation"><a>BriteSource</a></li>
@@ -48,7 +48,7 @@
             Select the number of Cells
           </div>
           <div class="panel-body">
-            <ul class="button-group nav nav-pills" data-filter-group="pin">
+            <ul class="button-group nav nav-pills" data-filter-group="cell">
               <li data-filter class="active" role="presentation"><a>Any</a></li>
               <li data-filter=".cell1" role="presentation"><a>1</a></li>
               <li data-filter=".cell2" role="presentation"><a>2</a></li>
