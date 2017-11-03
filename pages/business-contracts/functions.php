@@ -72,8 +72,6 @@ function submit($name, $business, $industry, $products, $number, $email, $messag
       $christian = "christian@lampshoponline.com";
 
       $headers .= 'From: <iforgot@brite-source.com>' . "\r\n";
-      $headers .= 'Cc: ' . $rob;
-      $headers .= 'Cc: ' . $pete;
       $subject = "Reset password";
       $message =
       "Hello,\r\n \r\n
