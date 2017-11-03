@@ -63,29 +63,23 @@ if(isset($_POST['btnSubmit'])) {
 
 function submit($name, $business, $industry, $products, $number, $email, $message) {
 
-      $headers = "MIME-Version: 1.0" . "\r\n";
-      $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-      // More headers
-      $rob = "rob@lampshoponline.com";
-      $pete = "p.wiseman@lampshoponline.com";
-      $christian = "christian@lampshoponline.com";
+$sender = $email;
+$recipient = 'christian@lampshoponline.com';
 
-      $headers .= 'From: <iforgot@brite-source.com>' . "\r\n";
-      $subject = "Reset password";
-      $message =
-      "Hello,\r\n \r\n
-      My name is " . $name . " and I am from the company " . $business . " which is in the " . $industry . " industry. \r\n
-      We are interested in the following products: " . $products . ". Please can you contact me on either this email, or the following number: " . $number . ". " .
-      $message;
+$subject = "php mail test";
+$message = "php test message";
+$headers = 'From:' . $sender;
 
-      mail($christian, $subject, $message, $headers);
+if (mail($recipient, $subject, $message, $headers))
+{
+echo "Message accepted";
+}
+else
+{
+echo "Error: Message not accepted";
+}
 
-      if(mail($christian, $subject, $message, $headers)) {
-        echo "Mail Sent";
-      } else {
-        echo "Error Sending Mail";
-      }
 
 }
 
