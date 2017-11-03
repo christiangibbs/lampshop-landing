@@ -80,7 +80,7 @@ function submit($name, $business, $industry, $products, $number, $email, $messag
       $message;
 
       if(mail($christian, $subject, $messageBody, null, '-f'.$email)) {
-        echo "Mail Sent";
+        header("Location: thank-you.php");
       } else {
         echo "Error Sending Mail";
       }

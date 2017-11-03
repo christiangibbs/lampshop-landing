@@ -115,7 +115,6 @@ a {cursor: pointer;}
       </div>
     </div>
   </div>
-  </div>
 </div>
 
 
@@ -246,72 +245,8 @@ a {cursor: pointer;}
         <h2 class="frmError"><?php echo $formError; ?></h2>
       </div>
       <div class="panel-body">
-        <form class="form-group" method="post">
-          <p class="frmError"><?php echo $nameError; ?></p>
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">
-              <i class="fa fa-user" aria-hidden="true"></i>
-            </span>
-            <input type="text" class="form-control" name="name" value="" placeholder="Full Contact Name"><br>
-          </div><br />
-          <p class="frmError"><?php echo $businessError; ?></p>
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">
-              <i class="fa fa-building" aria-hidden="true"></i>
-            </span>
-            <input type="text" class="form-control" name="business" value="" placeholder="Business Name"><br>
-          </div><br />
-          <p class="frmError"><?php echo $industryError; ?></p>
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">
-              <i class="fa fa-industry" aria-hidden="true"></i>
-            </span>
-            <select class="form-control" id="sel1" name="industry">
-              <option value="" selected disabled hidden>Please choose an Industry</option>
-              <option value="Business">Business</option>
-              <option value="Charity">Charity</option>
-              <option value="Education">Education</option>
-              <option value="Electrical">Electrical</option>
-              <option value="Engineering">Engineering</option>
-              <option value="Factory">Factory</option>
-              <option value="Fire &amp; Safety">Fire &amp; Safety</option>
-              <option value="Government Rated">Government Rated</option>
-              <option value="Hospitality">Hospitality</option>
-              <option value="Medical">Medical</option>
-              <option value="Mining">Mining</option>
-              <option value="Production">Production</option>
-              <option value="Transport">Transport</option>
-              <option value="Other">Other</option>
-            </select>
-          </div><br />
-          <p class="frmError"><?php echo $productsError; ?></p>
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">
-              <i class="fa fa-question-circle" aria-hidden="true"></i>
-            </span>
-            <input type="text" class="form-control" name="products" value="" placeholder="I am interested in... LED Flood Lights, LED High Bays,  LED Downlights etc."><br>
-          </div><br />
-          <p class="frmError"><?php echo $numberError; ?></p>
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-            </span>
-            <input type="text" class="form-control" name="number" value="" placeholder="Telephone Number"><br>
-          </div><br />
-          <p class="frmError"><?php echo $emailError; ?></p>
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            </span>
-            <input type="text" class="form-control" name="email" value="" placeholder="Email"><br>
-          </div><br />
-          <p class="frmError"><?php echo $messageError; ?></p>
-          <div class="form-group">
-            <label for="comment">Message / Overview:</label>
-            <textarea class="form-control" rows="5" placeholder="Project Overview" name="message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-success" name="btnSubmit">Submit</button>
-        </form>
+        <h2>Thank you for submitting your query!</h2>
+        <p>One of our lighting experts will be in touch within 24 hours.</p>
       </div>
     </div>
 
