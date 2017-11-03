@@ -63,23 +63,29 @@ if(isset($_POST['btnSubmit'])) {
 
 function submit($name, $business, $industry, $products, $number, $email, $message) {
 
+      $headers = "MIME-Version: 1.0" . "\r\n";
+      $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-$sender = $email;
-$recipient = 'christian@lampshoponline.com';
+      // More headers
+      $rob = "rob@lampshoponline.com";
+      $pete = "p.wiseman@lampshoponline.com";
+      $christian = "christian@lampshoponline.com";
 
-$subject = "php mail test";
-$message = "php test message";
-$headers = 'From:' . $sender;
+      $headers .= 'From: ' . $email . "\r\n";
+      $headers .= 'Cc: ' . $pete . "\r\n";
+      $headers .= 'Cc: ' . $christian . "\r\n";
+      $subject = "Business Enquiries";
+      $messageBody =
+      "Hello,\r\n \r\n
+      My name is " . $name . " and I am from the company " . $business . " which is in the " . $industry . " industry. \r\n
+      We are interested in the following products: " . $products . ". Please can you contact me on either this email, or the following number: " . $number . ". " .
+      $message;
 
-if (mail($recipient, $subject, $message, $headers))
-{
-echo "Message accepted";
-}
-else
-{
-echo "Error: Message not accepted";
-}
-
+      if(mail($rob, $subject, $messageBody, $headers)) {
+        echo "Mail Sent";
+      } else {
+        echo "Error Sending Mail";
+      }
 
 }
 
