@@ -68,12 +68,12 @@ function submit($name, $business, $industry, $products, $number, $email, $messag
 
       // More headers
       $rob = "rob@lampshoponline.com";
-      $pete = "pete@lampshoponline.com";
+      $pete = "p.wiseman@lampshoponline.com";
       $christian = "christian@lampshoponline.com";
 
       $headers .= 'From: <iforgot@brite-source.com>' . "\r\n";
       $headers .= 'Cc: ' . $rob;
-      $headers .= 'Cc: ' . $christian;
+      $headers .= 'Cc: ' . $pete;
       $subject = "Reset password";
       $message =
       "Hello,\r\n \r\n
@@ -81,7 +81,7 @@ function submit($name, $business, $industry, $products, $number, $email, $messag
       We are interested in the following products: " . $products . ". Please can you contact me on either this email, or the following number: " . $number . ". " .
       $message;
 
-      if(mail($pete, $subject, $message, $headers)) {
+      if(mail($christian, $subject, $message, $headers)) {
         echo "Mail Sent";
       } else {
         echo "Error Sending Mail";
