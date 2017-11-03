@@ -79,7 +79,7 @@ function submit($name, $business, $industry, $products, $number, $email, $messag
       We are interested in the following products: " . $products . ". Please can you contact me on either this email, or the following number: " . $number . ". " .
       $message;
 
-      @mail($christian, $subject, $message, $headers);
+      mail($christian, $subject, $message, $headers);
 
       if(mail($christian, $subject, $message, $headers)) {
         echo "Mail Sent";
