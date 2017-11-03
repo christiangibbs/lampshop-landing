@@ -72,8 +72,6 @@ function submit($name, $business, $industry, $products, $number, $email, $messag
       $christian = "christian@lampshoponline.com";
 
       $headers .= 'From: ' . $email . "\r\n";
-      $headers .= 'Cc: ' . $pete . "\r\n";
-      $headers .= 'Cc: ' . $christian . "\r\n";
       $subject = "Business Enquiries";
       $messageBody =
       "Hello,\r\n \r\n
