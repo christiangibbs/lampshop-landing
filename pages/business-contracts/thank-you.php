@@ -97,12 +97,12 @@ a {cursor: pointer;}
 
 <div class="row top-head">
   <div class="col-sm-12">
-    <div class="col-sm-2">
+    <div class="col-sm-4">
       <a href="https://www.lampshoponline.com/" class="logo-href">
-        <img class="logo" src="assets/images/lso-logo.png" alt="Logo" style="height: 125px;">
+        <img class="logo" src="assets/images/lso-logo.png" alt="Logo" style="max-height: height:125px; width: 100%;">
       </a>
-    </div>
-    <div class="col-sm-10">
+    </div>9
+    <div class="col-sm-8">
       <div class="logos" style="float: right; font-size: 20px; color: #a0a0a0;">
         <i class="fa fa-facebook-official" aria-hidden="true"></i>
         /LampShopOnline
