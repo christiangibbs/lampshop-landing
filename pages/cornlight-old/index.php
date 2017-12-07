@@ -268,7 +268,6 @@
 <script>
   $(document).ready(function(){
     $('.portfolio-items').isotope({
-      itemSlector: '.item',
       layoutMode: 'fitRows',
       filter: '.none'
     });
