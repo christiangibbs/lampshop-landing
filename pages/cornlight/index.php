@@ -14,6 +14,8 @@
 .products .product .panel-footer {color: #333333; text-decoration: none;}
 .products .product .panel-title {color: #119B3C;}
 .active {background-color: orange; color: white;}
+.product a:hover .panel-default {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.product a:hover {text-decoration: none;}
  </style>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
 
