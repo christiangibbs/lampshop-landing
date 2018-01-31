@@ -183,6 +183,7 @@
         <div class="col-sm-6">
           <div class="col-md-12">
             <img src="images/products/<?= $product['image'] ?>" alt="<?= $product['title'] ?>">
+            <span id="rating<?= $product['id']?>">
             <hr />
             <div class="thumbnail">
               <div class="caption">
