@@ -183,7 +183,6 @@
         <div class="col-sm-6">
           <div class="col-md-12">
             <img src="images/products/<?= $product['image'] ?>" alt="<?= $product['title'] ?>">
-            <span id="rating<?= $product['id']?>">
             <hr />
             <div class="thumbnail">
               <div class="caption">
@@ -231,11 +230,8 @@ $(document).ready(function(){
       $(document).ready(function(){
         <?php foreach ($products as $product): ?>
           $( "#price<?= $product['id'] ?>" ).load( "<?= $product['url'] ?> #price-excluding-tax-<?= $product['id']?>" );
-          $( "#rating<?= $product['id'] ?>" ).load( "<?= $product['url'] ?> .ruk_rating_snippet" );
         <?php endforeach; ?>
       });
 </script>
 
 <?php include('../../components/footer-minimal.php'); ?>
-
-<script src="https://widget.reviews.co.uk/rich-snippet/dist.js"></script><script>richSnippet({ store: "lampshoponline", sku:"HFMB-126T" })</script><script src="https://widget.reviews.co.uk/product/dist.js"></script><script src="https://widget.reviews.co.uk/rating-snippet/dist.js"></script><script>ratingSnippet("ruk_rating_snippet", { store: "lampshoponline", color:"#6ABF2B", linebreak: false, text: "Reviews" })</script>
