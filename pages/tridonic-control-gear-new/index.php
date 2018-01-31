@@ -187,7 +187,7 @@
             <div class="thumbnail">
               <div class="caption">
                 <h5 style="font-weight: bold;"><?= $product['title'] ?></h5>
-                <p class="price"><span id="price<?= $product['id']?>">£1.20</span></p>
+                <p class="price"><span id="price<?= $product['id']?>"></span></p>
                 <p class="exc-vat">Excl.Vat</p>
                 <span id="rating<?= $product['id']?>"></span>
                 <a class="btn btn-warning" href="<?= $product['url'] ?>">View Product</a>
