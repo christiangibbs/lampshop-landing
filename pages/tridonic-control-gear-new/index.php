@@ -189,7 +189,6 @@
                 <h5 style="font-weight: bold;"><?= $product['title'] ?></h5>
                 <p class="price"><span id="price<?= $product['id']?>"></span></p>
                 <p class="exc-vat">Excl.Vat</p>
-                <span id="rating<?= $product['id']?>"></span>
                 <a class="btn btn-warning" href="<?= $product['url'] ?>">View Product</a>
               </div>
             </div>
@@ -231,9 +230,11 @@ $(document).ready(function(){
       $(document).ready(function(){
         <?php foreach ($products as $product): ?>
           $( "#price<?= $product['id'] ?>" ).load( "<?= $product['url'] ?> #price-excluding-tax-<?= $product['id']?>" );
-          $( "#rating<?= $product['id'] ?>" ).load( "<?= $product['url'] ?> .review-price-box" );
+          $( "#rating<?= $product['id'] ?>" ).load( "<?= $product['url'] ?> .ruk_rating_snippet" );
         <?php endforeach; ?>
       });
 </script>
 
 <?php include('../../components/footer-minimal.php'); ?>
+
+<script src="https://widget.reviews.co.uk/rich-snippet/dist.js"></script><script>richSnippet({ store: "lampshoponline", sku:"HFMB-126T" })</script><script src="https://widget.reviews.co.uk/product/dist.js"></script><script src="https://widget.reviews.co.uk/rating-snippet/dist.js"></script><script>ratingSnippet("ruk_rating_snippet", { store: "lampshoponline", color:"#6ABF2B", linebreak: false, text: "Reviews" })</script>
