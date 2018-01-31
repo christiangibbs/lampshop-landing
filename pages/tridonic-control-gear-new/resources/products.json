@@ -1,0 +1,878 @@
+[
+ {
+   "name": "Tridonic PC 1/57/70 TC PRO"
+ },
+ {
+   "name": "Tridonic PC 2/26/32/42 TC PRO"
+ },
+ {
+   "name": "Tridonic PC 2/55 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 2/36 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 2/40 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 1/40 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 1/55 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 1/36 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 3/36 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 1/30 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 3/18 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 4/18 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 2/30 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 2/70 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 2/58 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 1/70 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 2/18 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 2/36 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 1/18 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 1/36 T8 PRO"
+ },
+ {
+   "name": "Tridonic PC 1/58 T8 PRO "
+ },
+ {
+   "name": "Tridonic PC 3/4/24 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 3/4/14 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 2/80 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/80 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/54 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 2/24 T5 PRO"
+ },
+ {
+   "name": "Tridonic PC 2/39 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 2/49 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 2/54 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/14-21-28-35 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/24 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/39 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/49 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 2/14-21-28-35 T5 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1/28 DD PRO"
+ },
+ {
+   "name": "Tridonic PC 1/38 DD PRO"
+ },
+ {
+   "name": "Tridonic PC 1/55 DD PRO"
+ },
+ {
+   "name": "Tridonic PC 1x18-24 W Basic Linear"
+ },
+ {
+   "name": "Tridonic PC 1x14-21 W Basic Linear"
+ },
+ {
+   "name": "Tridonic PC 1x18 W Basic Linear"
+ },
+ {
+   "name": "Tridonic PC 1x26 W Basic Linear"
+ },
+ {
+   "name": "Tridonic PC 1x4-13 W Basic Linear"
+ },
+ {
+   "name": "Tridonic PC 1x5-16 W Basic Linear"
+ },
+ {
+   "name": "Tridonic PC 1x18 W Basic Square"
+ },
+ {
+   "name": "Tridonic PC 1x26 W Basic Square"
+ },
+ {
+   "name": "Tridonic PC 1x4-13 W Basic Square"
+ },
+ {
+   "name": "Tridonic PC 1x5-16 W Basic Square"
+ },
+ {
+   "name": "Tridonic EC 09 A27"
+ },
+ {
+   "name": "Tridonic EC 100 A140"
+ },
+ {
+   "name": "Tridonic EC 16 C102K"
+ },
+ {
+   "name": "Tridonic EC 13 C102K"
+ },
+ {
+   "name": "Tridonic EC 18 LC502K"
+ },
+ {
+   "name": "Tridonic EC 30 C502K"
+ },
+ {
+   "name": "Tridonic EC 15 C502K"
+ },
+ {
+   "name": "Tridonic EC 36 LC502K"
+ },
+ {
+   "name": "Tridonic EC 32 A502K"
+ },
+ {
+   "name": "Tridonic EC 26 LC102K"
+ },
+ {
+   "name": "Tridonic EC 4/8 A27"
+ },
+ {
+   "name": "Tridonic EC 58 C502K"
+ },
+ {
+   "name": "Tridonic EC 70 C502K"
+ },
+ {
+   "name": "Tridonic EM 21/28/49-5 T5 Basic"
+ },
+ {
+   "name": "Tridonic EM 35-6 T5 Basic"
+ },
+ {
+   "name": "Tridonic EM 39-5 T5 Basic"
+ },
+ {
+   "name": "Tridonic EM 54/80-6 T5 Basic"
+ },
+ {
+   "name": "Tridonic EM 14/24-4 T5 Basic"
+ },
+ {
+   "name": "Tridonic EM 34 NiCd D ST"
+ },
+ {
+   "name": "Tridonic EM 35 NiCd D ST"
+ },
+ {
+   "name": "Tridonic EM 36 NiCd D ST"
+ },
+ {
+   "name": "Tridonic EM 34 PRO EZ-3"
+ },
+ {
+   "name": "Tridonic EM 35 PRO EZ-3"
+ },
+ {
+   "name": "Tridonic EM 36 PRO EZ-3"
+ },
+ {
+   "name": "Tridonic EM 34 Basic lp"
+ },
+ {
+   "name": "Tridonic EM 35 Basic lp"
+ },
+ {
+   "name": "Tridonic EM 36 Basic lp"
+ },
+ {
+   "name": "Tridonic EM 33A Basic"
+ },
+ {
+   "name": "Tridonic EM 33B Basic"
+ },
+ {
+   "name": "Tridonic EM 33C Basic"
+ },
+ {
+   "name": "Tridonic EM 34A Basic"
+ },
+ {
+   "name": "Tridonic EM 34B Basic"
+ },
+ {
+   "name": "Tridonic EM 35A Basic"
+ },
+ {
+   "name": "Tridonic EM 35B Basic"
+ },
+ {
+   "name": "Tridonic EM 35C Basic"
+ },
+ {
+   "name": "Tridonic EM 35D Basic"
+ },
+ {
+   "name": "Tridonic EM 36A Basic"
+ },
+ {
+   "name": "Tridonic PCA 1/32 TCT ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/42 TCT ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/42 TCT ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/32 TCT ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/32 TCT EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/42 TCT EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/32 TCT EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/42 TCT EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/18 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/24 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/36 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/40 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/55 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/36 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/40 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/55 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/24 TCL ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/24 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/18 TCL EXCEL c one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/36 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/40 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/55 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/18 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/36 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/40 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/55 TCL EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/26 TCD ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/18 TCD ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/11/13 TCD ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/26 TCD ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/18 TCD ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/11/13 TCD ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/26 TCD EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/11/13 TCD EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 2/18 TCD EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/11/13 TCD EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/18 TCD EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/26 TCD EXCEL one4all"
+ },
+ {
+   "name": "Tridonic PCA 1/55 TC-DD ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/30 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/18 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/18 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/30 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 3/18 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 4/18 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/36 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/58 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/36 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/58 T8 ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/22 T5c ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/40 T5c ECO"
+ },
+ {
+   "name": "Tridonic PCA 1/55 T5c ECO"
+ },
+ {
+   "name": "Tridonic PCA 2/80 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 2x21/39 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 2x14/24 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 1x14/24 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 1x21/39 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 1x35/49/80 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 4/14-24 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 3x14/24 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PC 1x14-3 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x21/28-5 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x24-4 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x35-6 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x39-5 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x49-5 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x54-6 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x80-6 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x14-3 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x21/28-5 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x24-4 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x35-6 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x39-5 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x49-5 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 3/4x14-33 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 3/4x24-34 T5 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x36-33 COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x58-34 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x36-33 COMBO"
+ },
+ {
+   "name": "Tridonic PC 2x58-34 COMBO"
+ },
+ {
+   "name": "Tridonic PC 3/4x18-33 COMBO"
+ },
+ {
+   "name": "Tridonic PCI 70 C021 c/w Strain Relief"
+ },
+ {
+   "name": "Tridonic PCI 20/22 C011 "
+ },
+ {
+   "name": "Tridonic PCI 35/70 C011 "
+ },
+ {
+   "name": "Tridonic PCI 100/150 C011 "
+ },
+ {
+   "name": "Tridonic PCI 2/35 B011"
+ },
+ {
+   "name": "Tridonic PCI 2/70 B011"
+ },
+ {
+   "name": "Tridonic PCI 35 Pro C021 c/w Strain Relief"
+ },
+ {
+   "name": "Tridonic PCI 150 Pro C021 c/w Strain Relief"
+ },
+ {
+   "name": "Tridonic PCI 2/35 B021 c/w Strain Relief"
+ },
+ {
+   "name": "Tridonic PCI 2/70 B021 c/w Strain Relief"
+ },
+ {
+   "name": "Tridonic PC 1X36-33 TCL Combo"
+ },
+ {
+   "name": "Tridonic PC 2x36-33 TCL Combo"
+ },
+ {
+   "name": "Tridonic PC 1X40-34 TCL Combo"
+ },
+ {
+   "name": "Tridonic PC 2X40-34 TCL Combo"
+ },
+ {
+   "name": "Tridonic PC 1X55-35 TCL Combo"
+ },
+ {
+   "name": "Tridonic PC 2X55-35 TCL Combo"
+ },
+ {
+   "name": "Tridonic PC 1x18-4 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 2x18-4 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 1/26/32/42-6 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 1/26/32-5 TC Combo"
+ },
+ {
+   "name": " Tridonic PC 2/26/32/42-6 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 2/26/32-5 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 1x16-33 HO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x28-33 HO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x28-34 HO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x38-34 HO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x38-35 HO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x28-33 LO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x28-34 LO DD COMBO"
+ },
+ {
+   "name": "Tridonic PC 1x38-34 LO DD COMBO"
+ },
+ {
+   "name": "Tridonic ZRM 2-ES/C Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 2.5-ES/C Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 4.5-ES/C Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 2-ES/CT Timed Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 2.5-ES/CT Timed Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 4.5-ES/CT Timed Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 6-ES/C Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 12-ES/C"
+ },
+ {
+   "name": "Tridonic ZRM 12-ES/CT Timed Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 12-ES/C 400 Timed Ignitor"
+ },
+ {
+   "name": "Tridonic ZRM 4000 C201"
+ },
+ {
+   "name": "Tridonic BiColour LED Indicator "
+ },
+ {
+   "name": "Tridonic PC 1/2x26-42 TC PRO"
+ },
+ {
+   "name": "Tridonic TE-DC 2 0300 F101 White 100-300VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-DC 2 0300 F101 Grey 100-300VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-ECO 0070 20-70VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-ECO 0105 35-105VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-NE 1070 20-70VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-NE 1105 35-105VA Transformer"
+ },
+ {
+   "name": "Tridonic TE 0070 C201 20-70VA Transformer"
+ },
+ {
+   "name": "Tridonic TE 0105 C201 35-105VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-S 1150 C201 50-150VA Transformer"
+ },
+ {
+   "name": "Tridonic TE 0050 C101 20-50VA Transformer"
+ },
+ {
+   "name": "Tridonic TE 0070 C101 20-70VA Transformer"
+ },
+ {
+   "name": "Tridonic TE 0105 C101 35-105VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-0050 C161 20-50VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-0070 C161 20-70VA Transformer"
+ },
+ {
+   "name": "Tridonic TE-0105 C161 35-105VA Transformer"
+ },
+ {
+   "name": "Tridonic TE VIPER 60 VA Transformer"
+ },
+ {
+   "name": "Tridonic TE VIPER 105 VA Transformer"
+ },
+ {
+   "name": "Tridonic TE VIPER 60 VA Transformer with cable"
+ },
+ {
+   "name": "Tridonic TE VIPER 105 VA Transformer with cable"
+ },
+ {
+   "name": "Tridonic TET 70VA Transformer "
+ },
+ {
+   "name": "Tridonic TET 105VA Transformer "
+ },
+ {
+   "name": "Tridonic TE 105 U 20-105VA Transformer "
+ },
+ {
+   "name": "Tridonic TE-0105 one4all 20-105VA Transformer "
+ },
+ {
+   "name": "Tridonic TE 0105 one4all sc 20-105VA Transformer"
+ },
+ {
+   "name": "Tridonic PC 1/18/24 TCL PRO"
+ },
+ {
+   "name": "Tridonic PC 2/18/24 TCL PRO"
+ },
+ {
+   "name": "Tridonic PCA 1x28/54 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 2x28/54 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PCA 2x35/49 T5 ECO lp"
+ },
+ {
+   "name": "Tridonic PC 2x26-3 TC Combo"
+ },
+ {
+   "name": "Tridonic PCA 1x26-57 TC ECO"
+ },
+ {
+   "name": "Tridonic PCA 2x26/32/42 TC ECO"
+ },
+ {
+   "name": "Tridonic EM 33A Mini Basic"
+ },
+ {
+   "name": "Tridonic EM 34A Mini Basic"
+ },
+ {
+   "name": "Tridonic EM 34C Mini Basic"
+ },
+ {
+   "name": "Tridonic TALEXXconverter LCAI 55W 900mA–1750mA ECO C"
+ },
+ {
+   "name": "Tridonic TALEXXconverter LCAI 55W 900mA–1750mA ECO SR"
+ },
+ {
+   "name": "Tridonic PCA 1x11/13 TC ECO xitec II"
+ },
+ {
+   "name": "Tridonic PCA 1/18 TC ECO xitec II"
+ },
+ {
+   "name": "Tridonic PCA 1x18/24 TCL ECO c xitec II"
+ },
+ {
+   "name": "Tridonic PCA 1/55 T5c ECO xitec II"
+ },
+ {
+   "name": "Tridonic PC 1/18 T8 PRO sl"
+ },
+ {
+   "name": "Tridonic PC 1x36 T8 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 1x58 T8 PRO lp"
+ },
+ {
+   "name": "Tridonic PCA 1/28 TC-DD ECO xitec II"
+ },
+ {
+   "name": "Tridonic PC 2x18 T8 PRO lp"
+ },
+ {
+   "name": "Tridonic PC 2x36 T8 PRO sl"
+ },
+ {
+   "name": "Tridonic PC 2x58 T8 PRO sl"
+ },
+ {
+   "name": "Tridonic PC 3/4x18 T8 PRO lp"
+ },
+ {
+   "name": "Tridonic PCA 2x11/13 TC ECO xitec II"
+ },
+ {
+   "name": "Tridonic PCA 2/18 TC ECO xitec II"
+ },
+ {
+   "name": "Tridonic PCA 2x18/24 TCL ECO c xitec II"
+ },
+ {
+   "name": "Tridonic PCA 1x18 T8 ECO lp xitec II"
+ },
+ {
+   "name": "Tridonic PCA 2x18 T8 ECO lp xitec II"
+ },
+ {
+   "name": "Tridonic PCA 1x36 T8 ECO lp xitec II"
+ },
+ {
+   "name": "Tridonic PCA 2x36 T8 ECO lp xitec II"
+ },
+ {
+   "name": "Tridonic PCA 2x58 T8 ECO lp xitec II"
+ },
+ {
+   "name": "Tridonic PCA 1x58 T8 ECO lp xitec II"
+ },
+ {
+   "name": "Tridonic Accu-NiCd 3A Stick"
+ },
+ {
+   "name": "Tridonic PC 1/2x11-17 TC PRO"
+ },
+ {
+   "name": "Tridonic PC 1/2x18 TC PRO"
+ },
+ {
+   "name": "Tridonic PC 1/2x9-13 TC PRO"
+ },
+ {
+   "name": "Tridonic PC 2x26-4 TC Combo"
+ },
+ {
+   "name": "Dimmable 40w LED Panel 4000K - 600mm x 600mm c/w Tridonic Driver"
+ },
+ {
+   "name": "Tridonic TALEXXconverter LCAI 100W 900mA - 1750mA Eco SR "
+ },
+ {
+   "name": "Tridonic PC 1x18-3 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 2x18-3 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 1x26-3 TC Combo"
+ },
+ {
+   "name": "Tridonic PC 1x26-4 TC Combo"
+ },
+ {
+   "name": "Tridonic EM 06 PRO G2 "
+ },
+ {
+   "name": "Tridonic EM 04 PRO G2 "
+ },
+ {
+   "name": "Tridonic EM 05 PRO G2 "
+ },
+ {
+   "name": "Tridonic EM 04 SELFTEST G2 "
+ },
+ {
+   "name": "Tridonic EM 05 SELFTEST G2 "
+ },
+ {
+   "name": "Tridonic EM 06 SELFTEST G2 "
+ },
+ {
+   "name": "Dimmable 40w LED Panel 6000K - 600mm x 600mm c/w Tridonic Driver"
+ },
+ {
+   "name": "Tridonic PC 2x54-6 T5 COMBO"
+ },
+ {
+   "name": "Dimmable Low Glare 48w LED Panel 4000K - 600mm x 600mm c/w Tridonic Driver"
+ },
+ {
+   "name": "Dimmable Low Glare 48w LED Panel 6000K - 600mm x 600mm c/w Tridonic Driver"
+ },
+ {
+   "name": "Tridonic PC 2x14/21/28 T5 TOP lp (28000024)"
+ },
+ {
+   "name": "5 Cell 6v 4.5Ah Remote Battery Box (Tridonic)"
+ },
+ {
+   "name": "Tridonic EC 22/30 A50"
+ },
+ {
+   "name": "Tridonic Addressing Tool - 89899836"
+ }
+]
